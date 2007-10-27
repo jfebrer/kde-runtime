@@ -10,7 +10,7 @@ Standards-Version: 3.7.2
 Package: kdebase-runtime
 Section: kde
 Architecture: all
-Depends:  kdebase-runtime-bin (>= ${binary:Version}), drkonqi (>= ${binary:Version})
+Depends:  kdebase-runtime-bin (>= ${binary:Version}), drkonqi (>= ${binary:Version}),
  kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
 Description: runtime components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
