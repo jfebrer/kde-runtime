@@ -1,5 +1,9 @@
 kdebase-runtime (3.95.0-1) experimental; urgency=low
 
+  +++ Changes by Fathi Boudra:
+
+  * Add kdebase-runtime-data build dependency to kdebase-runtime-bin.
+
   +++ Changes by Armin Berres:
 
   * Initial release with KDE4 beta 4. Former part of kdebase.
