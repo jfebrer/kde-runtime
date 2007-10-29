@@ -1,0 +1,11 @@
+--- a/knotify/knotify4.desktop
++++ b/knotify/knotify4.desktop
+@@ -7,7 +7,7 @@
+ Name[sv]=Underrättelse
+ Name[vi]=Thông báo K
+ Name[x-test]=xxKNotifyxx
+-Exec=knotify
++Exec=knotify4
+ Comment=KDE Notification Daemon
+ Comment[ar]=رقيب التنبيه لـٍ كدي
+ Comment[be]=Сервіс абвяшчэнняў KDE

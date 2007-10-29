@@ -3,6 +3,7 @@ kdebase-runtime (3.95.0-1) experimental; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Add kdebase-runtime-data build dependency to kdebase-runtime-bin.
+  * Add 01_knotify4_desktop patch. Execute the right binary name.
 
   +++ Changes by Armin Berres:
 
