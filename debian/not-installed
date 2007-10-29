@@ -1,0 +1,2 @@
+# Files not installed because they conflict with hicolor-icon-theme:
+./usr/share/icons/hicolor/index.theme
