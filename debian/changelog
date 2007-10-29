@@ -4,6 +4,7 @@ kdebase-runtime (3.95.0-1) experimental; urgency=low
 
   * Add kdebase-runtime-data build dependency to kdebase-runtime-bin.
   * Add 01_knotify4_desktop patch. Execute the right binary name.
+  * Add gdb dependency to drkonqi.
 
   +++ Changes by Armin Berres:
 

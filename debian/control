@@ -44,7 +44,7 @@ Description: shared data files for the KDE base module
 Package: drkonqi
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, gdb
 Description: KDE crash handler
  drkonqi is the KDE crash handler, it gives information to the user when a
  KDE application crashes.
