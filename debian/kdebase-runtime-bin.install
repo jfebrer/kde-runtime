@@ -31,10 +31,12 @@ usr/lib/kde4/kcm_kded.so
 usr/lib/kde4/kcm_kdnssd.so
 usr/lib/kde4/kcm_knotify.so
 usr/lib/kde4/kcm_locale.so
+usr/lib/kde4/kcm_nepomuk.so
 usr/lib/kde4/kcm_phononxine.so
 usr/lib/kde4/kcm_samba.so
 usr/lib/kde4/kded_kpasswdserver.so
 usr/lib/kde4/kded_ktimezoned.so
+usr/lib/kde4/kded_nepomukserver.so
 usr/lib/kde4/kded_remotedirnotify.so
 usr/lib/kde4/kded_soliduiserver.so
 usr/lib/kde4/kio_about.so
@@ -83,3 +85,4 @@ usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
 usr/lib/libkdeinit4_kinfocenter.so
 usr/lib/libkdeinit4_kuiserver.so
+usr/lib/strigi/strigiindex_sopranobackend.so
