@@ -1,0 +1,35 @@
+--- a/kioslave/trash/CMakeLists.txt
++++ b/kioslave/trash/CMakeLists.txt
+@@ -35,7 +35,7 @@
+ 
+ target_link_libraries(ktrash  ${KDE4_KIO_LIBS} )
+ 
+-install(TARGETS ktrash DESTINATION ${BIN_INSTALL_DIR})
++install(TARGETS ktrash DESTINATION ${BIN_INSTALL_DIR} RENAME ktrash4)
+ 
+ ########### install files ###############
+ 
+--- a/kioslave/trash/ktrash.cpp
++++ b/kioslave/trash/ktrash.cpp
+@@ -30,17 +30,17 @@
+ int main(int argc, char *argv[])
+ {
+     //KApplication::disableAutoDcopRegistration();
+-    KCmdLineArgs::init( argc, argv, "ktrash", 0,
+-                        ki18n( "ktrash" ),
++    KCmdLineArgs::init( argc, argv, "ktrash4", 0,
++                        ki18n( "ktrash4" ),
+                         KDE_VERSION_STRING ,
+                         ki18n( "Helper program to handle the KDE trash can\n"
+-				   "Note: to move files to the trash, do not use ktrash, but \"kfmclient move 'url' trash:/\"" ));
++				   "Note: to move files to the trash, do not use ktrash4, but \"kfmclient move 'url' trash:/\"" ));
+ 
+     KCmdLineOptions options;
+     options.add("empty", ki18n( "Empty the contents of the trash" ));
+     //{ "migrate", I18N_NOOP( "Migrate contents of old trash" ), 0 },
+     options.add("restore <file>", ki18n( "Restore a trashed file to its original location" ));
+-    // This hack is for the servicemenu on trash.desktop which uses Exec=ktrash -empty. %f is implied...
++    // This hack is for the servicemenu on trash.desktop which uses Exec=ktrash4 -empty. %f is implied...
+     options.add("+[ignored]", ki18n( "Ignored" ));
+     KCmdLineArgs::addCmdLineOptions( options );
+     KApplication app;

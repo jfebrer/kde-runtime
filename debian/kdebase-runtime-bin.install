@@ -15,7 +15,7 @@ usr/bin/kreadconfig
 usr/bin/kstart
 usr/bin/ksvgtopng4
 usr/bin/ktraderclient
-usr/bin/ktrash
+usr/bin/ktrash4
 usr/bin/kuiserver
 usr/bin/kwriteconfig
 usr/lib/kde4/cursorthumbnail.so
