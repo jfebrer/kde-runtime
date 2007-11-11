@@ -1,0 +1,22 @@
+--- a/pics/CMakeLists.txt
++++ b/pics/CMakeLists.txt
+@@ -6,7 +6,7 @@
+ set(ksvgtopng_SRCS ksvgtopng.cpp )
+ kde4_add_executable(ksvgtopng NOGUI ${ksvgtopng_SRCS})
+ target_link_libraries(ksvgtopng ${KDE4_KDEUI_LIBS})
+-install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} )
++install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} RENAME ksvgtopng4)
+ 
+ ########### next target ###############
+ 
+--- a/pics/ksvgtopng.cpp
++++ b/pics/ksvgtopng.cpp
+@@ -12,7 +12,7 @@
+ {
+ 	if(argc < 5)
+ 	{
+-		cout << "Usage : ksvgtopng width height svgfilename outputfilename" << endl;
++		cout << "Usage : ksvgtopng4 width height svgfilename outputfilename" << endl;
+ 		cout << "Please use full path name for svgfilename" << endl;
+ 		return -1;
+ 	}
