@@ -9,6 +9,7 @@ kdebase-runtime (4:3.95.2-1) experimental; urgency=low
   * Add libclucene-dev, libsoprano-dev and libstrigiqtdbusclient-dev build
     dependencies for nepomuk.
   * Update installed files.
+  * Add 01_kde4_information_menu: prepend kde4 to information.menu.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Nov 2007 00:13:11 +0100
 

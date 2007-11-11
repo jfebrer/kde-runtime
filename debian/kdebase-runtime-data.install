@@ -1,10 +1,10 @@
 etc/kde4/khotnewstuffrc
 etc/kde4/kshorturifilterrc
-etc/xdg/menus/kde-information.menu
+etc/xdg/menus/kde4-information.menu
 usr/share/applications/kde4/knetattach.desktop
 usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
 usr/share/dbus-1/services/org.kde.knotify.service
-usr/share/desktop-directories/kde-information.directory
+usr/share/desktop-directories/kde4-information.directory
 usr/share/doc/kde4/HTML/en/kcontrol/background/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/background/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/bell/index.cache.bz2
