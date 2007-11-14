@@ -1,9 +1,9 @@
 usr/bin/kcmshell4
+usr/bin/kde4-menu
+usr/bin/kdebugdialog
 usr/bin/kde-cp
 usr/bin/kde-mv
 usr/bin/kde-open
-usr/bin/kde4-menu
-usr/bin/kdebugdialog
 usr/bin/kfile4
 usr/bin/khotnewstuff4
 usr/bin/kinfocenter

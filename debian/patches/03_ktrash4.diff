@@ -1,11 +1,17 @@
 --- a/kioslave/trash/CMakeLists.txt
 +++ b/kioslave/trash/CMakeLists.txt
-@@ -35,7 +35,7 @@
+@@ -31,11 +31,11 @@
+ set(ktrash_SRCS ktrash.cpp )
  
- target_link_libraries(ktrash  ${KDE4_KIO_LIBS} )
+ 
+-kde4_add_executable(ktrash NOGUI ${ktrash_SRCS})
++kde4_add_executable(ktrash4 NOGUI ${ktrash_SRCS})
+ 
+-target_link_libraries(ktrash  ${KDE4_KIO_LIBS} )
++target_link_libraries(ktrash4  ${KDE4_KIO_LIBS} )
  
 -install(TARGETS ktrash DESTINATION ${BIN_INSTALL_DIR})
-+install(TARGETS ktrash DESTINATION ${BIN_INSTALL_DIR} RENAME ktrash4)
++install(TARGETS ktrash4 DESTINATION ${BIN_INSTALL_DIR})
  
  ########### install files ###############
  
