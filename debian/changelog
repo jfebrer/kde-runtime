@@ -8,6 +8,8 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
   * Split kdebase-runtime-data-common off which contains conflicting files with KDE3's
     kdebase-data package. kdebase-runtime-data-common will be installed if
     KDE3's kdebase-data is not installed.
+  * Split out kdebase-runtime-bin-kde4 which contains files shich can be
+    provided by KDE3 or KDE4.
   * kdebase-runtime-data must replace kdebase-data versions less than
     4:3.95.0 and not 3.95.0.
   * Fix 02_ksvgtopng4 and 03_ktrash4 patches.

@@ -22,7 +22,8 @@ Description: runtime components from the official KDE release
 Package: kdebase-runtime-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-runtime-data (= ${binary:Version})
+Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
+ kdebase-runtime-data (= ${source:Version})
 Replaces: kdebase-bin (<< 3.95.0)
 Description: core binaries for the KDE base runtime module
  This package contains miscellaneous programs needed at runtime by other
@@ -30,6 +31,18 @@ Description: core binaries for the KDE base runtime module
  .
  This package is part of KDE, and a component of the KDE base runtime module.
  See the 'kde' and 'kdebase-runtime' packages for more information.
+
+Package: kdebase-runtime-bin-kde4
+Section: kde
+Architecture: all
+Depends: ${shlibs:Depends}
+Conflicts: kdebase-bin (<< 4:3.90.1)
+Description: KDE4 core binaries for the KDE base runtime module
+  This KDE4 package contains miscellaneous programs needed at runtime by other
+  KDE applications which can be provided by KDE3 or KDE4.
+  .
+  This package is part of KDE, and a component of the KDE base runtime module.
+  See the 'kde' and 'kdebase-runtime' packages for more information.
 
 Package: kdebase-runtime-data
 Section: kde
@@ -47,7 +60,7 @@ Package: kdebase-runtime-data-common
 Section: kde
 Architecture: all
 Replaces: kdebase-runtime-data
-Conflicts: kdebase (<< 4:3.90.1)
+Conflicts: kdebase-data (<< 4:3.90.1)
 Description: shared data files for the KDE base runtime module 
  This package contains the architecture-independent shared data files needed
  for running KDE applications KDE applications.
@@ -83,7 +96,7 @@ Package: kinfocenter
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: kdebase (<< 4:3.96.0)
+Conflicts: kdebase-bin (<< 4:3.96.0)
 Description: graphical overview of KDE and system settings
  KInfocenter provides you with a graphical overview of various system settings.
  Examples are DMA-Channels, interrupts, io-ports, memory, network interfaces,
