@@ -4,6 +4,7 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
+  * Depend on up to date kdepimlibs5-dev.
   * Split kdebase-runtime-data-common off which contains conflicting files with KDE3's
     kdebase-data package. kdebase-runtime-data-common will be installed if
     KDE3's kdebase-data is not installed.
@@ -11,7 +12,7 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
     4:3.95.0 and not 3.95.0.
   * Fix 02_ksvgtopng4 and 03_ktrash4 patches.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:26:33 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:39:32 +0100
 
 kdebase-runtime (4:3.95.2-1) experimental; urgency=low
 
