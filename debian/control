@@ -79,6 +79,19 @@ Description: help center for KDE
  This package is part of KDE, and a component of the KDE base runtime module.
  See the 'kde' and 'kdebase-runtime' packages for more information.
 
+Package: kinfocenter
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: kdebase (<< 4:3.96.0)
+Description: graphical overview of KDE and system settings
+ KInfocenter provides you with a graphical overview of various system settings.
+ Examples are DMA-Channels, interrupts, io-ports, memory, network interfaces,
+ samba status, USB devices and more.
+ .
+ This package is part of KDE, and a component of the KDE base runtime module.
+ See the 'kde' and 'kdebase-runtime' packages for more information.
+
 Package: kdebase-runtime-dbg
 Section: devel
 Architecture: any

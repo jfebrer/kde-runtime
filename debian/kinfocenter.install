@@ -1,0 +1,4 @@
+usr/bin/kinfocenter
+usr/lib/libkdeinit4_kinfocenter.so
+usr/share/kde4/apps/kinfocenter/kinfocenterui.rc
+usr/share/kde4/services/kinfocenter.desktop

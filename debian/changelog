@@ -12,8 +12,9 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
     4:3.95.0 and not 3.95.0.
   * Fix 02_ksvgtopng4 and 03_ktrash4 patches.
   * Move the rest of drkonqi into kdebase-runtime-data and remove the package.
+  * Move kinfocenter into a seperate package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:28:07 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:51:20 +0100
 
 kdebase-runtime (4:3.95.2-1) experimental; urgency=low
 

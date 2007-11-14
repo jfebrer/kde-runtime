@@ -222,7 +222,6 @@ usr/share/kde4/apps/kcontrol/about/kcontrol.css
 usr/share/kde4/apps/kcontrol/about/main.html
 usr/share/kde4/apps/kcontrol/about/top-right-kcontrol.png
 usr/share/kde4/apps/kde/kde.notifyrc
-usr/share/kde4/apps/kinfocenter/kinfocenterui.rc
 usr/share/kde4/apps/kio_finger/kio_finger.css
 usr/share/kde4/apps/kio_finger/kio_finger.pl
 usr/share/kde4/apps/kio_info/kde-info2html
@@ -262,7 +261,6 @@ usr/share/kde4/services/kded/ktimezoned.desktop
 usr/share/kde4/services/kded/nepomukserver.desktop
 usr/share/kde4/services/kded/remotedirnotify.desktop
 usr/share/kde4/services/kded/soliduiserver.desktop
-usr/share/kde4/services/kinfocenter.desktop
 usr/share/kde4/services/kmanpart.desktop
 usr/share/kde4/services/knotify4.desktop
 usr/share/kde4/services/kshorturifilter.desktop
