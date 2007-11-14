@@ -8,7 +8,7 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
   * Split kdebase-runtime-data-common off which contains conflicting files with KDE3's
     kdebase-data package. kdebase-runtime-data-common will be installed if
     KDE3's kdebase-data is not installed.
-  * Split out kdebase-runtime-bin-kde4 which contains files shich can be
+  * Split out kdebase-runtime-bin-kde4 which contains files which can be
     provided by KDE3 or KDE4.
   * kdebase-runtime-data must replace kdebase-data versions less than
     4:3.95.0 and not 3.95.0.
@@ -16,7 +16,7 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
   * Move the rest of drkonqi into kdebase-runtime-data and remove the package.
   * Move kinfocenter into a seperate package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:51:20 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 22:33:53 +0100
 
 kdebase-runtime (4:3.95.2-1) experimental; urgency=low
 
