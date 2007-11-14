@@ -209,6 +209,10 @@ usr/share/icons/hicolor/scalable/apps/knetattach.svgz
 usr/share/kde4/apps/cmake/modules/FindCLucene.cmake
 usr/share/kde4/apps/cmake/modules/FindXCB.cmake
 usr/share/kde4/apps/cmake/modules/FindXine.cmake
+usr/share/kde4/apps/drkonqi/debuggers/gdbrc
+usr/share/kde4/apps/drkonqi/pics/konqi.png
+usr/share/kde4/apps/drkonqi/presets/developerrc
+usr/share/kde4/apps/drkonqi/presets/enduserrc
 usr/share/kde4/apps/kcm_componentchooser/kcm_browser.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_kemail.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_terminal.desktop

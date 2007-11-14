@@ -11,7 +11,7 @@ Standards-Version: 3.7.2
 Package: kdebase-runtime
 Section: kde
 Architecture: all
-Depends:  kdebase-runtime-bin (>= ${binary:Version}), drkonqi (>= ${binary:Version}),
+Depends:  kdebase-runtime-bin (>= ${binary:Version}),
  kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
 Description: runtime components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
@@ -54,17 +54,6 @@ Description: shared data files for the KDE base runtime module
  .
  The files contained in this package are also part of KDE3's kdebase-data package
  and will not be installed if KDE3's kdebase-data is installed.
- .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
-
-Package: drkonqi
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, gdb
-Description: KDE crash handler
- drkonqi is the KDE crash handler, it gives information to the user when a
- KDE application crashes.
  .
  This package is part of KDE, and a component of the KDE base runtime module.
  See the 'kde' and 'kdebase-runtime' packages for more information.
