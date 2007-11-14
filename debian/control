@@ -37,6 +37,8 @@ Section: kde
 Architecture: all
 Depends: ${shlibs:Depends}
 Conflicts: kdebase-bin (<< 4:3.90.1)
+Replaces: (<< 3.95.0)
+Conflicts: kdebase-bin-kde3
 Description: KDE4 core binaries for the KDE base runtime module
   This KDE4 package contains miscellaneous programs needed at runtime by other
   KDE applications which can be provided by KDE3 or KDE4.
