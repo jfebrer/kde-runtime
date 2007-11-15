@@ -36,9 +36,8 @@ Package: kdebase-runtime-bin-kde4
 Section: kde
 Architecture: all
 Depends: ${shlibs:Depends}
-Conflicts: kdebase-bin (<< 4:3.90.1)
-Replaces: (<< 3.95.0)
 Conflicts: kdebase-bin-kde3
+Replaces: kdebase-bin (<< 4:3.96.0)
 Description: KDE4 core binaries for the KDE base runtime module
   This KDE4 package contains miscellaneous programs needed at runtime by other
   KDE applications which can be provided by KDE3 or KDE4.
@@ -98,7 +97,7 @@ Package: kinfocenter
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: kdebase-bin (<< 4:3.96.0)
+Replaces: kdebase-bin (<< 4:3.96.0)
 Description: graphical overview of KDE and system settings
  KInfocenter provides you with a graphical overview of various system settings.
  Examples are DMA-Channels, interrupts, io-ports, memory, network interfaces,
