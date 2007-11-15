@@ -49,7 +49,8 @@ Package: kdebase-runtime-data
 Section: kde
 Architecture: all
 Depends: kdebase-runtime-data-common | kdebase-data (<< 4:3.90.1)
-Replaces: kdebase-data (<< 4:3.95.0)
+Replaces: kdebase-data (<< 4:3.95.0), drkonqi
+Conflicts: drkonqi
 Description: shared data files for the KDE base runtime module
  This package contains the architecture-independent shared data files needed
  for running KDE applications KDE applications.
