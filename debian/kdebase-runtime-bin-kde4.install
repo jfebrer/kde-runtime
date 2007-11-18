@@ -1,4 +1,4 @@
 usr/bin/kdebugdialog
 usr/bin/kreadconfig
-usr/bin/kwriteconfig
 usr/bin/kstart
+usr/bin/kwriteconfig
