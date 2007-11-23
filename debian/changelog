@@ -1,3 +1,9 @@
+kdebase-runtime (4:3.96.0-2) experimental; urgency=low
+
+  * kdebase-runtime-bin-kde4 must be Arch: any. (Closes: #452538)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 23 Nov 2007 18:51:07 +0100
+
 kdebase-runtime (4:3.96.0-1) experimental; urgency=low
 
   *  New upstream release.
@@ -14,7 +20,7 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
     4:3.95.0 and not 3.95.0.
   * Fix 02_ksvgtopng4 and 03_ktrash4 patches.
   * Move the rest of drkonqi into kdebase-runtime-data and remove the package.
-  * Move kinfocenter into a seperate package.
+  * Move kinfocenter into a separate package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 22:33:53 +0100
 
