@@ -219,6 +219,7 @@ usr/share/kde4/apps/kio_finger/kio_finger.pl
 usr/share/kde4/apps/kio_info/kde-info2html
 usr/share/kde4/apps/kio_info/kde-info2html.conf
 usr/share/kde4/apps/kio_man/kio_man.css
+usr/share/kde4/apps/kio_thumbnail/pics/thumbnailfont_7x4.png
 usr/share/kde4/apps/konqueror/dirtree/remote/smb-network.desktop
 usr/share/kde4/apps/kstyle/themes/plastik.themerc
 usr/share/kde4/apps/remoteview/smb-network.desktop

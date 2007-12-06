@@ -3,10 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>. Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.96.0),
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.97.0),
  libclucene-dev, libsmbclient-dev, libsoprano-dev (>= 1.97.0~beta4-1),
  libstrigiqtdbusclient-dev (>= 0.5.7), libxcb1-dev, libxine-dev
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 
 Package: kdebase-runtime
 Section: kde
@@ -84,7 +84,7 @@ Description: Oxygen icon theme for KDE4
 Package: khelpcenter
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, htdig
 Description: help center for KDE
  The KDE Help Center provides documentation on how to use the KDE desktop.
  .
