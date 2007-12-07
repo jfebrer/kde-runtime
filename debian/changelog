@@ -1,12 +1,15 @@
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release:
-    - Bump build-dep to >=3.97.0.
+    - Bump build-dep to >=4:3.97.0.
+    - Add epoch to kdepimlibs build-dep.
     - Update *.install files.
   * Update Standards-Version to 3.7.3.
   * khelpenter still needs htdig, add Depends on it.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier. 
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Dec 2007 03:49:14 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 17:31:14 +0100
 
 kdebase-runtime (4:3.96.0-2) experimental; urgency=low
 
