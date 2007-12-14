@@ -2,9 +2,9 @@ kdebase-runtime (4:3.97.0-2) experimental; urgency=low
 
   * Replace the meta-package kdebase-workspace with the former content of the
     now removed kdebase-runtime-bin.
-  * Add "-Wl,-lz" to LDFLAGS.
+  * Add "-Wl,-lz" to LDFLAGS to fail if there are missing symbols.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 14 Dec 2007 22:08:07 +0000
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 14 Dec 2007 23:34:02 +0100
 
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 
