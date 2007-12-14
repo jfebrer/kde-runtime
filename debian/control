@@ -10,27 +10,19 @@ Standards-Version: 3.7.3
 
 Package: kdebase-runtime
 Section: kde
-Architecture: all
-Depends:  kdebase-runtime-bin (>= ${binary:Version}),
+Architecture: any
+Replaces: kdebase-runtime-bin, Replaces: kdebase-bin (<< 3.95.0)
+Conflicts: kdebase-runtime-bin
+Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
 Description: runtime components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
  environment for Unix workstations. It combines ease of use, contemporary
  functionality, and outstanding graphical design with the technological
  superiority of the Unix operating system.
-
-Package: kdebase-runtime-bin
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
- kdebase-runtime-data (= ${source:Version})
-Replaces: kdebase-bin (<< 3.95.0)
-Description: core binaries for the KDE base runtime module
+ .
  This package contains miscellaneous programs needed at runtime by other
  KDE applications.
- .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
 
 Package: kdebase-runtime-bin-kde4
 Section: kde
