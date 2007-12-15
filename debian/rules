@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
-export LDFLAGS+="-Wl,-z -Wl,--as-needed"
-
 include debian/cdbs/kde.mk
+
+DEB_CMAKE_EXTRA_FLAGS += \
+						-DCMAKE_SHARED_LINKER_FLAGS="-Wl,-z,defs -Wl,--as-needed" \
+						-DCMAKE_MODULE_LINKER_FLAGS="-Wl,-z,defs -Wl,--as-needed"
+

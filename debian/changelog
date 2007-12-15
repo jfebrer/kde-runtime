@@ -1,10 +1,19 @@
 kdebase-runtime (4:3.97.0-2) experimental; urgency=low
 
+  +++ Changes by Armin Berres:
+
   * Replace the meta-package kdebase-workspace with the former content of the
     now removed kdebase-runtime-bin.
   * Add "-Wl,-z" to LDFLAGS to fail if there are missing symbols.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 14 Dec 2007 23:34:02 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Use DEB_CMAKE_EXTRA_FLAGS, CMAKE_SHARED_LINKER_FLAGS and
+    CMAKE_MODULE_LINKER_FLAGS.
+    It will be easier to move to our cdbs classes whenever we want.
+  * Add defs to LDFLAGS.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Dec 2007 23:34:02 +0100
 
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 
