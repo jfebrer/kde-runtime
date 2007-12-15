@@ -11,7 +11,7 @@ Standards-Version: 3.7.3
 Package: kdebase-runtime
 Section: kde
 Architecture: any
-Replaces: kdebase-runtime-bin, Replaces: kdebase-bin (<< 3.95.0)
+Replaces: kdebase-runtime-bin, kdebase-bin (<< 3.95.0)
 Conflicts: kdebase-runtime-bin
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
