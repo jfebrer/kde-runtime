@@ -14,7 +14,7 @@ Architecture: any
 Replaces: kdebase-runtime-bin, kdebase-bin (<< 3.95.0)
 Conflicts: kdebase-runtime-bin
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
- kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
+ kdebase-runtime-data (>= ${source:Version}), kde-icons-oxygen (>= ${source:Version})
 Description: runtime components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
  environment for Unix workstations. It combines ease of use, contemporary
@@ -40,7 +40,7 @@ Description: KDE4 core binaries for the KDE base runtime module
 Package: kdebase-runtime-data
 Section: kde
 Architecture: all
-Depends: kdebase-runtime-data-common | kdebase-data (<< 4:3.90.1)
+Depends: kdebase-runtime-data-common (>= ${source:Version}) | kdebase-data (<< 4:3.90.1)
 Replaces: kdebase-data (<< 4:3.95.0), drkonqi
 Conflicts: drkonqi
 Description: shared data files for the KDE base runtime module

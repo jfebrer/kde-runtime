@@ -4,8 +4,11 @@ kdebase-runtime (4:3.97.0-2) experimental; urgency=low
 
   * Replace the meta-package kdebase-workspace with the former content of the
     now removed kdebase-runtime-bin.
+  * Use source:Version when depending on arch-all packages.
+  * Make dependency of kdebase-runtime-data on kdebase-runtime-data-common
+    versioned.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Dec 2007 23:34:02 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 18:14:54 +0100
 
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 
