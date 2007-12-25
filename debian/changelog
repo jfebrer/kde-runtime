@@ -7,8 +7,9 @@ kdebase-runtime (4:3.97.0-2) experimental; urgency=low
   * Use source:Version when depending on arch-all packages.
   * Make dependency of kdebase-runtime-data on kdebase-runtime-data-common
     versioned.
+  * Add some missing replaces when conflicting with packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 18:14:54 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Dec 2007 23:34:06 +0100
 
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 

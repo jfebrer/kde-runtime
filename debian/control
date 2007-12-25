@@ -29,7 +29,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Conflicts: kdebase-bin-kde3
-Replaces: kdebase-bin (<< 4:3.96.0)
+Replaces: kdebase-bin (<< 4:3.96.0), kdebase-bin-kde3
 Description: KDE4 core binaries for the KDE base runtime module
   This KDE4 package contains miscellaneous programs needed at runtime by other
   KDE applications which can be provided by KDE3 or KDE4.
@@ -53,7 +53,7 @@ Description: shared data files for the KDE base runtime module
 Package: kdebase-runtime-data-common
 Section: kde
 Architecture: all
-Replaces: kdebase-runtime-data
+Replaces: kdebase-runtime-data, kdebase-data
 Conflicts: kdebase-data (<< 4:3.90.1)
 Description: shared data files for the KDE base runtime module 
  This package contains the architecture-independent shared data files needed
