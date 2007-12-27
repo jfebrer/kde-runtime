@@ -219,7 +219,6 @@ usr/share/kde4/apps/kio_info/kde-info2html.conf
 usr/share/kde4/apps/kio_man/kio_man.css
 usr/share/kde4/apps/kio_thumbnail/pics/thumbnailfont_7x4.png
 usr/share/kde4/apps/konqueror/dirtree/remote/smb-network.desktop
-usr/share/kde4/apps/kstyle/themes/oxygen.themerc
 usr/share/kde4/apps/remoteview/smb-network.desktop
 usr/share/kde4/services/about.protocol
 usr/share/kde4/services/applications.protocol
