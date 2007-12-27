@@ -1,4 +1,4 @@
-etc/kde4/khotnewstuffrc
+etc/kde4/khotnewstuff.knsrc
 etc/kde4/kshorturifilterrc
 etc/xdg/menus/kde4-information.menu
 usr/share/applications/kde4/knetattach.desktop
@@ -199,6 +199,7 @@ usr/share/emoticons/kde4/unlove.png
 usr/share/emoticons/kde4/wilted_rose.png
 usr/share/emoticons/kde4/wink.png
 usr/share/kde4/apps/cmake/modules/FindCLucene.cmake
+usr/share/kde4/apps/cmake/modules/FindGStreamerPlugins.cmake
 usr/share/kde4/apps/cmake/modules/FindXCB.cmake
 usr/share/kde4/apps/cmake/modules/FindXine.cmake
 usr/share/kde4/apps/drkonqi/debuggers/gdbrc
@@ -210,9 +211,6 @@ usr/share/kde4/apps/kcm_componentchooser/kcm_kemail.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_terminal.desktop
 usr/share/kde4/apps/kcmlocale/pics/background.png
 usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd
-usr/share/kde4/apps/kcontrol/about/kcontrol.css
-usr/share/kde4/apps/kcontrol/about/main.html
-usr/share/kde4/apps/kcontrol/about/top-right-kcontrol.png
 usr/share/kde4/apps/kde/kde.notifyrc
 usr/share/kde4/apps/kio_finger/kio_finger.css
 usr/share/kde4/apps/kio_finger/kio_finger.pl
@@ -221,7 +219,7 @@ usr/share/kde4/apps/kio_info/kde-info2html.conf
 usr/share/kde4/apps/kio_man/kio_man.css
 usr/share/kde4/apps/kio_thumbnail/pics/thumbnailfont_7x4.png
 usr/share/kde4/apps/konqueror/dirtree/remote/smb-network.desktop
-usr/share/kde4/apps/kstyle/themes/plastik.themerc
+usr/share/kde4/apps/kstyle/themes/oxygen.themerc
 usr/share/kde4/apps/remoteview/smb-network.desktop
 usr/share/kde4/services/about.protocol
 usr/share/kde4/services/applications.protocol

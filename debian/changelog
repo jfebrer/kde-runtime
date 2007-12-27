@@ -1,4 +1,6 @@
-kdebase-runtime (4:3.97.0-2) experimental; urgency=low
+kdebase-runtime (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
 
   +++ Changes by Armin Berres:
 
@@ -9,7 +11,13 @@ kdebase-runtime (4:3.97.0-2) experimental; urgency=low
     versioned.
   * Add some missing replaces when conflicting with packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Dec 2007 23:34:06 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-dep to >= 4:3.98.0~svn753247-1.
+  * Update *.install files.
+  * Remove kinfocenter, it has been killed upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Dec 2007 02:36:47 +0100
 
 kdebase-runtime (4:3.97.0-1) experimental; urgency=low
 

@@ -51,7 +51,6 @@ usr/lib/kde4/kio_smb.so
 usr/lib/kde4/kio_thumbnail.so
 usr/lib/kde4/kio_trash.so
 usr/lib/kde4/kstyle_oxygen_config.so
-usr/lib/kde4/kstyle_plastik_config.so
 usr/lib/kde4/libexec/drkonqi
 usr/lib/kde4/libexec/kdeeject
 usr/lib/kde4/libexec/kdesu
@@ -74,7 +73,6 @@ usr/lib/kde4/librenaudioplugin.so
 usr/lib/kde4/librenimageplugin.so
 usr/lib/kde4/phonon_xine.so
 usr/lib/kde4/plugins/styles/oxygen.so
-usr/lib/kde4/plugins/styles/plastik.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
