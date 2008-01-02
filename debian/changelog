@@ -9,7 +9,7 @@ kdebase-runtime (4:3.98.0~svn755919-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Raise build-dep to >= 4:3.98.0~svn755919.
+  * Raise build-dep to >= 4:3.98.0~svn755919-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jan 2008 11:12:58 +0100
 
