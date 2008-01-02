@@ -1,10 +1,10 @@
-kdebase-runtime (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
+kdebase-runtime (4:3.98.0~svn755919-1) experimental; urgency=low
 
-  * Svn snapshot of revision 755919. 
+  * New svn snapshot release.
 
   +++ Changes by Fathi Boudra:
 
-  * Add liphonon-dev build dependency.
+  * Add libphonon-dev build dependency.
   * Bump soprano build dependency version.
 
   +++ Changes by Armin Berres:

@@ -199,7 +199,6 @@ usr/share/emoticons/kde4/unlove.png
 usr/share/emoticons/kde4/wilted_rose.png
 usr/share/emoticons/kde4/wink.png
 usr/share/kde4/apps/cmake/modules/FindCLucene.cmake
-usr/share/kde4/apps/cmake/modules/FindGStreamerPlugins.cmake
 usr/share/kde4/apps/cmake/modules/FindXCB.cmake
 usr/share/kde4/apps/cmake/modules/FindXine.cmake
 usr/share/kde4/apps/drkonqi/debuggers/gdbrc
