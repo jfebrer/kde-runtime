@@ -12,7 +12,11 @@ kdebase-runtime (4:4.0.0-1) UNRELEASED; urgency=low
   * Update *.install files, sounds files have been renamed and they are all
     now only in kdebase-runtime-data without clashing with KDE3's files.
   * Update years in copyright.
-  * Bump build-depends to >=4.0.0-1.
+  * Bump build-depends to >= 4.0.0-1.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump soprano build-dep version to >= 2.0.0-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 08:04:49 +0100
 
