@@ -38,8 +38,7 @@ Description: KDE 4 core binaries for the KDE base runtime module
  The files contained in this package can also be found in the
  'kdebase-bin-kde3' package.
  .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
+ This package is part of the KDE 4 base runtime module.
 
 Package: kdebase-runtime-data
 Section: kde
@@ -51,8 +50,7 @@ Description: shared data files for the KDE base runtime module
  This package contains the architecture-independent shared data files needed
  for running KDE applications KDE applications.
  .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
+ This package is part of the KDE 4 base runtime module.
 
 Package: kdebase-runtime-data-common
 Section: kde
@@ -66,8 +64,7 @@ Description: shared data files for the KDE base runtime module
  The files contained in this package can also be found in the KDE 3
  'kdebase-data' package.
  .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
+ This package is part of the KDE 4 base runtime module.
 
 Package: kde-icons-oxygen
 Section: kde
@@ -88,8 +85,7 @@ Description: help center for KDE
  The 'htdig' package is needed to build a searchable archive of KDE
  documentation.
  .
- This package is part of KDE, and a component of the KDE base runtime module.
- See the 'kde' and 'kdebase-runtime' packages for more information.
+ This package is part of the KDE 4 base runtime module.
 
 Package: kdebase-runtime-dbg
 Section: devel
