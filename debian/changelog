@@ -17,6 +17,8 @@ kdebase-runtime (4:4.0.0-1) UNRELEASED; urgency=low
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
+  * Tweak package descriptions.
+  * Replace source:Version with binary:Version
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 08:04:49 +0100
 

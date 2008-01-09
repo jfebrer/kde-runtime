@@ -15,7 +15,7 @@ Architecture: any
 Replaces: kdebase-runtime-bin, kdebase-bin (<< 3.95.0)
 Conflicts: kdebase-runtime-bin
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
- kdebase-runtime-data (>= ${source:Version}), kde-icons-oxygen (>= ${source:Version})
+ kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
 Description: runtime components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
  environment for Unix workstations. It combines ease of use, contemporary
@@ -31,17 +31,20 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Conflicts: kdebase-bin-kde3
 Replaces: kdebase-bin (<< 4:3.96.0), kdebase-bin-kde3
-Description: KDE4 core binaries for the KDE base runtime module
-  This KDE4 package contains miscellaneous programs needed at runtime by other
-  KDE applications which can be provided by KDE3 or KDE4.
-  .
-  This package is part of KDE, and a component of the KDE base runtime module.
-  See the 'kde' and 'kdebase-runtime' packages for more information.
+Description: KDE 4 core binaries for the KDE base runtime module
+ This package contains miscellaneous programs needed at runtime by other KDE 4
+ applications.
+ .
+ The files contained in this package can also be found in the
+ 'kdebase-bin-kde3' package.
+ .
+ This package is part of KDE, and a component of the KDE base runtime module.
+ See the 'kde' and 'kdebase-runtime' packages for more information.
 
 Package: kdebase-runtime-data
 Section: kde
 Architecture: all
-Depends: kdebase-runtime-data-common (>= ${source:Version}) | kdebase-data (<< 4:3.90.1)
+Depends: kdebase-runtime-data-common (>= ${binary:Version}) | kdebase-data (<< 4:3.90.1)
 Replaces: kdebase-data (<< 4:3.95.0), kdebase-bin (<= 4:3.5.8.dfsg.1-2), drkonqi
 Conflicts: drkonqi
 Description: shared data files for the KDE base runtime module
@@ -58,10 +61,10 @@ Replaces: kdebase-runtime-data, kdebase-data
 Conflicts: kdebase-data (<< 4:3.90.1)
 Description: shared data files for the KDE base runtime module 
  This package contains the architecture-independent shared data files needed
- for running KDE applications KDE applications.
+ to run KDE applications.
  .
- The files contained in this package are also part of KDE3's kdebase-data package
- and will not be installed if KDE3's kdebase-data is installed.
+ The files contained in this package can also be found in the KDE 3
+ 'kdebase-data' package.
  .
  This package is part of KDE, and a component of the KDE base runtime module.
  See the 'kde' and 'kdebase-runtime' packages for more information.
@@ -71,17 +74,18 @@ Section: kde
 Architecture: all
 Replaces: kdebase-data (<= 4:3.94.0-1)
 Suggests: kdebase (>= 4:3.94.0-2)
-Description: Oxygen icon theme for KDE4
- Oxygen is the standard icon theme for KDE4.
+Description: Oxygen icon theme for KDE 4
+ Oxygen is the standard icon theme for KDE 4.
 
 Package: khelpcenter
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, htdig
+Depends: ${shlibs:Depends}
+Recommends: htdig
 Description: help center for KDE
  The KDE Help Center provides documentation on how to use the KDE desktop.
  .
- The htdig package is needed to build a searchable archive of KDE
+ The 'htdig' package is needed to build a searchable archive of KDE
  documentation.
  .
  This package is part of KDE, and a component of the KDE base runtime module.
