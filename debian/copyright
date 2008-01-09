@@ -1564,6 +1564,6 @@ On Debian systems, you can find the complete texts of these licenses at:
 -------------------------------------------------------------------------------
 
 
-The Debian packaging is (C) 2008, Debian Qt/KDE Maintainers
+The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
 see `/usr/share/common-licenses/GPL'.
