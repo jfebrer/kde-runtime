@@ -30,6 +30,7 @@ Package: kdebase-runtime-bin-kde4
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
+Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Conflicts: kdebase-bin-kde3
 Replaces: kdebase-bin (<< 4:3.96.0), kdebase-bin-kde3
 Description: KDE 4 core binaries for the KDE base runtime module
