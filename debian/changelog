@@ -2,7 +2,7 @@ kdebase-runtime (4:4.0.0-2) UNRELEASED; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Add replaces for a smoother upgrade.
+  * Add conflicts and replaces for a smoother upgrade.
 
   +++ Changes by Fathi Boudra:
 
