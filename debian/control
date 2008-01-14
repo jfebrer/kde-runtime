@@ -2,9 +2,9 @@ Source: kdebase-runtime
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.0-1),
- libclucene-dev, libphonon-dev, libsmbclient-dev, libsoprano-dev (>= 1.99~rc2-1),
+ libclucene-dev, libphonon-dev, libsmbclient-dev, libsoprano-dev (>= 2.0.0),
  libstrigiqtdbusclient-dev (>= 0.5.7), libxcb1-dev, libxine-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
@@ -12,10 +12,10 @@ Homepage: http://www.kde.org/
 Package: kdebase-runtime
 Section: kde
 Architecture: any
-Replaces: kdebase-runtime-bin, kdebase-bin (<< 3.95.0)
+Replaces: kdebase-runtime-bin, kdebase-bin (<< 4:4.0.0)
 Conflicts: kdebase-runtime-bin
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
- kdebase-runtime-data (>= ${binary:Version}), kde-icons-oxygen (>= ${binary:Version})
+ kdebase-runtime-data (>= ${source:Version}), kde-icons-oxygen (>= ${source:Version})
 Description: runtime components from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -32,8 +32,8 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Conflicts: kdebase-bin-kde3
-Replaces: kdebase-bin (<< 4:3.96.0), kdebase-bin-kde3
-Description: KDE 4 core binaries for the KDE base runtime module
+Replaces: kdebase-bin (<< 4:4.0.0), kdebase-bin-kde3
+Description: core binaries for the KDE 4 base runtime module
  This package contains miscellaneous programs needed at runtime by other KDE 4
  applications.
  .
@@ -45,12 +45,12 @@ Description: KDE 4 core binaries for the KDE base runtime module
 Package: kdebase-runtime-data
 Section: kde
 Architecture: all
-Depends: kdebase-runtime-data-common (>= ${binary:Version}) | kdebase-data (<< 4:3.90.1)
-Replaces: kdebase-data (<< 4:3.95.0), kdebase-bin (<= 4:3.5.8.dfsg.1-2), drkonqi
+Depends: kdebase-runtime-data-common (>= ${source:Version}) | kdebase-data (<< 4:4.0.0)
+Replaces: kdebase-data (<< 4:4.0.0), kdebase-bin (<= 4:3.5.8.dfsg.1-2), drkonqi
 Conflicts: drkonqi
-Description: shared data files for the KDE base runtime module
- This package contains the architecture-independent shared data files needed
- for running KDE applications KDE applications.
+Description: shared data files for the KDE 4 base runtime module
+ This package contains the architecture-independent shared data files needed to
+ run KDE 4 applications.
  .
  This package is part of the KDE 4 base runtime module.
 
@@ -58,10 +58,10 @@ Package: kdebase-runtime-data-common
 Section: kde
 Architecture: all
 Replaces: kdebase-runtime-data (<< 4:4.0.0), kdebase-data (<< 4:4.0.0), kdebase-bin (<< 4:4.0.0)
-Conflicts: kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:3.90.1)
-Description: shared data files for the KDE base runtime module 
- This package contains the architecture-independent shared data files needed
- to run KDE applications.
+Conflicts: kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:4.0.0)
+Description: shared data files for the KDE 4 base runtime module 
+ This package contains the architecture-independent shared data files needed to
+ run KDE applications.
  .
  The files contained in this package can also be found in the KDE 3
  'kdebase-data' package.
@@ -71,8 +71,8 @@ Description: shared data files for the KDE base runtime module
 Package: kde-icons-oxygen
 Section: kde
 Architecture: all
-Replaces: kdebase-data (<= 4:3.94.0-1)
-Suggests: kdebase (>= 4:3.94.0-2)
+Replaces: kdebase-data (<= 4:4.0.0)
+Suggests: kdebase (>= 4:4.0.0)
 Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
 
@@ -81,11 +81,10 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: htdig
-Description: help center for KDE
- The KDE Help Center provides documentation on how to use the KDE desktop.
- .
- The 'htdig' package is needed to build a searchable archive of KDE
- documentation.
+Description: help center for KDE 4
+ The KDE Help Center displays documentation on how to use the KDE desktop and
+ applications, as well as UNIX man and info pages.
+ It can search through documentation using the 'htdig' package.
  .
  This package is part of the KDE 4 base runtime module.
 
@@ -94,7 +93,7 @@ Section: devel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime (= ${binary:Version}), kdepimlibs-dbg
-Description: debugging symbols for KDE base runtime module
+Description: debugging symbols for KDE 4 base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
  issues.
