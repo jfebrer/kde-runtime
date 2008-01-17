@@ -12,11 +12,10 @@ Homepage: http://www.kde.org/
 Package: kdebase-runtime
 Section: kde
 Architecture: any
-Replaces: kdebase-runtime-bin, kdebase-bin (<< 4:4.0.0)
-Conflicts: kdebase-runtime-bin
+Replaces: kdebase-bin (<< 4:4.0.0-1)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${source:Version}), kde-icons-oxygen (>= ${source:Version})
-Description: runtime components from the official KDE release
+Description: Runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -24,7 +23,7 @@ Description: runtime components from the official KDE release
  categories including Internet and web applications, multimedia, entertainment,
  educational, graphics and software development.
  .
- This package contains programs and data needed at runtime by KDE applications.
+ This package contains programs and data needed at runtime by KDE 4 applications.
 
 Package: kdebase-runtime-bin-kde4
 Section: kde
@@ -32,8 +31,8 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Conflicts: kdebase-bin-kde3
-Replaces: kdebase-bin (<< 4:4.0.0), kdebase-bin-kde3
-Description: core binaries for the KDE 4 base runtime module
+Replaces: kdebase-bin (<< 4:4.0.0-1), kdebase-bin-kde3
+Description: Core binaries for the KDE 4 base runtime module
  This package contains miscellaneous programs needed at runtime by other KDE 4
  applications.
  .
@@ -45,10 +44,10 @@ Description: core binaries for the KDE 4 base runtime module
 Package: kdebase-runtime-data
 Section: kde
 Architecture: all
-Depends: kdebase-runtime-data-common (>= ${source:Version}) | kdebase-data (<< 4:4.0.0)
-Replaces: kdebase-data (<< 4:4.0.0), kdebase-bin (<= 4:3.5.8.dfsg.1-2), drkonqi
+Depends: kdebase-runtime-data-common (>= ${source:Version}) | kdebase-data (<< 4:4.0.0-1)
+Replaces: kdebase-data (<< 4:4.0.0-1), kdebase-bin (<= 4:3.5.8.dfsg.1-2), drkonqi
 Conflicts: drkonqi
-Description: shared data files for the KDE 4 base runtime module
+Description: Shared data files for the KDE 4 base runtime module
  This package contains the architecture-independent shared data files needed to
  run KDE 4 applications.
  .
@@ -57,9 +56,9 @@ Description: shared data files for the KDE 4 base runtime module
 Package: kdebase-runtime-data-common
 Section: kde
 Architecture: all
-Replaces: kdebase-runtime-data (<< 4:4.0.0), kdebase-data (<< 4:4.0.0), kdebase-bin (<< 4:4.0.0)
-Conflicts: kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:4.0.0)
-Description: shared data files for the KDE 4 base runtime module 
+Replaces: kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1)
+Conflicts: kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1)
+Description: Shared data files for the KDE 4 base runtime module 
  This package contains the architecture-independent shared data files needed to
  run KDE applications.
  .
@@ -71,8 +70,8 @@ Description: shared data files for the KDE 4 base runtime module
 Package: kde-icons-oxygen
 Section: kde
 Architecture: all
-Replaces: kdebase-data (<= 4:4.0.0)
-Suggests: kdebase (>= 4:4.0.0)
+Replaces: kdebase-data (<= 4:4.0.0-1)
+Suggests: kdebase (>= 4:4.0.0-1)
 Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
 
@@ -81,8 +80,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: htdig
-Description: help center for KDE 4
- The KDE Help Center displays documentation on how to use the KDE desktop and
+Description: Help Center for KDE 4
+ The KDE Help Center displays documentation on how to use the KDE 4 desktop and
  applications, as well as UNIX man and info pages.
  It can search through documentation using the 'htdig' package.
  .
@@ -93,7 +92,7 @@ Section: devel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime (= ${binary:Version}), kdepimlibs-dbg
-Description: debugging symbols for KDE 4 base runtime module
+Description: Debugging symbols for KDE 4 base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
  issues.
