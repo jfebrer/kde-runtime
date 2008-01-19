@@ -8,6 +8,9 @@ kdebase-runtime (4:4.0.0-2) UNRELEASED; urgency=low
 
   * Add hal and pmount Recommends to kdebase-runtime-bin-kde4 package,
     previously in kde4libs.
+  * Add conflicts to kdebase-runtime against kdebluetooth << 1.0~beta7-1.
+    because of /usr/bin/kioclient. (Closes: #461211)
+  * Add Vcs-Browser and Vcs-Svn fields.
 
   +++ Changes by Matthew Rosewarne:
 
