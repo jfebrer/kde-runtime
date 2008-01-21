@@ -94,7 +94,7 @@ Package: kdebase-runtime-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime (= ${binary:Version}), kdepimlibs-dbg
+Depends: kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
 Description: Debugging symbols for KDE 4 base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
