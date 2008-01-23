@@ -1,5 +1,8 @@
 kdebase-runtime (4:4.0.0-3) UNRELEASED; urgency=low
 
+  * Do not ship khelpcenter for now, KDE 4 does not contain any help anyway,
+    and it is updating KDE 3's khelpcenter. (Closes: #462227)
+
   +++ Changes by Matthew Rosewarne:
 
   * Changed kdebase-runtime-dbg Depends: kdelibs5-dbg to kdepimlibs-dbg.

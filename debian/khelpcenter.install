@@ -193,3 +193,9 @@ usr/share/kde4/apps/khelpcenter/searchhandlers/man.desktop
 usr/share/kde4/apps/khelpcenter/table-of-contents.xslt
 usr/share/kde4/config.kcfg/khelpcenter.kcfg
 usr/share/kde4/services/khelpcenter.desktop
+usr/share/doc/kde4/HTML/en/khelpcenter/contact.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/help.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/index.cache.bz2
+usr/share/doc/kde4/HTML/en/khelpcenter/support.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/welcome.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/whatiskde.docbook

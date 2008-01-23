@@ -79,18 +79,6 @@ Suggests: kdebase (>= 4:4.0.0-1)
 Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
 
-Package: khelpcenter
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Recommends: htdig
-Description: Help Center for KDE 4
- The KDE Help Center displays documentation on how to use the KDE 4 desktop and
- applications, as well as UNIX man and info pages.
- It can search through documentation using the 'htdig' package.
- .
- This package is part of the KDE 4 base runtime module.
-
 Package: kdebase-runtime-dbg
 Section: devel
 Architecture: any
