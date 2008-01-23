@@ -1,5 +1,7 @@
-kdebase-runtime (4:4.0.0-3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.0-3) unstable; urgency=low
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
   * Do not ship khelpcenter for now, KDE 4 does not contain any help anyway,
     and it is updating KDE 3's khelpcenter. (Closes: #462227)
 
