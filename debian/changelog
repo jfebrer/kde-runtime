@@ -1,3 +1,11 @@
+kdebase-runtime (4:4.0.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Changed kdebase-runtime-dbg Depends: kdelibs5-dbg to kdepimlibs-dbg.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Jan 2008 20:07:02 -0500
+
 kdebase-runtime (4:4.0.0-2) unstable; urgency=low
 
   +++ Changes by Armin Berres:

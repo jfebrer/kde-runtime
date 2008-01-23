@@ -17,7 +17,8 @@ Section: kde
 Architecture: any
 Replaces: kdebase-bin (<< 4:4.0.0-1)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
- kdebase-runtime-data (>= ${source:Version}), kde-icons-oxygen (>= ${source:Version})
+ kdebase-runtime-data (>= ${source:Version}),
+ kde-icons-oxygen (>= ${source:Version})
 Description: Runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -94,7 +95,7 @@ Package: kdebase-runtime-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
+Depends: kdebase-runtime (= ${binary:Version}), kdepimlibs-dbg
 Description: Debugging symbols for KDE 4 base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
