@@ -1,8 +1,10 @@
-kdebase-runtime (4:4.0.0-4) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.1-1) UNRELEASED; urgency=low
 
-  * ... 
+  * New upstream release. 
+  * Unbump to compat 6 temporarily due to the issue with the empty -dbg
+    packages.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 23 Jan 2008 23:50:44 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 01 Feb 2008 18:24:11 +0100
 
 kdebase-runtime (4:4.0.0-3) unstable; urgency=low
 
