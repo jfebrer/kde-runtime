@@ -1,8 +1,6 @@
 kdebase-runtime (4:4.0.1-1) UNRELEASED; urgency=low
 
   * New upstream release. 
-  * Unbump to compat 6 temporarily due to the issue with the empty -dbg
-    packages.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 01 Feb 2008 18:24:11 +0100
 
