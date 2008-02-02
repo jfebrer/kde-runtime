@@ -1,6 +1,7 @@
 kdebase-runtime (4:4.0.1-1) UNRELEASED; urgency=low
 
   * New upstream release. 
+  * Bump to build-depends >= 4:4.0.1.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 01 Feb 2008 18:24:11 +0100
 
