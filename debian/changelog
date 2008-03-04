@@ -10,7 +10,7 @@ kdebase-runtime (4:4.0.2-1) unstable; urgency=low
 
   * Add /usr/share/doc/KDE4/html/en/*/common in kdebase-runtime-data package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>   Tue, 04 Mar 2008 14:46:24 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 22:43:18 +0100
 
 kdebase-runtime (4:4.0.1-1) unstable; urgency=low
 
