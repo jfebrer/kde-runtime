@@ -1,4 +1,6 @@
-kdebase-runtime (4:4.0.1-2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.2-1) unstable; urgency=low
+
+  * New upstream release. 
 
   +++ Changes by Armin Berres:
 
@@ -8,7 +10,7 @@ kdebase-runtime (4:4.0.1-2) UNRELEASED; urgency=low
 
   * Add /usr/share/doc/KDE4/html/en/*/common in kdebase-runtime-data package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Feb 2008 10:44:22 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>   Tue, 04 Mar 2008 14:46:24 +0100
 
 kdebase-runtime (4:4.0.1-1) unstable; urgency=low
 
