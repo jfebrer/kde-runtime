@@ -1,5 +1,5 @@
---- a/doc/userguide/kde-for-admins.docbook
-+++ b/doc/userguide/kde-for-admins.docbook
+--- kdebase-runtime-4.0.10~svn783501.orig/doc/userguide/kde-for-admins.docbook
++++ kdebase-runtime-4.0.10~svn783501/doc/userguide/kde-for-admins.docbook
 @@ -1765,8 +1765,8 @@
  whose icon and name are defined by <filename>kde-settings.directory</filename></para>
  </listitem>
@@ -11,8 +11,8 @@
  </listitem>
  
  <listitem><para>Screensavers contains a hidden System/Screensavers menu,
---- a/kcontrol/menus/CMakeLists.txt
-+++ b/kcontrol/menus/CMakeLists.txt
+--- kdebase-runtime-4.0.10~svn783501.orig/kcontrol/menus/CMakeLists.txt
++++ kdebase-runtime-4.0.10~svn783501/kcontrol/menus/CMakeLists.txt
 @@ -4,5 +4,5 @@
  ########### install files ###############
  
@@ -21,8 +21,8 @@
 -install( FILES kde-information.directory  DESTINATION  ${XDG_DIRECTORY_INSTALL_DIR} )
 +    DESTINATION ${SYSCONF_INSTALL_DIR}/xdg/menus/ RENAME kde4-information.menu )
 +install( FILES kde-information.directory  DESTINATION  ${XDG_DIRECTORY_INSTALL_DIR} RENAME kde4-information.directory )
---- a/kcontrol/menus/kde-information.menu
-+++ b/kcontrol/menus/kde-information.menu
+--- kdebase-runtime-4.0.10~svn783501.orig/kcontrol/menus/kde-information.menu
++++ kdebase-runtime-4.0.10~svn783501/kcontrol/menus/kde-information.menu
 @@ -3,7 +3,7 @@
  
  <Menu>
@@ -32,16 +32,3 @@
  	<Include>
  		<Category>X-KDE-information</Category>
  	</Include>
---- a/kcontrol/menus/kde-kcontrol.menu
-+++ b/kcontrol/menus/kde-kcontrol.menu
-@@ -10,8 +10,8 @@
- 	</Menu>
- 	<Menu>
- 		<Name>Information</Name>
--		<Directory>kde-information.directory</Directory>
--                <MergeFile>../kde-information.menu</MergeFile>
-+		<Directory>kde4-information.directory</Directory>
-+                <MergeFile>../kde4-information.menu</MergeFile>
- 	</Menu>
-         <Move>
-            <Old>Settings/Information</Old><New>Information</New>

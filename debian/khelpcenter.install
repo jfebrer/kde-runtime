@@ -4,6 +4,7 @@ usr/share/applications/kde4/Help.desktop
 usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
 usr/share/doc/kde4/HTML/en/khelpcenter/background.png
 usr/share/doc/kde4/HTML/en/khelpcenter/bgtable.png
+usr/share/doc/kde4/HTML/en/khelpcenter/contact.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/about.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/configkde.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/contrib.docbook
@@ -29,6 +30,8 @@ usr/share/doc/kde4/HTML/en/khelpcenter/faq/winmng.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/kdeprintingglossary.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/help.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/kdelogo2.png
 usr/share/doc/kde4/HTML/en/khelpcenter/khelpcenter.png
@@ -38,6 +41,7 @@ usr/share/doc/kde4/HTML/en/khelpcenter/pointers.png
 usr/share/doc/kde4/HTML/en/khelpcenter/quickstart/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/quickstart/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/shadow1.png
+usr/share/doc/kde4/HTML/en/khelpcenter/support.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/accessibility.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/amarok-icon.png
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/amarok.png
@@ -146,6 +150,8 @@ usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict6.png
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict7.png
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict8.png
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict9.png
+usr/share/doc/kde4/HTML/en/khelpcenter/welcome.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/whatiskde.docbook
 usr/share/icons/hicolor/128x128/apps/khelpcenter.png
 usr/share/icons/hicolor/16x16/apps/khelpcenter.png
 usr/share/icons/hicolor/22x22/apps/khelpcenter.png
@@ -193,10 +199,3 @@ usr/share/kde4/apps/khelpcenter/searchhandlers/man.desktop
 usr/share/kde4/apps/khelpcenter/table-of-contents.xslt
 usr/share/kde4/config.kcfg/khelpcenter.kcfg
 usr/share/kde4/services/khelpcenter.desktop
-usr/share/doc/kde4/HTML/en/khelpcenter/contact.docbook
-usr/share/doc/kde4/HTML/en/khelpcenter/help.docbook
-usr/share/doc/kde4/HTML/en/khelpcenter/index.cache.bz2
-usr/share/doc/kde4/HTML/en/khelpcenter/support.docbook
-usr/share/doc/kde4/HTML/en/khelpcenter/welcome.docbook
-usr/share/doc/kde4/HTML/en/khelpcenter/whatiskde.docbook
-

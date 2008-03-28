@@ -3,9 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.2),
- libclucene-dev, libphonon-dev, libsmbclient-dev, libsoprano-dev (>= 2.0.0),
- libstrigiqtdbusclient-dev (>= 0.5.7), libxcb1-dev, libxine-dev
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, 
+ kdepimlibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66), 
+ libclucene-dev, libsmbclient-dev, libsoprano-dev (>= 2.0.97~),
+ libstrigiqtdbusclient-dev (>= 0.5.7-2), libxcb1-dev, libxine-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-runtime

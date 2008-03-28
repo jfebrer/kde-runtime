@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-THIS_SHOULD_GO_TO_UNSTABLE := 1
-
 # don'tuse the debugging symbols from kdebase-runtime-kde4. othwerwise we have a conflict with kdebase-dbg from KDE 3
 DEB_DBG_PACKAGE_kdebase-runtime := kdebase-runtime-dbg
 

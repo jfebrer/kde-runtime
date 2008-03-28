@@ -5,6 +5,7 @@ usr/bin/kde-mv
 usr/bin/kde-open
 usr/bin/kfile4
 usr/bin/khotnewstuff4
+usr/bin/kiconfinder
 usr/bin/kioclient
 usr/bin/kmimetypefinder
 usr/bin/knotify4
@@ -13,6 +14,7 @@ usr/bin/ksvgtopng4
 usr/bin/ktraderclient
 usr/bin/ktrash4
 usr/bin/kuiserver
+usr/bin/solid-hardware
 usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so
 usr/lib/kde4/exrthumbnail.so
@@ -20,6 +22,7 @@ usr/lib/kde4/htmlthumbnail.so
 usr/lib/kde4/imagethumbnail.so
 usr/lib/kde4/kcm_cgi.so
 usr/lib/kde4/kcm_componentchooser.so
+usr/lib/kde4/kcm_emoticons.so
 usr/lib/kde4/kcm_icons.so
 usr/lib/kde4/kcm_ioslaveinfo.so
 usr/lib/kde4/kcm_kded.so
@@ -76,5 +79,6 @@ usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
+usr/lib/libkdeinit4_khelpcenter.so
 usr/lib/libkdeinit4_kuiserver.so
 usr/lib/strigi/strigiindex_sopranobackend.so
