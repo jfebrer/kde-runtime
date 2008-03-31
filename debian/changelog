@@ -1,3 +1,11 @@
+kdebase-runtime (4:4.0.66+svn791114-2) experimental; urgency=low
+
+  * Some files conflicting with kde3 kdebase-data moved in from -workspace.
+    They also don't belong in runtime, but windows don't have workspace. Put
+    them in not-installed so far. This is post revision 792360.
+
+ -- Sune Vuorela <debian@pusling.com>  Tue, 01 Apr 2008 00:02:20 +0200
+
 kdebase-runtime (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged, this goes to experimental.
