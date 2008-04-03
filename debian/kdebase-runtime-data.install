@@ -291,7 +291,6 @@ usr/share/kde4/services/kcmnotify.desktop
 usr/share/kde4/services/kcm_phononxine.desktop
 usr/share/kde4/services/kded/kpasswdserver.desktop
 usr/share/kde4/services/kded/ktimezoned.desktop
-usr/share/kde4/services/kded/nepomukserver.desktop
 usr/share/kde4/services/kded/remotedirnotify.desktop
 usr/share/kde4/services/kded/soliduiserver.desktop
 usr/share/kde4/services/kmanpart.desktop

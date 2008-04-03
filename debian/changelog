@@ -1,10 +1,18 @@
-kdebase-runtime (4:4.0.66+svn791114-2) experimental; urgency=low
+kdebase-runtime (4:4.0.68-1) experimental; urgency=low
+
+  * New upstream snapshot.
+
+  +++ Changes by Sune Vuorela:
 
   * Some files conflicting with kde3 kdebase-data moved in from -workspace.
     They also don't belong in runtime, but windows don't have workspace. Put
     them in not-installed so far. This is post revision 792360.
 
- -- Sune Vuorela <debian@pusling.com>  Tue, 01 Apr 2008 00:02:20 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files. (TODO: add new files)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Apr 2008 23:42:16 +0200
 
 kdebase-runtime (4:4.0.66+svn791114-1) experimental; urgency=low
 

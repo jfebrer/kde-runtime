@@ -34,7 +34,6 @@ usr/lib/kde4/kcm_phononxine.so
 usr/lib/kde4/kcm_samba.so
 usr/lib/kde4/kded_kpasswdserver.so
 usr/lib/kde4/kded_ktimezoned.so
-usr/lib/kde4/kded_nepomukserver.so
 usr/lib/kde4/kded_remotedirnotify.so
 usr/lib/kde4/kded_soliduiserver.so
 usr/lib/kde4/kio_about.so
