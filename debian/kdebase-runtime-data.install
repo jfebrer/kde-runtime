@@ -4,9 +4,17 @@ etc/kde4/kshorturifilterrc
 etc/xdg/menus/kde4-information.menu
 usr/share/applications/kde4/Help.desktop
 usr/share/applications/kde4/knetattach.desktop
+usr/share/autostart/nepomukserver.desktop
+usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
 usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
+usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
+usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
+usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/desktop-directories/kde4-information.directory
+usr/share/doc/kde4/HTML/en/kcontrol/autostart/common
+usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/background/common
 usr/share/doc/kde4/HTML/en/kcontrol/background/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/background/index.docbook
@@ -41,6 +49,9 @@ usr/share/doc/kde4/HTML/en/kcontrol/ebrowsing/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/email/common
 usr/share/doc/kde4/HTML/en/kcontrol/email/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/email/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/emoticons/common
+usr/share/doc/kde4/HTML/en/kcontrol/emoticons/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/emoticons/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/energy/common
 usr/share/doc/kde4/HTML/en/kcontrol/energy/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/energy/index.docbook
@@ -302,6 +313,10 @@ usr/share/kde4/services/kurisearchfilter.desktop
 usr/share/kde4/services/language.desktop
 usr/share/kde4/services/localdomainurifilter.desktop
 usr/share/kde4/services/man.protocol
+usr/share/kde4/services/nepomukmigration1.desktop
+usr/share/kde4/services/nepomukontologyloader.desktop
+usr/share/kde4/services/nepomukstorage.desktop
+usr/share/kde4/services/nepomukstrigiservice.desktop
 usr/share/kde4/services/nfs.protocol
 usr/share/kde4/services/phononbackends/xine.desktop
 usr/share/kde4/services/programs.protocol
@@ -412,6 +427,7 @@ usr/share/kde4/services/textthumbnail.desktop
 usr/share/kde4/services/thumbnail.protocol
 usr/share/kde4/services/trash.protocol
 usr/share/kde4/services/zip.protocol
+usr/share/kde4/servicetypes/nepomukservice.desktop
 usr/share/kde4/servicetypes/searchprovider.desktop
 usr/share/kde4/servicetypes/thumbcreator.desktop
 usr/share/sounds/KDE-Im-Cant-Connect.ogg

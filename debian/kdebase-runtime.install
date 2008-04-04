@@ -1,9 +1,11 @@
 usr/bin/kcmshell4
+usr/bin/kde4
 usr/bin/kde4-menu
 usr/bin/kde-cp
 usr/bin/kde-mv
 usr/bin/kde-open
 usr/bin/kfile4
+usr/bin/khelpcenter
 usr/bin/khotnewstuff4
 usr/bin/kiconfinder
 usr/bin/kioclient
@@ -14,6 +16,8 @@ usr/bin/ksvgtopng4
 usr/bin/ktraderclient
 usr/bin/ktrash4
 usr/bin/kuiserver
+usr/bin/nepomukserver
+usr/bin/nepomukservicestub
 usr/bin/solid-hardware
 usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so
@@ -73,6 +77,10 @@ usr/lib/kde4/libkurisearchfilter.so
 usr/lib/kde4/liblocaldomainurifilter.so
 usr/lib/kde4/librenaudioplugin.so
 usr/lib/kde4/librenimageplugin.so
+usr/lib/kde4/nepomukmigration1.so
+usr/lib/kde4/nepomukontologyloader.so
+usr/lib/kde4/nepomukstorage.so
+usr/lib/kde4/nepomukstrigiservice.so
 usr/lib/kde4/phonon_xine.so
 usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
@@ -80,4 +88,5 @@ usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
 usr/lib/libkdeinit4_khelpcenter.so
 usr/lib/libkdeinit4_kuiserver.so
+usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/strigi/strigiindex_sopranobackend.so

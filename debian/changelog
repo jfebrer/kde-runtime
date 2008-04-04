@@ -10,7 +10,7 @@ kdebase-runtime (4:4.0.68-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update installed files. (TODO: add new files)
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Apr 2008 23:42:16 +0200
 
