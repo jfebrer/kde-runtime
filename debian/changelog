@@ -1,3 +1,10 @@
+kdebase-runtime (4:4.0.70+svn799089-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Add libstreamanalyzer-dev build dependency.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 16:58:40 +0200
+
 kdebase-runtime (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot.
