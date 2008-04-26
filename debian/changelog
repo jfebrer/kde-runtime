@@ -8,7 +8,7 @@ kdebase-runtime (4:4.0.71+svn801028-1~pre1) UNRELEASED; urgency=low
     - kdebase-runtime.install: 2 new file(s) added; 3 file(s) removed;
     - kdebase-runtime-data-common.install: 1 new file(s) added;
 
-  +++ Changes by Fathi Bourda:
+  +++ Changes by Fathi Boudra:
 
   * Add libstreamanalyzer-dev build dependency.
 
