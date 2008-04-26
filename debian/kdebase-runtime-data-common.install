@@ -1,3 +1,4 @@
+usr/share/icons/default.kde4
 usr/share/icons/hicolor/128x128/apps/knetattach.png
 usr/share/icons/hicolor/16x16/apps/knetattach.png
 usr/share/icons/hicolor/22x22/apps/knetattach.png
@@ -6,6 +7,8 @@ usr/share/icons/hicolor/48x48/apps/knetattach.png
 usr/share/icons/hicolor/64x64/apps/knetattach.png
 usr/share/icons/hicolor/scalable/apps/knetattach.svgz
 usr/share/locale/en_US/entry.desktop
+usr/share/locale/l10n/C/entry.desktop
+usr/share/locale/l10n/C/flag.png
 usr/share/locale/l10n/ad/entry.desktop
 usr/share/locale/l10n/ad/flag.png
 usr/share/locale/l10n/ae/entry.desktop
@@ -85,10 +88,8 @@ usr/share/locale/l10n/centralafrica.desktop
 usr/share/locale/l10n/centralamerica.desktop
 usr/share/locale/l10n/centralasia.desktop
 usr/share/locale/l10n/centraleurope.desktop
-usr/share/locale/l10n/C/entry.desktop
 usr/share/locale/l10n/cf/entry.desktop
 usr/share/locale/l10n/cf/flag.png
-usr/share/locale/l10n/C/flag.png
 usr/share/locale/l10n/cg/entry.desktop
 usr/share/locale/l10n/cg/flag.png
 usr/share/locale/l10n/ch/entry.desktop

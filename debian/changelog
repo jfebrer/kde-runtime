@@ -1,9 +1,24 @@
-kdebase-runtime (4:4.0.70+svn799089-1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.71+svn801028-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r801028 by lunakl
+    - Date: Fri, 25 Apr 2008 23:50:21 -0000
+  * Corrections to *.install files:
+    - kdebase-runtime-data.install: 2 new file(s) added; 3 file(s) removed;
+    - kdebase-runtime.install: 2 new file(s) added; 3 file(s) removed;
+    - kdebase-runtime-data-common.install: 1 new file(s) added;
+
+  +++ Changes by Fathi Bourda:
+
   * Add libstreamanalyzer-dev build dependency.
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 16:58:40 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Add build dependencies on libopenexr-dev and libbz2-dev.
+  * Add 97_fix_target_link_libraries.diff to fix link failures.
+  * Add installgen files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 02:56:11 +0300
 
 kdebase-runtime (4:4.0.68+svn794641-1) experimental; urgency=low
 

@@ -1,0 +1,5 @@
+# Install exceptions first
+depends kdebase-runtime-bin-kde4
+
+mime:application/.* dst:usr/bin
+mime:application/x-.* dst:usr/lib

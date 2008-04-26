@@ -1,0 +1,4 @@
+# Discard everything related to khelpcenter at first
+depends first
+
+missing dst:khelpcenter

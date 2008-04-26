@@ -1,9 +1,9 @@
 usr/bin/kcmshell4
-usr/bin/kde4
-usr/bin/kde4-menu
 usr/bin/kde-cp
 usr/bin/kde-mv
 usr/bin/kde-open
+usr/bin/kde4
+usr/bin/kde4-menu
 usr/bin/kfile4
 usr/bin/khotnewstuff4
 usr/bin/kiconfinder
@@ -18,7 +18,6 @@ usr/bin/kuiserver
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
 usr/bin/solid-hardware
-usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so
 usr/lib/kde4/exrthumbnail.so
 usr/lib/kde4/htmlthumbnail.so
@@ -27,14 +26,13 @@ usr/lib/kde4/kcm_cgi.so
 usr/lib/kde4/kcm_componentchooser.so
 usr/lib/kde4/kcm_emoticons.so
 usr/lib/kde4/kcm_icons.so
-usr/lib/kde4/kcm_ioslaveinfo.so
 usr/lib/kde4/kcm_kded.so
 usr/lib/kde4/kcm_kdnssd.so
 usr/lib/kde4/kcm_knotify.so
 usr/lib/kde4/kcm_locale.so
 usr/lib/kde4/kcm_nepomuk.so
 usr/lib/kde4/kcm_phononxine.so
-usr/lib/kde4/kcm_samba.so
+usr/lib/kde4/kded_desktopnotifier.so
 usr/lib/kde4/kded_kpasswdserver.so
 usr/lib/kde4/kded_ktimezoned.so
 usr/lib/kde4/kded_remotedirnotify.so
@@ -42,6 +40,7 @@ usr/lib/kde4/kded_soliduiserver.so
 usr/lib/kde4/kio_about.so
 usr/lib/kde4/kio_archive.so
 usr/lib/kde4/kio_cgi.so
+usr/lib/kde4/kio_desktop.so
 usr/lib/kde4/kio_filter.so
 usr/lib/kde4/kio_finger.so
 usr/lib/kde4/kio_fish.so
