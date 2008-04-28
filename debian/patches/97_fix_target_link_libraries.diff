@@ -140,12 +140,15 @@
  #install(TARGETS trash LIBRARY DESTINATION ${LIB_INSTALL_DIR}/strigi)
 --- kdebase-runtime-4.0.71+svn801028.orig/kpasswdserver/CMakeLists.txt	2008-04-26 01:09:51.000000000 +0300
 +++ kdebase-runtime-4.0.71+svn801028/kpasswdserver/CMakeLists.txt	2008-04-26 01:10:17.000000000 +0300
-@@ -2,7 +2,7 @@
+@@ -2,7 +2,10 @@
  
  kde4_add_plugin(kded_kpasswdserver ${kded_kpasswdserver_SRCS})
  
 -target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY})
-+target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTDBUS_LIBRARY} ${X11_X11_LIB} )
++target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTDBUS_LIBRARY})
++if (X11_FOUND)
++    target_link_libraries(kded_kpasswdserver ${X11_X11_LIB})
++end (X11_FOUND)
  
  install(TARGETS kded_kpasswdserver  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
