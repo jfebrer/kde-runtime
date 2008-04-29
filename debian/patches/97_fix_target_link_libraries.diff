@@ -148,7 +148,7 @@
 +target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTDBUS_LIBRARY})
 +if (X11_FOUND)
 +    target_link_libraries(kded_kpasswdserver ${X11_X11_LIB})
-+end (X11_FOUND)
++endif (X11_FOUND)
  
  install(TARGETS kded_kpasswdserver  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
