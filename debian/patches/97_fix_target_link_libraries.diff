@@ -1,5 +1,5 @@
---- kdebase-runtime-4.0.71+svn801028.orig/kcmshell/CMakeLists.txt	2008-04-26 01:25:02.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcmshell/CMakeLists.txt	2008-04-26 01:25:07.000000000 +0300
+--- a/kcmshell/CMakeLists.txt
++++ b/kcmshell/CMakeLists.txt
 @@ -3,7 +3,7 @@
  
  kde4_add_kdeinit_executable( kcmshell4 ${kcmshell_KDEINIT_SRCS})
@@ -9,8 +9,8 @@
  
  install(TARGETS kdeinit_kcmshell4  ${INSTALL_TARGETS_DEFAULT_ARGS})
  install(TARGETS kcmshell4          ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/componentchooser/CMakeLists.txt	2008-04-26 01:16:15.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/componentchooser/CMakeLists.txt	2008-04-26 01:16:23.000000000 +0300
+--- a/kcontrol/componentchooser/CMakeLists.txt
++++ b/kcontrol/componentchooser/CMakeLists.txt
 @@ -21,7 +21,7 @@
  kde4_add_plugin(kcm_componentchooser ${kcm_componentchooser_PART_SRCS})
  
@@ -20,8 +20,8 @@
  
  install(TARGETS kcm_componentchooser  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/dnssd/CMakeLists.txt	2008-04-26 01:22:25.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/dnssd/CMakeLists.txt	2008-04-26 01:23:06.000000000 +0300
+--- a/kcontrol/dnssd/CMakeLists.txt
++++ b/kcontrol/dnssd/CMakeLists.txt
 @@ -11,7 +11,7 @@
  kde4_add_plugin(kcm_kdnssd ${kcm_kdnssd_PART_SRCS})
  
@@ -31,8 +31,8 @@
  
  install(TARGETS kcm_kdnssd  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/emoticons/CMakeLists.txt	2008-04-26 01:23:56.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/emoticons/CMakeLists.txt	2008-04-26 01:24:11.000000000 +0300
+--- a/kcontrol/emoticons/CMakeLists.txt
++++ b/kcontrol/emoticons/CMakeLists.txt
 @@ -2,7 +2,7 @@
  kde4_add_ui_files(kcmemoticons_SRCS emoticonslist.ui)
  
@@ -42,8 +42,8 @@
  
  install(TARGETS kcm_emoticons  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/icons/CMakeLists.txt	2008-04-26 01:13:03.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/icons/CMakeLists.txt	2008-04-26 01:13:15.000000000 +0300
+--- a/kcontrol/icons/CMakeLists.txt
++++ b/kcontrol/icons/CMakeLists.txt
 @@ -9,7 +9,7 @@
  kde4_add_plugin(kcm_icons ${kcm_icons_PART_SRCS})
  
@@ -53,8 +53,8 @@
  
  install(TARGETS kcm_icons  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/kded/CMakeLists.txt	2008-04-26 01:14:36.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/kded/CMakeLists.txt	2008-04-26 01:14:41.000000000 +0300
+--- a/kcontrol/kded/CMakeLists.txt
++++ b/kcontrol/kded/CMakeLists.txt
 @@ -9,7 +9,7 @@
  kde4_add_plugin(kcm_kded ${kcm_kded_PART_SRCS})
  
@@ -64,8 +64,8 @@
  
  install(TARGETS kcm_kded  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kcontrol/knotify/CMakeLists.txt	2008-04-26 01:15:18.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kcontrol/knotify/CMakeLists.txt	2008-04-26 01:15:24.000000000 +0300
+--- a/kcontrol/knotify/CMakeLists.txt
++++ b/kcontrol/knotify/CMakeLists.txt
 @@ -9,7 +9,7 @@
  kde4_add_plugin(kcm_knotify ${kcm_knotify_PART_SRCS})
  
@@ -75,8 +75,8 @@
  
  install(TARGETS kcm_knotify  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/khelpcenter/CMakeLists.txt	2008-04-26 00:58:13.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/khelpcenter/CMakeLists.txt	2008-04-26 00:58:42.000000000 +0300
+--- a/khelpcenter/CMakeLists.txt
++++ b/khelpcenter/CMakeLists.txt
 @@ -58,7 +58,7 @@
      install(TARGETS khelpcenter ${INSTALL_TARGETS_DEFAULT_ARGS})
  else (WIN32)
@@ -86,8 +86,8 @@
      install(TARGETS kdeinit_khelpcenter  ${INSTALL_TARGETS_DEFAULT_ARGS} )
      install(TARGETS khelpcenter ${INSTALL_TARGETS_DEFAULT_ARGS})
  endif (WIN32)
---- kdebase-runtime-4.0.71+svn801028.orig/kioslave/desktop/CMakeLists.txt	2008-04-26 01:08:07.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kioslave/desktop/CMakeLists.txt	2008-04-26 01:08:21.000000000 +0300
+--- a/kioslave/desktop/CMakeLists.txt
++++ b/kioslave/desktop/CMakeLists.txt
 @@ -4,7 +4,7 @@
  
  kde4_add_plugin(kio_desktop  ${kio_desktop_PART_SRCS})
@@ -97,8 +97,8 @@
  
  install(TARGETS kio_desktop DESTINATION  ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kioslave/remote/kdedmodule/CMakeLists.txt	2008-04-26 01:04:32.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kioslave/remote/kdedmodule/CMakeLists.txt	2008-04-26 01:04:42.000000000 +0300
+--- a/kioslave/remote/kdedmodule/CMakeLists.txt
++++ b/kioslave/remote/kdedmodule/CMakeLists.txt
 @@ -9,7 +9,7 @@
  kde4_add_plugin(kded_remotedirnotify ${kded_remotedirnotify_PART_SRCS})
  
@@ -108,8 +108,8 @@
  
  install(TARGETS kded_remotedirnotify  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kioslave/thumbnail/CMakeLists.txt	2008-04-26 01:06:57.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kioslave/thumbnail/CMakeLists.txt	2008-04-26 01:07:20.000000000 +0300
+--- a/kioslave/thumbnail/CMakeLists.txt
++++ b/kioslave/thumbnail/CMakeLists.txt
 @@ -28,7 +28,7 @@
  
  kde4_add_plugin(svgthumbnail ${svgthumbnail_PART_SRCS})
@@ -119,8 +119,8 @@
  
  install(TARGETS svgthumbnail DESTINATION ${PLUGIN_INSTALL_DIR})
  
---- kdebase-runtime-4.0.71+svn801028.orig/kioslave/trash/CMakeLists.txt	2008-04-26 01:02:37.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kioslave/trash/CMakeLists.txt	2008-04-26 01:03:34.000000000 +0300
+--- a/kioslave/trash/CMakeLists.txt
++++ b/kioslave/trash/CMakeLists.txt
 @@ -14,14 +14,14 @@
  kde4_add_plugin(kio_trash ${kio_trash_PART_SRCS})
  
@@ -138,8 +138,8 @@
  set_target_properties(trash PROPERTIES
      PREFIX strigita_)
  #install(TARGETS trash LIBRARY DESTINATION ${LIB_INSTALL_DIR}/strigi)
---- kdebase-runtime-4.0.71+svn801028.orig/kpasswdserver/CMakeLists.txt	2008-04-26 01:09:51.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kpasswdserver/CMakeLists.txt	2008-04-26 01:10:17.000000000 +0300
+--- a/kpasswdserver/CMakeLists.txt
++++ b/kpasswdserver/CMakeLists.txt
 @@ -2,7 +2,10 @@
  
  kde4_add_plugin(kded_kpasswdserver ${kded_kpasswdserver_SRCS})
@@ -152,8 +152,8 @@
  
  install(TARGETS kded_kpasswdserver  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kstyles/oxygen/CMakeLists.txt	2008-04-26 01:34:23.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kstyles/oxygen/CMakeLists.txt	2008-04-26 01:34:27.000000000 +0300
+--- a/kstyles/oxygen/CMakeLists.txt
++++ b/kstyles/oxygen/CMakeLists.txt
 @@ -16,7 +16,7 @@
  
  kde4_add_plugin(oxygen ${oxygen_PART_SRCS})
@@ -163,8 +163,8 @@
  
  install(TARGETS oxygen  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/styles/ )
  
---- kdebase-runtime-4.0.71+svn801028.orig/ktimezoned/CMakeLists.txt	2008-04-26 01:11:26.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/ktimezoned/CMakeLists.txt	2008-04-26 01:11:43.000000000 +0300
+--- a/ktimezoned/CMakeLists.txt
++++ b/ktimezoned/CMakeLists.txt
 @@ -5,7 +5,7 @@
  
  #qt4_add_dbus_adaptor(kded_ktimezoned_SRCS org.kde.KTimeZoned ktimezonedbus.h DBusHandler)
@@ -174,8 +174,8 @@
  
  install(TARGETS kded_ktimezoned DESTINATION ${PLUGIN_INSTALL_DIR})
  
---- kdebase-runtime-4.0.71+svn801028.orig/kuiserver/CMakeLists.txt	2008-04-26 00:55:03.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kuiserver/CMakeLists.txt	2008-04-26 00:55:16.000000000 +0300
+--- a/kuiserver/CMakeLists.txt
++++ b/kuiserver/CMakeLists.txt
 @@ -20,7 +20,7 @@
  
  kde4_add_kdeinit_executable( kuiserver ${kuiserver_KDEINIT_SRCS})
@@ -185,8 +185,8 @@
  install(TARGETS kdeinit_kuiserver ${INSTALL_TARGETS_DEFAULT_ARGS})
  
  target_link_libraries( kuiserver kdeinit_kuiserver )
---- kdebase-runtime-4.0.71+svn801028.orig/kurifilter-plugins/ikws/CMakeLists.txt	2008-04-26 01:28:25.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kurifilter-plugins/ikws/CMakeLists.txt	2008-04-26 01:29:38.000000000 +0300
+--- a/kurifilter-plugins/ikws/CMakeLists.txt
++++ b/kurifilter-plugins/ikws/CMakeLists.txt
 @@ -13,7 +13,7 @@
  kde4_add_plugin(kuriikwsfilter WITH_PREFIX ${kuriikwsfilter_PART_SRCS})
  
@@ -205,8 +205,8 @@
  
  install(TARGETS kurisearchfilter  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/kurifilter-plugins/localdomain/CMakeLists.txt	2008-04-26 01:27:37.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kurifilter-plugins/localdomain/CMakeLists.txt	2008-04-26 01:27:42.000000000 +0300
+--- a/kurifilter-plugins/localdomain/CMakeLists.txt
++++ b/kurifilter-plugins/localdomain/CMakeLists.txt
 @@ -4,7 +4,7 @@
  
  kde4_add_plugin(localdomainurifilter WITH_PREFIX ${localdomainurifilter_PART_SRCS})
@@ -216,8 +216,8 @@
  if (HAVE_NSL_LIBRARY)
  target_link_libraries(localdomainurifilter nsl)
  endif (HAVE_NSL_LIBRARY)
---- kdebase-runtime-4.0.71+svn801028.orig/kurifilter-plugins/shorturi/CMakeLists.txt	2008-04-26 01:30:27.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/kurifilter-plugins/shorturi/CMakeLists.txt	2008-04-26 01:30:31.000000000 +0300
+--- a/kurifilter-plugins/shorturi/CMakeLists.txt
++++ b/kurifilter-plugins/shorturi/CMakeLists.txt
 @@ -9,7 +9,7 @@
  kde4_add_plugin(kshorturifilter WITH_PREFIX ${kshorturifilter_PART_SRCS})
  
@@ -227,8 +227,8 @@
  
  install(TARGETS kshorturifilter  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase-runtime-4.0.71+svn801028.orig/nepomuk/kcm/CMakeLists.txt	2008-04-26 01:39:56.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/nepomuk/kcm/CMakeLists.txt	2008-04-26 01:40:18.000000000 +0300
+--- a/nepomuk/kcm/CMakeLists.txt
++++ b/nepomuk/kcm/CMakeLists.txt
 @@ -27,6 +27,7 @@
    ${STRIGI_STRIGIQTDBUSCLIENT_LIBRARY}
    ${QT_QTCORE_LIBRARY}
@@ -237,8 +237,8 @@
    ${KDE4_KDECORE_LIBS}
    ${KDE4_KDEUI_LIBS}
    ${KDE4_KIO_LIBS}
---- kdebase-runtime-4.0.71+svn801028.orig/nepomuk/services/strigi/CMakeLists.txt	2008-04-26 01:42:06.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/nepomuk/services/strigi/CMakeLists.txt	2008-04-26 01:43:05.000000000 +0300
+--- a/nepomuk/services/strigi/CMakeLists.txt
++++ b/nepomuk/services/strigi/CMakeLists.txt
 @@ -20,6 +20,8 @@
  target_link_libraries(nepomukstrigiservice
    ${STRIGI_STRIGIQTDBUSCLIENT_LIBRARY}
@@ -248,8 +248,8 @@
    ${KDE4_KDECORE_LIBS}
    ${KDE4_KDEUI_LIBS}
    ${NEPOMUK_LIBRARIES}
---- kdebase-runtime-4.0.71+svn801028.orig/phonon/xine/kcm/CMakeLists.txt	2008-04-26 01:32:55.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/phonon/xine/kcm/CMakeLists.txt	2008-04-26 01:33:01.000000000 +0300
+--- a/phonon/xine/kcm/CMakeLists.txt
++++ b/phonon/xine/kcm/CMakeLists.txt
 @@ -4,7 +4,7 @@
  include_directories(${XINE_INCLUDE_DIR})
  
@@ -259,8 +259,8 @@
  install(TARGETS kcm_phononxine DESTINATION ${PLUGIN_INSTALL_DIR})
  
  install(FILES kcm_phononxine.desktop DESTINATION ${SERVICES_INSTALL_DIR})
---- kdebase-runtime-4.0.71+svn801028.orig/soliduiserver/CMakeLists.txt	2008-04-26 01:26:34.000000000 +0300
-+++ kdebase-runtime-4.0.71+svn801028/soliduiserver/CMakeLists.txt	2008-04-26 01:26:44.000000000 +0300
+--- a/soliduiserver/CMakeLists.txt
++++ b/soliduiserver/CMakeLists.txt
 @@ -13,7 +13,7 @@
  kde4_add_plugin(kded_soliduiserver ${kded_soliduiserver_SRCS})
  

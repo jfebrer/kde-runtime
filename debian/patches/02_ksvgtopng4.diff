@@ -11,8 +11,8 @@
 +target_link_libraries(ksvgtopng4 ${KDE4_KDEUI_LIBS})
 +install(TARGETS ksvgtopng4 DESTINATION ${BIN_INSTALL_DIR})
  
- ########### next target ###############
- 
+ # create a symlink for the default icon theme,
+ # so that fallbacks work even for themes that don't inherit from oxygen
 --- a/pics/ksvgtopng.cpp
 +++ b/pics/ksvgtopng.cpp
 @@ -12,7 +12,7 @@

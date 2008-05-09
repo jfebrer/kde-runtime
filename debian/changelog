@@ -1,8 +1,6 @@
-kdebase-runtime (4:4.0.72+svn804272-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.73-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r804272 by dfaure
-    - Date: Mon, 05 May 2008 15:19:13 -0000
+  * New upstream development snapshot.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 18:36:28 +0300
 
