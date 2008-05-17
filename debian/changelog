@@ -1,3 +1,9 @@
+kdebase-runtime (4:4.0.74-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 May 2008 13:38:34 +0200
+
 kdebase-runtime (4:4.0.73+svn807734-1) experimental; urgency=low
 
   * New upstream development snapshot:
