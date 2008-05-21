@@ -1,3 +1,13 @@
+kdebase-runtime (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development milestone (KDE 4.1 Beta1).
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync 97th patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2008 02:15:34 +0300
+
 kdebase-runtime (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.

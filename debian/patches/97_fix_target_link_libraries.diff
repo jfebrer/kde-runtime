@@ -37,8 +37,8 @@
  kde4_add_ui_files(kcmemoticons_SRCS emoticonslist.ui)
  
  kde4_add_plugin(kcm_emoticons ${kcmemoticons_SRCS})
--target_link_libraries(kcm_emoticons ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KNEWSTUFF2_LIBS})
-+target_link_libraries(kcm_emoticons ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KNEWSTUFF2_LIBS} ${QT_QTXML_LIBRARY})
+-target_link_libraries(kcm_emoticons ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KNEWSTUFF2_LIBS} ${KDE4_KUTILS_LIBRARY})
++target_link_libraries(kcm_emoticons ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KNEWSTUFF2_LIBS} ${KDE4_KUTILS_LIBRARY} ${QT_QTXML_LIBRARY})
  
  install(TARGETS kcm_emoticons  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
@@ -154,7 +154,7 @@
  
 --- a/kstyles/oxygen/CMakeLists.txt
 +++ b/kstyles/oxygen/CMakeLists.txt
-@@ -16,7 +16,7 @@
+@@ -17,7 +17,7 @@
  
  kde4_add_plugin(oxygen ${oxygen_PART_SRCS})
  
@@ -229,25 +229,28 @@
  
 --- a/nepomuk/kcm/CMakeLists.txt
 +++ b/nepomuk/kcm/CMakeLists.txt
-@@ -27,6 +27,7 @@
+@@ -23,6 +23,9 @@
+ 
+ target_link_libraries(kcm_nepomuk
    ${STRIGI_STRIGIQTDBUSCLIENT_LIBRARY}
-   ${QT_QTCORE_LIBRARY}
-   ${QT_QTDBUS_LIBRARY}
++  ${QT_QTDBUS_LIBRARY}
 +  ${QT_QTXML_LIBRARY}
-   ${KDE4_KDECORE_LIBS}
++  ${KDE4_KDECORE_LIBS}
    ${KDE4_KDEUI_LIBS}
    ${KDE4_KIO_LIBS}
+   )
 --- a/nepomuk/services/strigi/CMakeLists.txt
 +++ b/nepomuk/services/strigi/CMakeLists.txt
-@@ -20,6 +20,8 @@
+@@ -17,6 +17,9 @@
+ 
  target_link_libraries(nepomukstrigiservice
    ${STRIGI_STRIGIQTDBUSCLIENT_LIBRARY}
-   ${QT_QTCORE_LIBRARY}
 +  ${QT_QTXML_LIBRARY}
 +  ${QT_QTDBUS_LIBRARY}
-   ${KDE4_KDECORE_LIBS}
++  ${KDE4_KDECORE_LIBS}
    ${KDE4_KDEUI_LIBS}
    ${NEPOMUK_LIBRARIES}
+   )
 --- a/phonon/xine/kcm/CMakeLists.txt
 +++ b/phonon/xine/kcm/CMakeLists.txt
 @@ -4,7 +4,7 @@
