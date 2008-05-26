@@ -1,7 +1,5 @@
 # Process common stuff first, then what's left goes here
 depends last
 
-missing dst:usr/share/desktop-directories/
-
 dst:etc/
 dst:usr/share/
