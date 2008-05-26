@@ -6,4 +6,3 @@ missing dst:usr/share/icons/hicolor/index.theme
 dst:usr/share/icons
 dst:usr/share/locale
 dst:usr/share/man
-dst:usr/share/desktop-directories/
