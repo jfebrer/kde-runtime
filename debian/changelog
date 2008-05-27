@@ -1,10 +1,12 @@
-kdebase-runtime (4:4.0.80-2~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.80-2~pre2) UNRELEASED; urgency=low
 
   +++ Changes by Modestas Vainius:
 
   * Install desktop-directory files to kdebase-runtime-data-common (37 files).
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 May 2008 16:52:07 +0300
+  * Bump kdepimlibs5-dev and libphonon-dev build dependencies to 4.0.80
+    (Closes: #483117)
+ 
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 11:51:11 +0300
 
 kdebase-runtime (4:4.0.80-1) experimental; urgency=low
 
