@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.0.80-2~pre3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -12,7 +12,7 @@ kdebase-runtime (4:4.0.80-2~pre3) UNRELEASED; urgency=low
       Help.desktop and org.kde.khelpcenter.kcmhelpcenter.xml, kdebase-runtime
       due to libkdeinit4_khelpcenter.so. Update respective install files.
  
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:50:18 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 22:22:42 +0200
 
 kdebase-runtime (4:4.0.80-1) experimental; urgency=low
 
