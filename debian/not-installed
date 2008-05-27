@@ -1,5 +1,2 @@
 # Files not installed because they conflict with hicolor-icon-theme:
 ./usr/share/icons/hicolor/index.theme
-
-# Do not ship khelpcenter for now, KDE 4 does not contain any help anyway,
-# and it is updating KDE 3's khelpcenter.

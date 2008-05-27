@@ -4,8 +4,10 @@ usr/share/applications/kde4/Help.desktop
 usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
 usr/share/doc/kde4/HTML/en/khelpcenter/background.png
 usr/share/doc/kde4/HTML/en/khelpcenter/bgtable.png
+usr/share/doc/kde4/HTML/en/khelpcenter/common
 usr/share/doc/kde4/HTML/en/khelpcenter/contact.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/about.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/faq/common
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/configkde.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/contrib.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/desktop.docbook
@@ -27,6 +29,7 @@ usr/share/doc/kde4/HTML/en/khelpcenter/faq/sound.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/tips.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/webbrowse.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/faq/winmng.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/glossary/common
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/glossary/kdeprintingglossary.docbook
@@ -38,6 +41,7 @@ usr/share/doc/kde4/HTML/en/khelpcenter/khelpcenter.png
 usr/share/doc/kde4/HTML/en/khelpcenter/lines.png
 usr/share/doc/kde4/HTML/en/khelpcenter/lines2.png
 usr/share/doc/kde4/HTML/en/khelpcenter/pointers.png
+usr/share/doc/kde4/HTML/en/khelpcenter/quickstart/common
 usr/share/doc/kde4/HTML/en/khelpcenter/quickstart/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/quickstart/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/shadow1.png
@@ -49,6 +53,7 @@ usr/share/doc/kde4/HTML/en/khelpcenter/userguide/amarok.png
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/base-kde-applications.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/browser-fine-tuning.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/burning-cds.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/userguide/common
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/control-center.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/creating-graphics.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/credits-and-license.docbook
@@ -125,6 +130,7 @@ usr/share/doc/kde4/HTML/en/khelpcenter/userguide/usenet.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/where-next.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/windows-how-to.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/userguide/your-kde-account.docbook
+usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/common
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/index.cache.bz2
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/index.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict1.png

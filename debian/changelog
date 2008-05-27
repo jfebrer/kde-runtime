@@ -5,8 +5,11 @@ kdebase-runtime (4:4.0.80-2~pre2) UNRELEASED; urgency=low
   * Install desktop-directory files to kdebase-runtime-data-common (37 files).
   * Bump kdepimlibs5-dev and libphonon-dev build dependencies to 4.0.80
     (Closes: #483117)
+  * Revive khelpcenter (from r9108) as khelpcenter4 package. Make it conflict
+    with khelpcenter (KDE3). Make kdebase-runtime-data-common recommend
+    khelpcenter4.
  
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 11:51:11 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:39:49 +0300
 
 kdebase-runtime (4:4.0.80-1) experimental; urgency=low
 

@@ -62,6 +62,7 @@ Description: shared data files for the KDE 4 base runtime module
 Package: kdebase-runtime-data-common
 Section: kde
 Architecture: all
+Recommends: khelpcenter4
 Replaces: kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1)
 Conflicts: kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1)
 Description: shared data files for the KDE 4 base runtime module 
@@ -70,6 +71,19 @@ Description: shared data files for the KDE 4 base runtime module
  .
  The files contained in this package can also be found in the KDE 3
  'kdebase-data' package.
+ .
+ This package is part of the KDE 4 base runtime module.
+
+Package: khelpcenter4
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Recommends: htdig
+Conflicts: khelpcenter
+Description: Help Center for KDE 4
+ The KDE Help Center displays documentation on how to use the KDE 4 desktop and
+ applications, as well as UNIX man and info pages.
+ It can search through documentation using the 'htdig' package.
  .
  This package is part of the KDE 4 base runtime module.
 
