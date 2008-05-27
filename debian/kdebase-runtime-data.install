@@ -3,12 +3,10 @@ etc/kde4/icons.knsrc
 etc/kde4/khotnewstuff.knsrc
 etc/kde4/kshorturifilterrc
 etc/xdg/menus/kde4-information.menu
-usr/share/applications/kde4/Help.desktop
 usr/share/applications/kde4/knetattach.desktop
 usr/share/autostart/nepomukserver.desktop
 usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
 usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
-usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
 usr/share/dbus-1/services/org.kde.knotify.service

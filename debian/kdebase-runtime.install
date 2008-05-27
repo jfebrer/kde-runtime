@@ -84,7 +84,6 @@ usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
-usr/lib/libkdeinit4_khelpcenter.so
 usr/lib/libkdeinit4_kuiserver.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/strigi/strigiindex_sopranobackend.so

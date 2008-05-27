@@ -79,6 +79,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: htdig
+Replaces: kdebase-runtime-data (<< 4:4.0.80-2), kdebase-runtime (<< 4:4.0.80-2)
 Conflicts: khelpcenter
 Description: Help Center for KDE 4
  The KDE Help Center displays documentation on how to use the KDE 4 desktop and
