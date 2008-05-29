@@ -1,3 +1,22 @@
+kdebase-runtime (4:4.0.81+svn813996-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r813996 by gaurav
+    - Date: Thu, 29 May 2008 11:45:17 -0000
+  * Update install files:
+    - kdebase-runtime-data.install: 19 new file(s) added; 40 file(s) removed;
+    - kdebase-runtime.install: 6 new file(s) added;
+
+  +++ Changes by Modestas Vainius:
+
+  * Build depend on libasound2-dev on linux arches.
+  * Add replaces with kdelibs5* due to moved phonon stuff.
+  * Bump kdelibs5 build depends version. No longer depend on phonon, it's
+    implied via kdelibs5-dev dependancy.
+  * !! DO NOT install kaudiodevicelist development files for now. !!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 15:00:45 +0300
+
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
