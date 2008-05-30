@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.0.81+svn813996-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.81+svn814482+1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
     - The latest upstream commit is r813996 by gaurav
@@ -15,7 +15,11 @@ kdebase-runtime (4:4.0.81+svn813996-1~pre1) UNRELEASED; urgency=low
     implied via kdelibs5-dev dependancy.
   * !! DO NOT install kaudiodevicelist development files for now. !!
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 15:00:45 +0300
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * More update on installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 May 2008 19:42:59 +0200
 
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
