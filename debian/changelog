@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.0.81+svn814482+1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.81+svn814482-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
     - The latest upstream commit is r813996 by gaurav
