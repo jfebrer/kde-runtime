@@ -1,6 +1,6 @@
 --- a/kioslave/trash/CMakeLists.txt
 +++ b/kioslave/trash/CMakeLists.txt
-@@ -31,11 +31,11 @@
+@@ -35,11 +35,11 @@
  set(ktrash_SRCS ktrash.cpp )
  
  
