@@ -1,8 +1,6 @@
-kdebase-runtime (4:4.0.81+svn815042-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.81+svn816144-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r815042 by segato
-    - Date: Sun Jun 1 01:32:12 2008 UTC
+  * New upstream development snapshot.
   * Update install files:
     - kdebase-runtime-data.install: 19 new file(s) added; 40 file(s) removed;
     - kdebase-runtime.install: 6 new file(s) added;
