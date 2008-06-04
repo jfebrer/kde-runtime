@@ -1,7 +1,7 @@
-etc/kde4/emoticons.knsrc
-etc/kde4/icons.knsrc
-etc/kde4/khotnewstuff.knsrc
-etc/kde4/kshorturifilterrc
+usr/share/kde4/config/emoticons.knsrc
+usr/share/kde4/config/icons.knsrc
+usr/share/kde4/config/khotnewstuff.knsrc
+usr/share/kde4/config/kshorturifilterrc
 etc/xdg/menus/kde4-information.menu
 usr/share/applications/kde4/knetattach.desktop
 usr/share/autostart/nepomukserver.desktop
