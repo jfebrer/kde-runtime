@@ -1,8 +1,6 @@
 kdebase-runtime (4:4.0.81+svn818711-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r818711 by ilic
-    - Date: Mon, 09 Jun 2008 13:08:01 -0000
+  * New upstream development snapshot.
 
   * Update install files:
     - kdebase-runtime-data.install: 19 new file(s) added; 40 file(s) removed;
