@@ -1,8 +1,6 @@
 # Process exceptions first
 depends first
 
-missing dst:khelpcenter
-
 dst:usr/bin/kdebugdialog$
 dst:usr/bin/kreadconfig$
 dst:usr/bin/kstart$

@@ -1,7 +1,7 @@
 # Install exceptions first
-depends kdebase-runtime-bin-kde4
+depends kdebase-runtime-bin-kde4 khelpcenter4
 
-missing dst:usr/lib/libkaudiodevicelist.so
+missing dst:usr/lib/libkaudiodevicelist.so$
 
 stop dst:usr/lib/[^/]+\.so$ link:usr/lib/[^/]+\.so\.
 mime:application/.* dst:usr/bin
