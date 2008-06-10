@@ -1,10 +1,7 @@
-kdebase-runtime (4:4.0.81+svn819094-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-
-  * Update install files:
-    - kdebase-runtime-data.install: 19 new file(s) added; 40 file(s) removed;
-    - kdebase-runtime.install: 6 new file(s) added;
+  * Update install files.
 
   +++ Changes by Modestas Vainius:
 
@@ -13,12 +10,13 @@ kdebase-runtime (4:4.0.81+svn819094-1~pre1) UNRELEASED; urgency=low
   * Bump kdelibs5 build depends version. No longer depend on phonon, it's
     implied via kdelibs5-dev dependency.
   * Update 97_fix_target_link_libraries.diff.
+  * Add myself to Uploaders.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * More update on installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 16:26:28 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 22:02:31 +0300
 
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
