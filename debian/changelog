@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.0.81+svn818711-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.81+svn819094-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -13,7 +13,6 @@ kdebase-runtime (4:4.0.81+svn818711-1~pre1) UNRELEASED; urgency=low
   * Bump kdelibs5 build depends version. No longer depend on phonon, it's
     implied via kdelibs5-dev dependency.
   * Update 97_fix_target_link_libraries.diff.
-  * !! DO NOT install kaudiodevicelist development files for now. !!
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 

@@ -87,7 +87,6 @@ usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
-usr/lib/libkaudiodevicelist.so
 usr/lib/libkaudiodevicelist.so.4
 usr/lib/libkaudiodevicelist.so.4.1.0
 usr/lib/libkdeinit4_kcmshell4.so
