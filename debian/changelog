@@ -11,7 +11,7 @@ kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
     implied via kdelibs5-dev dependency.
   * Update 97_fix_target_link_libraries.diff.
   * Add myself to Uploaders.
-  * Exclude dependecy on phonon metapackage.
+  * Exclude dependancy on phonon metapackage.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
