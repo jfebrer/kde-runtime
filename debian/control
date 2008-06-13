@@ -113,6 +113,7 @@ Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: phonon-backend
+Replaces: kdebase-runtime-data (<< 4:4.0.80-2), kdebase-runtime (<< 4:4.0.80-2)
 Description: Phonon Xine 1.1.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
