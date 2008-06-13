@@ -107,3 +107,14 @@ Description: debugging symbols for KDE 4 base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
  issues.
+
+Package: phonon-backend-xine
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: phonon-backend
+Description: Phonon Xine 1.1.x backend
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the Xine 1.1.x backend for Phonon.

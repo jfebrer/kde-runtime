@@ -298,7 +298,6 @@ usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukstorage.desktop
 usr/share/kde4/services/nepomukstrigiservice.desktop
 usr/share/kde4/services/nfs.protocol
-usr/share/kde4/services/phononbackends/xine.desktop
 usr/share/kde4/services/programs.protocol
 usr/share/kde4/services/remote.protocol
 usr/share/kde4/services/renaudiodlg.desktop

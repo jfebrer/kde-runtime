@@ -16,7 +16,11 @@ kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
 
   * More update on installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 22:02:31 +0300
+  +++ Changes by Pino Toscano:
+
+  * Split the Xine backend of Phonon in an own phonon-backend-xine.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 Jun 2008 17:34:18 +0300
 
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
