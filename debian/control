@@ -22,7 +22,7 @@ Replaces: kdebase-bin (<< 4:4.0.0-1), kdelibs5 (<< 4:4.0.81)
 Conflicts: kdebluetooth (<< 1.0~beta7-1)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${source:Version}),
- kde-icons-oxygen (>= ${source:Version})
+ kde-icons-oxygen (>= ${source:Version}), phonon-backend-xine (>= ${source:Version})
 Description: runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
