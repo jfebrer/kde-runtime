@@ -11,6 +11,7 @@ kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
     implied via kdelibs5-dev dependency.
   * Update 97_fix_target_link_libraries.diff.
   * Add myself to Uploaders.
+  * Exclude dependecy on phonon metapackage.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -19,8 +20,9 @@ kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Split the Xine backend of Phonon in an own phonon-backend-xine.
+  * Install phonon-backend-xine by default.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 Jun 2008 17:34:18 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:01:34 +0300
 
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
