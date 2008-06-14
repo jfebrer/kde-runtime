@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.
   * Update install files.
@@ -15,14 +15,14 @@ kdebase-runtime (4:4.0.82+svn819150-1~pre1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * More update on installed files.
+  * More updates on installed files.
 
   +++ Changes by Pino Toscano:
 
   * Split the Xine backend of Phonon in an own phonon-backend-xine.
   * Install phonon-backend-xine by default.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:01:34 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 03:48:19 +0200
 
 kdebase-runtime (4:4.0.80-2) experimental; urgency=low
 
