@@ -259,6 +259,7 @@ usr/share/kde4/services/bzip.protocol
 usr/share/kde4/services/bzip2.protocol
 usr/share/kde4/services/cgi.protocol
 usr/share/kde4/services/componentchooser.desktop
+usr/share/kde4/services/cursorthumbnail.desktop
 usr/share/kde4/services/desktop.protocol
 usr/share/kde4/services/djvuthumbnail.desktop
 usr/share/kde4/services/emoticons.desktop

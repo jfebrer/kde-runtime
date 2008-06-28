@@ -1,14 +1,18 @@
+Index: b/kcmshell/CMakeLists.txt
+===================================================================
 --- a/kcmshell/CMakeLists.txt
 +++ b/kcmshell/CMakeLists.txt
 @@ -3,7 +3,7 @@
  
  kde4_add_kdeinit_executable( kcmshell4 ${kcmshell_KDEINIT_SRCS})
  
--target_link_libraries(kdeinit_kcmshell4 ${KDE4_KUTILS_LIBS} )
-+target_link_libraries(kdeinit_kcmshell4 ${KDE4_KUTILS_LIBS} ${QT_QTDBUS_LIBRARY} )
+-target_link_libraries(kdeinit_kcmshell4 ${KDE4_KUTILS_LIBS} ${KDE4_KDEUI_LIBS} )
++target_link_libraries(kdeinit_kcmshell4 ${KDE4_KUTILS_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTDBUS_LIBRARY} )
  
  install(TARGETS kdeinit_kcmshell4  ${INSTALL_TARGETS_DEFAULT_ARGS})
  install(TARGETS kcmshell4          ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kcontrol/componentchooser/CMakeLists.txt
+===================================================================
 --- a/kcontrol/componentchooser/CMakeLists.txt
 +++ b/kcontrol/componentchooser/CMakeLists.txt
 @@ -21,7 +21,7 @@
@@ -20,17 +24,21 @@
  
  install(TARGETS kcm_componentchooser  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kcontrol/dnssd/CMakeLists.txt
+===================================================================
 --- a/kcontrol/dnssd/CMakeLists.txt
 +++ b/kcontrol/dnssd/CMakeLists.txt
 @@ -11,7 +11,7 @@
  kde4_add_plugin(kcm_kdnssd ${kcm_kdnssd_PART_SRCS})
  
  
--target_link_libraries(kcm_kdnssd  ${KDE4_KDNSSD_LIBS} )
+-target_link_libraries(kcm_kdnssd  ${KDE4_KDNSSD_LIBS} ${KDE4_KDEUI_LIBS} )
 +target_link_libraries(kcm_kdnssd  ${KDE4_KDNSSD_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTDBUS_LIBRARY} )
  
  install(TARGETS kcm_kdnssd  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kcontrol/emoticons/CMakeLists.txt
+===================================================================
 --- a/kcontrol/emoticons/CMakeLists.txt
 +++ b/kcontrol/emoticons/CMakeLists.txt
 @@ -2,7 +2,7 @@
@@ -42,6 +50,8 @@
  
  install(TARGETS kcm_emoticons  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kcontrol/icons/CMakeLists.txt
+===================================================================
 --- a/kcontrol/icons/CMakeLists.txt
 +++ b/kcontrol/icons/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -53,6 +63,8 @@
  
  install(TARGETS kcm_icons  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kcontrol/kded/CMakeLists.txt
+===================================================================
 --- a/kcontrol/kded/CMakeLists.txt
 +++ b/kcontrol/kded/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -64,6 +76,8 @@
  
  install(TARGETS kcm_kded  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kcontrol/knotify/CMakeLists.txt
+===================================================================
 --- a/kcontrol/knotify/CMakeLists.txt
 +++ b/kcontrol/knotify/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -75,6 +89,8 @@
  
  install(TARGETS kcm_knotify  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/khelpcenter/CMakeLists.txt
+===================================================================
 --- a/khelpcenter/CMakeLists.txt
 +++ b/khelpcenter/CMakeLists.txt
 @@ -58,7 +58,7 @@
@@ -86,6 +102,8 @@
      install(TARGETS kdeinit_khelpcenter  ${INSTALL_TARGETS_DEFAULT_ARGS} )
      install(TARGETS khelpcenter ${INSTALL_TARGETS_DEFAULT_ARGS})
  endif (WIN32)
+Index: b/kioslave/desktop/CMakeLists.txt
+===================================================================
 --- a/kioslave/desktop/CMakeLists.txt
 +++ b/kioslave/desktop/CMakeLists.txt
 @@ -4,7 +4,7 @@
@@ -97,6 +115,8 @@
  
  install(TARGETS kio_desktop DESTINATION  ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kioslave/remote/kdedmodule/CMakeLists.txt
+===================================================================
 --- a/kioslave/remote/kdedmodule/CMakeLists.txt
 +++ b/kioslave/remote/kdedmodule/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -108,9 +128,11 @@
  
  install(TARGETS kded_remotedirnotify  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kioslave/thumbnail/CMakeLists.txt
+===================================================================
 --- a/kioslave/thumbnail/CMakeLists.txt
 +++ b/kioslave/thumbnail/CMakeLists.txt
-@@ -28,7 +28,7 @@
+@@ -29,7 +29,7 @@
  
  kde4_add_plugin(svgthumbnail ${svgthumbnail_PART_SRCS})
  
@@ -119,6 +141,8 @@
  
  install(TARGETS svgthumbnail DESTINATION ${PLUGIN_INSTALL_DIR})
  
+Index: b/kioslave/trash/CMakeLists.txt
+===================================================================
 --- a/kioslave/trash/CMakeLists.txt
 +++ b/kioslave/trash/CMakeLists.txt
 @@ -14,7 +14,7 @@
@@ -130,13 +154,15 @@
  
  install(TARGETS kio_trash  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kpasswdserver/CMakeLists.txt
+===================================================================
 --- a/kpasswdserver/CMakeLists.txt
 +++ b/kpasswdserver/CMakeLists.txt
 @@ -2,7 +2,10 @@
  
  kde4_add_plugin(kded_kpasswdserver ${kded_kpasswdserver_SRCS})
  
--target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY})
+-target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${X11_LIBRARIES})
 +target_link_libraries(kded_kpasswdserver  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTDBUS_LIBRARY})
 +if (X11_FOUND)
 +    target_link_libraries(kded_kpasswdserver ${X11_X11_LIB})
@@ -144,6 +170,8 @@
  
  install(TARGETS kded_kpasswdserver  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kstyles/oxygen/CMakeLists.txt
+===================================================================
 --- a/kstyles/oxygen/CMakeLists.txt
 +++ b/kstyles/oxygen/CMakeLists.txt
 @@ -17,7 +17,7 @@
@@ -155,6 +183,8 @@
  
  install(TARGETS oxygen  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/styles/ )
  
+Index: b/ktimezoned/CMakeLists.txt
+===================================================================
 --- a/ktimezoned/CMakeLists.txt
 +++ b/ktimezoned/CMakeLists.txt
 @@ -5,7 +5,7 @@
@@ -166,6 +196,8 @@
  
  install(TARGETS kded_ktimezoned DESTINATION ${PLUGIN_INSTALL_DIR})
  
+Index: b/kuiserver/CMakeLists.txt
+===================================================================
 --- a/kuiserver/CMakeLists.txt
 +++ b/kuiserver/CMakeLists.txt
 @@ -20,7 +20,7 @@
@@ -177,6 +209,8 @@
  install(TARGETS kdeinit_kuiserver ${INSTALL_TARGETS_DEFAULT_ARGS})
  
  target_link_libraries( kuiserver kdeinit_kuiserver )
+Index: b/kurifilter-plugins/ikws/CMakeLists.txt
+===================================================================
 --- a/kurifilter-plugins/ikws/CMakeLists.txt
 +++ b/kurifilter-plugins/ikws/CMakeLists.txt
 @@ -6,7 +6,7 @@
@@ -197,6 +231,8 @@
  
  install(TARGETS kurisearchfilter DESTINATION ${PLUGIN_INSTALL_DIR})
  
+Index: b/kurifilter-plugins/localdomain/CMakeLists.txt
+===================================================================
 --- a/kurifilter-plugins/localdomain/CMakeLists.txt
 +++ b/kurifilter-plugins/localdomain/CMakeLists.txt
 @@ -4,7 +4,7 @@
@@ -208,6 +244,8 @@
  if (HAVE_NSL_LIBRARY)
  target_link_libraries(localdomainurifilter nsl)
  endif (HAVE_NSL_LIBRARY)
+Index: b/kurifilter-plugins/shorturi/CMakeLists.txt
+===================================================================
 --- a/kurifilter-plugins/shorturi/CMakeLists.txt
 +++ b/kurifilter-plugins/shorturi/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -219,6 +257,8 @@
  
  install(TARGETS kshorturifilter  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/nepomuk/kcm/CMakeLists.txt
+===================================================================
 --- a/nepomuk/kcm/CMakeLists.txt
 +++ b/nepomuk/kcm/CMakeLists.txt
 @@ -23,6 +23,9 @@
@@ -231,6 +271,8 @@
    ${KDE4_KDEUI_LIBS}
    ${KDE4_KIO_LIBS}
    )
+Index: b/nepomuk/services/strigi/CMakeLists.txt
+===================================================================
 --- a/nepomuk/services/strigi/CMakeLists.txt
 +++ b/nepomuk/services/strigi/CMakeLists.txt
 @@ -17,6 +17,9 @@
@@ -242,7 +284,9 @@
 +  ${KDE4_KDECORE_LIBS}
    ${KDE4_KDEUI_LIBS}
    ${NEPOMUK_LIBRARIES}
-   )
+   ${QT_QTXML_LIBRARY}
+Index: b/phonon/xine/kcm/CMakeLists.txt
+===================================================================
 --- a/phonon/xine/kcm/CMakeLists.txt
 +++ b/phonon/xine/kcm/CMakeLists.txt
 @@ -4,7 +4,7 @@
@@ -254,6 +298,8 @@
  install(TARGETS kcm_phononxine DESTINATION ${PLUGIN_INSTALL_DIR})
  
  install(FILES kcm_phononxine.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+Index: b/soliduiserver/CMakeLists.txt
+===================================================================
 --- a/soliduiserver/CMakeLists.txt
 +++ b/soliduiserver/CMakeLists.txt
 @@ -13,7 +13,7 @@

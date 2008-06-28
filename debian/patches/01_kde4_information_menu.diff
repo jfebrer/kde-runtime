@@ -1,3 +1,5 @@
+Index: b/doc/userguide/kde-for-admins.docbook
+===================================================================
 --- a/doc/userguide/kde-for-admins.docbook
 +++ b/doc/userguide/kde-for-admins.docbook
 @@ -1765,8 +1765,8 @@
@@ -11,6 +13,8 @@
  </listitem>
  
  <listitem><para>Screensavers contains a hidden System/Screensavers menu,
+Index: b/kcontrol/menus/CMakeLists.txt
+===================================================================
 --- a/kcontrol/menus/CMakeLists.txt
 +++ b/kcontrol/menus/CMakeLists.txt
 @@ -4,5 +4,5 @@
@@ -21,6 +25,8 @@
 -install( FILES kde-information.directory  DESTINATION  ${XDG_DIRECTORY_INSTALL_DIR} )
 +    DESTINATION ${SYSCONF_INSTALL_DIR}/xdg/menus/ RENAME kde4-information.menu )
 +install( FILES kde-information.directory  DESTINATION  ${XDG_DIRECTORY_INSTALL_DIR} RENAME kde4-information.directory )
+Index: b/kcontrol/menus/kde-information.menu
+===================================================================
 --- a/kcontrol/menus/kde-information.menu
 +++ b/kcontrol/menus/kde-information.menu
 @@ -3,7 +3,7 @@

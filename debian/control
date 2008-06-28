@@ -19,6 +19,7 @@ Package: kdebase-runtime
 Section: kde
 Architecture: any
 Replaces: kdebase-bin (<< 4:4.0.0-1), kdelibs5 (<< 4:4.0.81)
+Provides: phonon-backend-xine, phonon-backend
 Conflicts: kdebluetooth (<< 1.0~beta7-1)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${source:Version}),

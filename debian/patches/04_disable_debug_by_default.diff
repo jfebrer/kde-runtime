@@ -4,11 +4,13 @@ debugging areas which are enabled are checked.
 See also kdelibs' 09_disable_debug_messages_if_not_explicitly_enabled.diff
 which does the same when printing debug information. Don't print them
 unless the user requested them.
+Index: b/kdebugdialog/klistdebugdialog.cpp
+===================================================================
 --- a/kdebugdialog/klistdebugdialog.cpp
 +++ b/kdebugdialog/klistdebugdialog.cpp
-@@ -124,7 +124,7 @@
-     QListWidgetItem* item = m_areaWidget->item(i);
-     KConfigGroup group = pConfig->group( item->data(Qt::UserRole).toByteArray() ); // Group name = debug area code = cb's name
+@@ -117,7 +117,7 @@
+     QTreeWidgetItem* item = m_areaWidget->topLevelItem(i);
+     KConfigGroup group = pConfig->group( item->data(0, Qt::UserRole).toByteArray() ); // Group name = debug area code = cb's name
  
 -    int setting = group.readEntry( "InfoOutput", 2 );
 +    int setting = group.readEntry( "InfoOutput", 4 );

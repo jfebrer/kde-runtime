@@ -19,6 +19,7 @@ usr/bin/nepomukserver
 usr/bin/nepomukservicestub
 usr/bin/solid-hardware
 usr/lib/kconf_update_bin/phonon_devicepreference_update
+usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so
 usr/lib/kde4/exrthumbnail.so
 usr/lib/kde4/fixhosturifilter.so
