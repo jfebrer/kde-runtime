@@ -1,6 +1,7 @@
 kdebase-runtime (4:4.0.84-1) experimental; urgency=low
 
   * New upstream snapshot.
+  * Add build depend on libxcursor-dev.
 
  -- Sune Vuorela <debian@pusling.com>  Fri, 27 Jun 2008 20:54:53 +0200
 
