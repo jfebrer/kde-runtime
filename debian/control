@@ -19,11 +19,10 @@ Package: kdebase-runtime
 Section: kde
 Architecture: any
 Replaces: kdebase-bin (<< 4:4.0.0-1), kdelibs5 (<< 4:4.0.81)
-Provides: phonon-backend-xine, phonon-backend
 Conflicts: kdebluetooth (<< 1.0~beta7-1)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${source:Version}),
- kde-icons-oxygen (>= ${source:Version}), phonon-backend-xine (>= ${source:Version}) | phonon-backend
+ kde-icons-oxygen (>= ${source:Version}), phonon-backend-xine (>= ${binary:Version}) | phonon-backend
 Description: runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -114,7 +113,7 @@ Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: phonon-backend
-Replaces: kdebase-runtime-data (<< 4:4.0.80-2), kdebase-runtime (<< 4:4.0.80-2)
+Replaces: kdebase-runtime-data (<= 4:4.0.84+svn828328-1), kdebase-runtime (<= 4:4.0.84+svn828328-1)
 Description: Phonon Xine 1.1.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
