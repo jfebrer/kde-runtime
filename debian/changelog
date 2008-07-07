@@ -1,4 +1,6 @@
-kdebase-runtime (4:4.0.84+svn828328-2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.85+svn829067-0) UNRELEASED; urgency=low
+
+  * New development snapshot.
 
   [ Modestas Vainius ]
   * Remove Provides: phonon-backend, phonon-backend-xine from kdebase-runtime.
