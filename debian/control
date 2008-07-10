@@ -93,7 +93,7 @@ Description: Help Center for KDE 4
 Package: kde-icons-oxygen
 Section: kde
 Architecture: all
-Replaces: kdebase-data (<= 4:4.0.0-1)
+Replaces: kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.0.98)
 Suggests: kdebase (>= 4:4.0.1-1)
 Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
