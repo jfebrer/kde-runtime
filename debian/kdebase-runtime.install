@@ -78,6 +78,7 @@ usr/lib/kde4/libkmanpart.so
 usr/lib/kde4/librenaudioplugin.so
 usr/lib/kde4/librenimageplugin.so
 usr/lib/kde4/localdomainurifilter.so
+usr/lib/kde4/nepomukfilewatch.so
 usr/lib/kde4/nepomukmigration1.so
 usr/lib/kde4/nepomukontologyloader.so
 usr/lib/kde4/nepomukstorage.so

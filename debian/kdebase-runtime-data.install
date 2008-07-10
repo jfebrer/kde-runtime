@@ -293,6 +293,7 @@ usr/share/kde4/services/kurisearchfilter.desktop
 usr/share/kde4/services/language.desktop
 usr/share/kde4/services/localdomainurifilter.desktop
 usr/share/kde4/services/man.protocol
+usr/share/kde4/services/nepomukfilewatch.desktop
 usr/share/kde4/services/nepomukmigration1.desktop
 usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukstorage.desktop

@@ -1,6 +1,6 @@
-kdebase-runtime (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
+kdebase-runtime (4:4.0.98-0) UNRELEASED; urgency=low
 
-  * New development snapshot.
+  * New upstream release, Release Candidate 1.
 
   [ Modestas Vainius ]
   * Remove Provides: phonon-backend, phonon-backend-xine from kdebase-runtime
@@ -10,6 +10,11 @@ kdebase-runtime (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
   * Move phononxine kcm module from kdebase-runtime* to phonon-backend-xine.
     Update Replaces as appropriate. That should make kdebase-runtime drop
     xine dependency.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Bump build depends on >= 4.0.98.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Jul 2008 23:55:09 +0300
 
