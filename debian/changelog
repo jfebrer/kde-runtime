@@ -1,6 +1,7 @@
 kdebase-runtime (4:4.1.0-1) unstable; urgency=low
 
   * New upstream released.
+  * Update build depends.
   * Reviewed copyright file. (Closes: #486343)
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 25 Jul 2008 23:49:44 +0200

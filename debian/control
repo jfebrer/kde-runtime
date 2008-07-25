@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
- kdepimlibs5-dev (>= 4:4.0.98), kdelibs5-dev (>= 4:4.0.98),
+ kdepimlibs5-dev (>= 4:4.1.0), kdelibs5-dev (>= 4:4.1.0),
  libclucene-dev, libsmbclient-dev, libsoprano-dev (>= 2.1),
  libstreamanalyzer-dev (>= 0.5.8), libstrigiqtdbusclient-dev (>= 0.5.8),
  libxcb1-dev, libxine-dev, libopenexr-dev, libbz2-dev, libx11-dev,
@@ -94,7 +94,7 @@ Package: kde-icons-oxygen
 Section: kde
 Architecture: all
 Replaces: kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.0.98)
-Suggests: kdebase (>= 4:4.0.1-1)
+Suggests: kdebase (>= 4:4.1.0-1)
 Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
 
