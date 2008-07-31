@@ -1,3 +1,12 @@
+kdebase-runtime (4:4.1.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Add upstream patch 05_r839927_qreal.diff to fix the build of phonon-xine
+    when qreal is not double but float.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Jul 2008 10:09:25 +0200
+
 kdebase-runtime (4:4.1.0-1) unstable; urgency=low
 
   * New upstream released.
