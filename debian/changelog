@@ -1,3 +1,16 @@
+kdebase-runtime (4:4.1.1-0) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Refresh patches.
+    + Remove 05_r839927_qreal.diff - taken from upstream
+  * KHelpcenter icons seems to be moved away.
+  * Applets.desktop in khelpcenter is now called plasma.desktop.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2008 00:51:04 +0200
+
 kdebase-runtime (4:4.1.0-2) unstable; urgency=high
 
   +++ Changes by Pino Toscano:

@@ -4,8 +4,6 @@ debugging areas which are enabled are checked.
 See also kdelibs' 09_disable_debug_messages_if_not_explicitly_enabled.diff
 which does the same when printing debug information. Don't print them
 unless the user requested them.
-Index: b/kdebugdialog/klistdebugdialog.cpp
-===================================================================
 --- a/kdebugdialog/klistdebugdialog.cpp
 +++ b/kdebugdialog/klistdebugdialog.cpp
 @@ -117,7 +117,7 @@

@@ -158,13 +158,6 @@ usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict8.png
 usr/share/doc/kde4/HTML/en/khelpcenter/visualdict/pict9.png
 usr/share/doc/kde4/HTML/en/khelpcenter/welcome.docbook
 usr/share/doc/kde4/HTML/en/khelpcenter/whatiskde.docbook
-usr/share/icons/hicolor/128x128/apps/khelpcenter.png
-usr/share/icons/hicolor/16x16/apps/khelpcenter.png
-usr/share/icons/hicolor/22x22/apps/khelpcenter.png
-usr/share/icons/hicolor/32x32/apps/khelpcenter.png
-usr/share/icons/hicolor/48x48/apps/khelpcenter.png
-usr/share/icons/hicolor/64x64/apps/khelpcenter.png
-usr/share/icons/hicolor/scalable/apps/khelpcenter.svgz
 usr/share/kde4/apps/khelpcenter/glossary.html.in
 usr/share/kde4/apps/khelpcenter/glossary.xslt
 usr/share/kde4/apps/khelpcenter/index.html.in
@@ -187,7 +180,6 @@ usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/scrollkeeper.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Tutorials/.directory
 usr/share/kde4/apps/khelpcenter/plugins/Tutorials/quickstart.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Tutorials/visualdict.desktop
-usr/share/kde4/apps/khelpcenter/plugins/applets.desktop
 usr/share/kde4/apps/khelpcenter/plugins/contact.desktop
 usr/share/kde4/apps/khelpcenter/plugins/faq.desktop
 usr/share/kde4/apps/khelpcenter/plugins/info.desktop
@@ -195,6 +187,7 @@ usr/share/kde4/apps/khelpcenter/plugins/kcontrolmodules.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kicmodules.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kioslaves.desktop
 usr/share/kde4/apps/khelpcenter/plugins/links.desktop
+usr/share/kde4/apps/khelpcenter/plugins/plasma.desktop
 usr/share/kde4/apps/khelpcenter/plugins/support.desktop
 usr/share/kde4/apps/khelpcenter/plugins/userguide.desktop
 usr/share/kde4/apps/khelpcenter/plugins/welcome.desktop
