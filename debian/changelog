@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.1.1-0) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kdebase-runtime (4:4.1.1-0) UNRELEASED; urgency=low
   * Remove KHelpcenter icons, they seem have moved away.
   * Rename Applets.desktop in khelpcenter, it is now called plasma.desktop.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 13:49:39 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 18:34:08 +0200
 
 kdebase-runtime (4:4.1.0-2) unstable; urgency=high
 
