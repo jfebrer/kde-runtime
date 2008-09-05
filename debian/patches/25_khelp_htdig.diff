@@ -1,0 +1,58 @@
+--- kdebase-runtime-4.1.1.orig/khelpcenter/searchhandlers/khc_docbookdig.pl.cmake	2008-09-05 13:12:37.000000000 +0200
++++ kdebase-runtime-4.1.1/khelpcenter/searchhandlers/khc_docbookdig.pl.cmake	2008-09-05 13:14:35.000000000 +0200
+@@ -26,10 +26,14 @@
+ 
+ use Getopt::Long;
+ 
+-my $htdigdata = "/srv/www/htdig/common/";
++my $htdigdata = "/etc/htdig";
++
+ my $htdigbin = "/usr/bin";
+ my $kdeprefix = "@CMAKE_INSTALL_PREFIX@";
++my $kdehtmldir = `kde-config --expandvars --install html`;
+ chomp $kdeprefix;
++chomp $kdehtmldir;
++
+ 
+ my $dbg = 1;
+ 
+@@ -89,7 +93,7 @@
+ $ENV{ CDPATH } = '';
+ $ENV{ ENV } = '';
+ 
+-my $findpath = "@HTML_INSTALL_DIR@/$lang/";
++my $findpath = "$kdehtmldir/$lang/";
+ my $findcmd = "find $findpath -name index.docbook";
+ 
+ print STDERR "FINDCMD: $findcmd\n";
+@@ -168,7 +172,7 @@
+ locale:                 $locale
+ database_dir:           $htdigdb
+ database_base:		\${database_dir}/$identifier
+-local_urls:             help://=@HTML_INSTALL_DIR@/en/ file://=/
++local_urls:             help://=$kdehtmldir/en/ file://=/
+ local_urls_only:        true
+ limit_urls_to:          file:// help:/
+ ignore_noindex:         true
+--- kdebase-runtime-4.1.1.orig/khelpcenter/searchhandlers/khc_htdig.pl.cmake	2008-09-05 13:14:41.000000000 +0200
++++ kdebase-runtime-4.1.1/khelpcenter/searchhandlers/khc_htdig.pl.cmake	2008-09-05 13:22:49.000000000 +0200
+@@ -26,7 +26,7 @@
+ 
+ use Getopt::Long;
+ 
+-my $htdigdata = "/srv/www/htdig/common/";
++my $htdigdata = "/etc/htdig";
+ my $htdigbin = "/usr/bin";
+ my $kdeprefix = "@CMAKE_INSTALL_PREFIX@";
+ chomp $kdeprefix;
+--- kdebase-runtime-4.1.1.orig/khelpcenter/searchhandlers/khc_htsearch.pl	2008-09-05 13:23:02.000000000 +0200
++++ kdebase-runtime-4.1.1/khelpcenter/searchhandlers/khc_htsearch.pl	2008-09-05 13:23:17.000000000 +0200
+@@ -8,7 +8,7 @@
+ use open IO => ':utf8';
+ use open ':std';
+ 
+-my $htsearchpath="/srv/www/cgi-bin/htsearch";
++my $htsearchpath="/usr/lib/cgi-bin/htsearch";
+ 
+ my $config;
+ my $format;

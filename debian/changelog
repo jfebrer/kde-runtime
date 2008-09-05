@@ -1,3 +1,10 @@
+kdebase-runtime (4:4.1.1-2) UNRELEASED; urgency=low
+
+  * Fix htdig paths, so Build Search Index should work now. (Closes: #497518).
+    Patch 25_khelp_htdig.diff.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Sep 2008 13:25:05 +0200
+
 kdebase-runtime (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
