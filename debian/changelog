@@ -2,13 +2,11 @@ kdebase-runtime (4:4.1.2-0) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:00:52 +0200
-
-kdebase-runtime (4:4.1.1-3) experimental; urgency=low
+  +++ Changes by Sune Vuorela:
 
   * Revert /usr/bin/kdesu link. It is *not* expected to be there. Reopens 495999.
 
- -- Sune Vuorela <debian@pusling.com>  Wed, 10 Sep 2008 16:21:24 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Sep 2008 14:43:46 +0200
 
 kdebase-runtime (4:4.1.1-2) experimental; urgency=low
 
