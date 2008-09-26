@@ -6,7 +6,11 @@ kdebase-runtime (4:4.1.2-0) UNRELEASED; urgency=low
 
   * Revert /usr/bin/kdesu link. It is *not* expected to be there. Reopens 495999.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Sep 2008 14:43:46 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update kdebase-runtime-data.install.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Sep 2008 10:45:53 +0200
 
 kdebase-runtime (4:4.1.1-2) experimental; urgency=low
 

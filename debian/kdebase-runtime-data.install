@@ -91,9 +91,6 @@ usr/share/doc/kde4/HTML/en/kcontrol/khtml/nsplugin.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/language/common
 usr/share/doc/kde4/HTML/en/kcontrol/language/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/language/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/mouse/common
-usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/netpref/common
 usr/share/doc/kde4/HTML/en/kcontrol/netpref/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/netpref/index.docbook
@@ -127,9 +124,6 @@ usr/share/doc/kde4/HTML/en/kcontrol/spellchecking/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/useragent/common
 usr/share/doc/kde4/HTML/en/kcontrol/useragent/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/useragent/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/windowmanagement/common
-usr/share/doc/kde4/HTML/en/kcontrol/windowmanagement/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcontrol/windowmanagement/index.docbook
 usr/share/doc/kde4/HTML/en/kdebugdialog/common
 usr/share/doc/kde4/HTML/en/kdebugdialog/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdebugdialog/index.docbook
