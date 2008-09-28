@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.1.2-0) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kdebase-runtime (4:4.1.2-0) UNRELEASED; urgency=low
 
   * Update kdebase-runtime-data.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Sep 2008 10:45:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Sep 2008 15:22:21 +0200
 
 kdebase-runtime (4:4.1.1-2) experimental; urgency=low
 
