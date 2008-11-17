@@ -161,7 +161,6 @@ usr/share/doc/kde4/HTML/en/khelpcenter/whatiskde.docbook
 usr/share/kde4/apps/khelpcenter/glossary.html.in
 usr/share/kde4/apps/khelpcenter/glossary.xslt
 usr/share/kde4/apps/khelpcenter/index.html.in
-usr/share/kde4/apps/khelpcenter/intro.html.in
 usr/share/kde4/apps/khelpcenter/khelpcenterui.rc
 usr/share/kde4/apps/khelpcenter/plugins/Applications/.directory
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/.directory

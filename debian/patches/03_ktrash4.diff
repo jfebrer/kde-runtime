@@ -1,6 +1,6 @@
 --- a/kioslave/trash/CMakeLists.txt
 +++ b/kioslave/trash/CMakeLists.txt
-@@ -35,11 +35,11 @@
+@@ -39,11 +39,11 @@
  set(ktrash_SRCS ktrash.cpp )
  
  
@@ -13,11 +13,11 @@
 -install(TARGETS ktrash ${INSTALL_TARGETS_DEFAULT_ARGS})
 +install(TARGETS ktrash4 ${INSTALL_TARGETS_DEFAULT_ARGS})
  
- ########### install files ###############
+ ########### next target ###############
  
 --- a/kioslave/trash/ktrash.cpp
 +++ b/kioslave/trash/ktrash.cpp
-@@ -30,17 +30,17 @@
+@@ -28,17 +28,17 @@
  int main(int argc, char *argv[])
  {
      //KApplication::disableAutoDcopRegistration();

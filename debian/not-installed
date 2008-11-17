@@ -1,4 +1,4 @@
 # Files not installed because they conflict with hicolor-icon-theme:
 ./usr/share/icons/hicolor/index.theme
 # belongs to -dev package, but no public headers, so no use
-./usr/lib/libkaudiodevicelist.so
+./usr/lib/libkwalletbackend.so

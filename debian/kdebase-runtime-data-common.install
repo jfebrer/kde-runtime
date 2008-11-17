@@ -12,6 +12,7 @@ usr/share/desktop-directories/kde-games-arcade.directory
 usr/share/desktop-directories/kde-games-board.directory
 usr/share/desktop-directories/kde-games-card.directory
 usr/share/desktop-directories/kde-games-kids.directory
+usr/share/desktop-directories/kde-games-logic.directory
 usr/share/desktop-directories/kde-games-roguelikes.directory
 usr/share/desktop-directories/kde-games-strategy.directory
 usr/share/desktop-directories/kde-games.directory
