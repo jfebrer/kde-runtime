@@ -168,6 +168,7 @@ usr/share/locale/l10n/do/entry.desktop
 usr/share/locale/l10n/do/flag.png
 usr/share/locale/l10n/dz/entry.desktop
 usr/share/locale/l10n/dz/flag.png
+usr/share/locale/l10n/eastafrica.desktop
 usr/share/locale/l10n/eastasia.desktop
 usr/share/locale/l10n/easteurope.desktop
 usr/share/locale/l10n/ec/entry.desktop
@@ -433,6 +434,8 @@ usr/share/locale/l10n/si/entry.desktop
 usr/share/locale/l10n/si/flag.png
 usr/share/locale/l10n/sk/entry.desktop
 usr/share/locale/l10n/sk/flag.png
+usr/share/locale/l10n/sl/entry.desktop
+usr/share/locale/l10n/sl/flag.png
 usr/share/locale/l10n/sm/entry.desktop
 usr/share/locale/l10n/sm/flag.png
 usr/share/locale/l10n/sn/entry.desktop
@@ -466,6 +469,8 @@ usr/share/locale/l10n/tj/entry.desktop
 usr/share/locale/l10n/tj/flag.png
 usr/share/locale/l10n/tk/entry.desktop
 usr/share/locale/l10n/tk/flag.png
+usr/share/locale/l10n/tl/entry.desktop
+usr/share/locale/l10n/tl/flag.png
 usr/share/locale/l10n/tm/entry.desktop
 usr/share/locale/l10n/tm/flag.png
 usr/share/locale/l10n/tn/entry.desktop
