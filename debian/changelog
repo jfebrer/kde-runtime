@@ -1,8 +1,6 @@
-kdebase-runtime (4:4.1.80+svn886985-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.80+svn886985-0r2) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-  * Update install files:
-    - kdebase-runtime-data-common.install: 5 new file(s) added;
 
   +++ Changes by Modestas Vainius:
 
@@ -20,7 +18,7 @@ kdebase-runtime (4:4.1.80+svn886985-0r1) UNRELEASED; urgency=low
   * kdebase-runtime-data replaces kdebase-workspace-data << 4:4.1.66 due to
     moved windowmanagers desktop files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Nov 2008 23:33:28 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Nov 2008 00:42:04 +0200
 
 kdebase-runtime (4:4.1.3-1) experimental; urgency=low
 
