@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.1.80+svn886985-0r2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.80+svn889889-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -18,7 +18,16 @@ kdebase-runtime (4:4.1.80+svn886985-0r2) UNRELEASED; urgency=low
   * kdebase-runtime-data replaces kdebase-workspace-data << 4:4.1.66 due to
     moved windowmanagers desktop files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Nov 2008 00:42:04 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * kdebase-runtime-data replaces kdelibs5-data << 4:4.1.80 due to moved
+    nepomuk files.
+  * kdebase-runtime replaces kdelibs5 and kdelibs-bin << 4:4.1.80
+    due to some kded modules and kwalletd that were moved.
+  * kdebase-runtime-dbg replaces kdelibs5-dbg << 4:4.1.80 for the same
+    reason as above.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 00:25:15 +0000
 
 kdebase-runtime (4:4.1.3-1) experimental; urgency=low
 
