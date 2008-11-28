@@ -1,7 +1,0 @@
-# Process exceptions first
-depends first
-
-dst:usr/bin/kdebugdialog$
-dst:usr/bin/kreadconfig$
-dst:usr/bin/kstart$
-dst:usr/bin/kwriteconfig$

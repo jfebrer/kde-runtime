@@ -1,5 +1,0 @@
-# Process common stuff first, then what's left goes here
-depends last
-
-dst:etc/
-dst:usr/share/

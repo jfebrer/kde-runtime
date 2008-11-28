@@ -1,4 +1,0 @@
-depends kde-icons-oxygen
-
-dst:khelpcenter
-dst:Help\.desktop

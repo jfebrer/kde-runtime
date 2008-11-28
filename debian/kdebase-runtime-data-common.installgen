@@ -1,9 +1,0 @@
-depends kde-icons-oxygen
-
-# Files not installed because they conflict with hicolor-icon-theme
-missing dst:usr/share/icons/hicolor/index.theme
-
-dst:usr/share/icons
-dst:usr/share/locale
-dst:usr/share/man
-dst:usr/share/desktop-directories/
