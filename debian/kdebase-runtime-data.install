@@ -238,6 +238,7 @@ usr/share/kde4/apps/kcm_componentchooser/kcm_wm.desktop
 usr/share/kde4/apps/kcm_phonon/listview-background.png
 usr/share/kde4/apps/kcmlocale/pics/background.png
 usr/share/kde4/apps/kconf_update/devicepreference.upd
+usr/share/kde4/apps/kconf_update/kdedglobalaccel_kde42.upd
 usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd
 usr/share/kde4/apps/kde/kde.notifyrc
 usr/share/kde4/apps/kio_bookmarks/kio_bookmarks.css
