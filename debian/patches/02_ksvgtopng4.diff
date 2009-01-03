@@ -1,3 +1,5 @@
+ksvgtopng is being renamed ksvgtopng4 to allow kdebase-runtime be 
+co-installable witj KDE 3.
 --- a/pics/CMakeLists.txt
 +++ b/pics/CMakeLists.txt
 @@ -4,9 +4,9 @@
