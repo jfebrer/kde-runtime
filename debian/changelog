@@ -1,11 +1,11 @@
-kdebase-runtime (4:4.1.86+svn904747-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.87+svn905486-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Drop build dependency on kdepimlibs5-dev.
-  * Bump build dependency on kdelibs5-dev to 4.1.73.
+  * Bump build dependency on kdelibs5-dev to 4.1.87.
   * Remove cmake build dependency (gets pulled via kdelibs5-dev).
   * Bump strigi build dependencies to 0.5.11-2.
   * Refresh 03_ktrash4.diff patch.
