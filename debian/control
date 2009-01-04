@@ -7,7 +7,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  kdelibs5-dev (>= 4:4.1.85), libphonon-dev (>= 4:4.2.80),
  libclucene-dev, libsmbclient-dev, libsoprano-dev (>= 2.1),
- libstreamanalyzer-dev (>= 0.6.2-1), libstrigiqtdbusclient-dev (>= 0.6.2-1),
+ libstreamanalyzer-dev (>= 0.6.2), libstrigiqtdbusclient-dev (>= 0.6.2),
  libxcb1-dev, libopenexr-dev, libbz2-dev, libx11-dev, libxcursor-dev,
  libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libjpeg62-dev, libqt4-opengl-dev, libpulse-dev, libxine-dev
