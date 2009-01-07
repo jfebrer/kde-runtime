@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-# don'tuse the debugging symbols from kdebase-runtime-kde4. othwerwise we have a conflict with kdebase-dbg from KDE 3
+# don't use the debugging symbols from kdebase-runtime-kde4. othwerwise we have a conflict with kdebase-dbg from KDE 3
 DEB_DBG_PACKAGE_kdebase-runtime := kdebase-runtime-dbg
 
 # exclude dependency on phonon metapackage. KDE4 does its own phonon setup
