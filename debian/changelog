@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.1.96+svn906968-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.1.96+svn911496-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -35,7 +35,7 @@ kdebase-runtime (4:4.1.96+svn906968-0r1) UNRELEASED; urgency=low
   * Add information about the patches to 2_ksvgtopng4 and 03_ktrash4.
   * Update versioned depend on phonon to 4.1.96.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Dec 2008 14:02:04 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Jan 2009 23:01:56 +0200
 
 kdebase-runtime (4:4.1.3-1) experimental; urgency=low
 
