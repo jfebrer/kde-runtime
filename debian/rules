@@ -6,5 +6,7 @@ DEB_DBG_PACKAGE_kdebase-runtime := kdebase-runtime-dbg
 # exclude dependency on phonon metapackage. KDE4 does its own phonon setup
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
 
+DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
+
 include debian/cdbs/kde.mk
 
