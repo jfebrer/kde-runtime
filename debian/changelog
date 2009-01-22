@@ -1,13 +1,13 @@
-kdebase-runtime (4:4.1.96+svn911496-0r2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Drop build dependency on kdepimlibs5-dev.
-  * Bump build dependency on kdelibs5-dev to 4.1.96.
+  * Bump build dependency on kdelibs5-dev to 4.2.0.
   * Remove cmake build dependency (gets pulled via kdelibs5-dev).
-  * Bump strigi build dependencies to 0.5.11-2.
+  * Bump strigi build dependencies to 0.6.3.
   * Refresh 03_ktrash4.diff patch.
   * Add build dependency on libjpeg62-dev, libqt4-opengl-dev and
     libpulse-dev.
@@ -36,9 +36,9 @@ kdebase-runtime (4:4.1.96+svn911496-0r2) UNRELEASED; urgency=low
 
   * Refresh 01_kde4_information_menu.diff.
   * Add information about the patches to 2_ksvgtopng4 and 03_ktrash4.
-  * Update versioned depend on phonon to 4.1.96.
+  * Update versioned depend on phonon to 4.2.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 14:07:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 02:36:48 +0100
 
 kdebase-runtime (4:4.1.3-1) experimental; urgency=low
 
