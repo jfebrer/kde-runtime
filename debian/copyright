@@ -38,7 +38,7 @@ the GNU General Public License:
 
 Files under cmake/
 
-These files are under this license:
+These files are under this license (Shipped in some parts of kde in a file called COPYING-CMAKE-SCRIPTS):
 
     | Redistribution and use in source and binary forms, with or without
     | modification, are permitted provided that the following conditions
@@ -63,6 +63,9 @@ These files are under this license:
     | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
     | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+Files under desktoptheme/
+    | CC-by v2.0 file removed from within the svg images
+    
 
 Files under doc/
 
@@ -145,10 +148,14 @@ Copyright: © 2004-2005 Jakub Stachowski <qbast@go2.pl>
 Copyright: © 1999 Preston Brown <pbrown@kde.org>
 Copyright: © 2000 Geert Jansen <jansen@kde.org>
 Copyright: © 2007 Bernhard Loos <nhuh.put@web.de>
+Copyright (C) 2008 David Faure <faure@kde.org>
 
 License for all components is:
   * GNU General Public License, version 2 or later
 
+Files under kde-menu:
+Copyright: Waldo Bastian <bastian@kde.org>
+  * GNU Library General Public license, version 2.
 
 Files under kdebugdialog:
 
@@ -160,18 +167,19 @@ Copyright: © 2005 Hamish Rodda <rodda@kde.org>
 License for all components is:
   * GNU Lesser General Public License, version 2 or later
 
+Files under kdedglobalaccell
+Copyright (C) 2007-2008 Michael Jansen <kde@michael-jansen.biz>
+Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+Copyright (C) 2001-2002 Ellis Whitebread <ellis@kde.org>
+Copyright (C) 2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+
+  License: GNU LGPL v2 or later.
 
 Files under kdeeject:
 
  kdeeject/CMakeLists.txt ~ unspec ~ unspec
  kdeeject/kdeeject ~ GPLv2 ~ Copyright GPL v2 by David Faure <david@mandrakesoft.com>
 
-
-Files under kde-menu:
-
- kde-menu/CMakeLists.txt ~ unspec ~ unspec
- kde-menu/kde-menu.cpp ~ LGPLv2 ~  *  Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
- kde-menu/Messages.sh ~ unspec ~ unspec
 
 
 Files under kdesu:
@@ -220,7 +228,7 @@ Files under kioclient:
 Copyright: © 1999-2006 David Faure <faure@kde.org>
 
 License for all components is:
-  * GNU Lesser General Public License, version 2
+  * GNU Library General Public License, version 2
 
 
 Files under kioexec:
@@ -235,34 +243,38 @@ License for all components is:
 
 Files under kioslave:
 
-Copyright: © 2000, 2004, 2007-2008 David Faure <faure@kde.org>
-Copyright: © 2000-2001 Malte Starostik <malte@kde.org>
-Copyright: © 2004 Kévin Ottens
-Copyright: © 2000 Caldera Systems Inc.
+Copyright: ©  Frank Schwanz <schwanz@fh-brandenburg.de>
 Copyright: ©  Matthew Peterson <mpeterson@caldera.com>
+Copyright: © 1985, 1987, 1990 Microsystems Inc.
+Copyright: © 1995, 1999 All Rights Reserved.
+Copyright: © 1995, 1999 Theo de Raadt.
+Copyright: © 1997-1998 Lars Doelle <lars.doelle@on-line.de>
+Copyright: © 1999-2000 Geert Jansen <jansen@kde.org>
+Copyright: © 1999-2000 Waldo Bastian <bastian@kde.org>
+Copyright: © 2000 Caldera Systems Inc.
+Copyright: © 2000 Matthias Hoelzer-Kluepfel <mhk@caldera.de>
+Copyright: © 2000, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+Copyright: © 2000, 2004, 2007-2008 David Faure <faure@kde.org>
+Copyright: © 2000-2001 Andreas Schlapbach <schlpbch@iam.unibe.ch> <schlpbch@iam.unibe.ch,>
+Copyright: © 2000-2001 Malte Starostik <malte@kde.org>
 Copyright: © 2000-2002 Alexander Neundorf <neundorf@kde.org>
 Copyright: © 2001 Lucas Fisher <ljfisher@purdue.edu> <ljfisher@iastate.edu>
-Copyright: © 2003, 2008 Fredrik Höglund <fredrik@kde.org>
-Copyright: © 1995, 1999 All Rights Reserved.
-Copyright: © 2002 Cornelius Schumacher <schumacher@kde.org>
-Copyright: © 1985, 1987, 1990 Microsystems Inc.
-Copyright: © 2000, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
-Copyright: © 2000-2001 Andreas Schlapbach <schlpbch@iam.unibe.ch> <schlpbch@iam.unibe.ch,>
-Copyright: © 2001-2003 Jörg Walter <jwalt-kde@garni.ch> <trouble@garni.ch>
-Copyright: © 2002 John Firebaugh <jfirebaugh@kde.org>
-Copyright: © 1999-2000 Waldo Bastian <bastian@kde.org>
-Copyright: © 1999-2000 Geert Jansen <jansen@kde.org>
-Copyright: © 2004 Brad Hards <bradh@frogmouth.net>
-Copyright: © 2006 Roberto Cappuccio <roberto.cappuccio@gmail.com>
-Copyright: © 1995, 1999 Theo de Raadt.
-Copyright: © 2006 Pascal Létourneau <pascal.letourneau@kdemail.net>
-Copyright: © 2001, 2003 Leon Bottou <leon@bottou.org>
-Copyright: © 2000 Matthias Hoelzer-Kluepfel <mhk@caldera.de>
 Copyright: © 2001 Markus Friedl. All Rights Reserved.
+Copyright: © 2001, 2003 Leon Bottou <leon@bottou.org>
+Copyright: © 2001-2003 Jörg Walter <jwalt-kde@garni.ch> <trouble@garni.ch>
+Copyright: © 2002 Cornelius Schumacher <schumacher@kde.org>
+Copyright: © 2002 John Firebaugh <jfirebaugh@kde.org>
 Copyright: © 2003 Joseph Wenninger <jowenn@kde.org>
+Copyright: © 2003, 2008 Fredrik Höglund <fredrik@kde.org>
+Copyright: © 2004 Brad Hards <bradh@frogmouth.net>
+Copyright: © 2004 Kévin Ottens
 Copyright: © 2005 Nicolas GOUTTE <goutte@kde.org>
-Copyright: © 1997-1998 Lars Doelle <lars.doelle@on-line.de>
-Copyright: ©  Frank Schwanz <schwanz@fh-brandenburg.de>
+Copyright: © 2006 Pascal Létourneau <pascal.letourneau@kdemail.net>
+Copyright: © 2006 Roberto Cappuccio <roberto.cappuccio@gmail.com>
+Copyright: (C) 2007 Jos van den Oever <jos@vandenoever.info>
+Copyright: (C) 2008 Tobias Koenig <tokoe@kde.org>
+Copyright: (C) 2008 Andre Gemand <scroogie@gmail.com>
+Copyright: (C) 2008 Xavier Vello <xavier.vello@gmail.com>
 
 
 License for all components unless stated otherwise:
@@ -324,6 +336,12 @@ Other used licenses:
     - remote/kdedmodule/remotedirnotify.h
     - remote/kdedmodule/remotedirnotifymodule.cpp
     - remote/kdedmodule/remotedirnotifymodule.h
+    - thumbnails/*
+
+  * Two clause bsd license (openbsd, Theo)
+    - sftp/atomicio.cpp
+    - sftp/atomicio.h
+    - sftp/sftp.h
 
 
 Files under kmimetypefinder:
@@ -382,7 +400,7 @@ Files under kquitapp:
 Copyright: © 2006 Aaron Seigo <aseigo@kde.org>
 
 License for all components is:
-  * GNU Lesser General Public License
+  * GNU Library General Public License
 
 
 Files under kreadconfig:
@@ -399,6 +417,8 @@ Files under kstart:
 
 Copyright: © 1997-2000 Matthias Ettrich <ettrich@kde.org>
 Copyright: © 1997-2000 David Faure <faure@kde.org>
+Copyright: Richard Moore <rich@kde.org>
+
 
 License for all components is:
   * GNU General Public License, version 2 or later
@@ -407,6 +427,7 @@ License for all components is:
 Files under kstyles:
 
 Copyright: © 2002-2005 Maksim Orlovich <orlovich@cs.rochester.edu> <maksim.orlovich@kdemail.net> <mo002j@mail.rochester.edu> <maksim@kde.org>
+Copyright: (C) 2000-2001 Trolltech AS.
 Copyright: © 2001-2002 Karol Szwed <gallium@kde.org>
 Copyright: © 2002 Malte Starostik <malte@kde.org>
 Copyright: © 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
@@ -424,6 +445,7 @@ Copyright: © 2001-2002 Carsten Pfeiffer <pfeiffer@kde.org>
 Copyright: © 2001-2002 Chris Lee <clee@kde.org>
 Copyright: © 2002-2003 KDE3 HighColor Style
 Copyright: © 2001-2002 Fredrik H�lund <fredrik@kde.org>
+Copyright: (C) 2008 Long Hyunh Huu <long.upcase@googlemail.com>
 
 
 License for all components unless stated otherwise:
@@ -442,6 +464,9 @@ Other used licenses:
     - keramik/pixmaploader.h
     - web/webstyle.cpp
     - web/webstyle.h
+
+  * BSD-ish
+    - light/*
 
 
 Files under ktimezoned:
@@ -472,6 +497,23 @@ Copyright: © 2001 George Staikos <staikos@kde.org>
 License for all components is:
   * GNU Lesser General Public License, version 2
 
+Files under kurifilter-plugins:
+Copyright: (C) 2002-2007 Lubos Lunak <llunak@suse.cz>
+Copyright: (C) 1999-2000 Yves Arrouye <yves@realnames.com>
+Copyright: (C) 2001-2003 Dawit Alemayehu <adawit@kde.org>
+Copyright: (C) 1999 Simon Hausmann <hausmann@kde.org>
+Copyright: (C) 2000 Malte Starostik <malte@kde.org>
+copyright: (C) 2002-2003 David Faure <faure@kde.org>
+  * GNU General Public License, version2 or later.
+
+Files under kwalletd:
+  Copyright: (C) 2001-2004 George Staikos <staikos@kde.org>
+  Copyright: (C) 2006 David Faure <faure@kde.org>
+  Copyright: (C) 2008 Micheal Leopold <lemma@confuego.or>
+
+  * GNU library general public license, version 2 or later.
+    - A few files( kwalletwizard.{h,cpp} kbetterthankdialog.{h,cpp}) 
+      is under GNU General Public License version2 or later
 
 Files under l10n:
 
@@ -481,20 +523,19 @@ License for all components is:
 
 Files under nepomuk:
 
+Copyright: (C) 2003 Scott Wheeler <wheeler@kde.org>
+Copyright: (C) 2004 Max Howell <max.howell@methylblue.com>
+Copyright: (C) 2004 Mark Kretschmann <markey@web.de>
+Copyright: (C) 2008 Seb Ruiz <ruiz@kde.org>
 Copyright: © 2006-2008 Sebastian Trueg <trueg@kde.org>
 Copyright: © 2003-2006 CLucene Team
 Copyright: © 2003-2006 Ben van Klinken
 Copyright: © 2006 Tobias Koenig <tokoe@kde.org>
+Copyright: (C) 2006-2007 Jos van den Oever <jos@vandenoever.info>
 Copyright: © 2007 David Faure <faure@kde.org>
 
 License for all components unless stated otherwise:
-  * GNU Lesser General Public License, version 2
-
-Other used licenses:
-  * GNU Lesser General Public License
-    The files (2) below are licensed under this license:
-    - server/processcontrol.cpp
-    - server/processcontrol.h
+  * GNU Library General Public License, version 2
 
   * GNU General Public License, version 2 or later
     The files (4) below are licensed under this license:
@@ -502,6 +543,8 @@ Other used licenses:
     - services/storage/modelcopyjob.h
     - services/storage/repository.cpp
     - services/storage/repository.h
+    - strigibackend/soprano*
+    - strigibackend/util*
 
   * GNU General Public License
     The files (2) below are licensed under this license:
@@ -512,7 +555,6 @@ Other used licenses:
     The files (14) below are licensed under this license:
     - common/strigiconfigfile.cpp
     - common/strigiconfigfile.h
-    - server/nepomukserver_export.h
     - services/storage/cluceneanalyzer.cpp
     - services/storage/cluceneanalyzer.h
     - services/storage/clucenefilter.cpp
@@ -534,76 +576,22 @@ Copyright: © 2000-2003 the xine project
 Copyright: © 2008 Ian Monroe <imonroe@kde.org>
 
 License for all components unless stated otherwise:
-  * GNU Lesser General Public License, version 2
+  * GNU Library General Public License, version 2
 
 Other used licenses:
-  * GNU General Public License, version 2 or later
+  * GNU Library General Public License, version 2 or version 3
     The files (2) below are licensed under this license:
-    - xine/net_buf_ctrl.c
-    - xine/net_buf_ctrl.h
 
-  * GNU Lesser General Public License, version 2 or version 3
-    The files (2) below are licensed under this license:
     - libkaudiodevicelist/hardwaredatabase.cpp
     - libkaudiodevicelist/hardwaredatabase_p.h
+    - kcm/main.h
+    - kcm/main.cpp
+    - kcm/qsettingsgroup_p.h
+    - kded-module/*
 
-  * GNU Lesser General Public License, version 2 or later
-    The files (53) below are licensed under this license:
-    - xine/abstractaudiooutput.cpp
-    - xine/abstractaudiooutput.h
-    - xine/audiodataoutput.cpp
-    - xine/audiodataoutput.h
-    - xine/audiooutput.cpp
-    - xine/audiooutput.h
-    - xine/audioport.cpp
-    - xine/audioport.h
-    - xine/audioport_p.h
-    - xine/backend.cpp
-    - xine/backend.h
-    - xine/brightnesscontrol.cpp
-    - xine/brightnesscontrol.h
-    - xine/bytestream.cpp
-    - xine/bytestream.h
-    - xine/bytestreamplugin.cpp
-    - xine/connectnotificationinterface.h
-    - xine/deinterlacefilter.cpp
-    - xine/deinterlacefilter.h
-    - xine/effect.cpp
-    - xine/effect.h
-    - xine/events.h
-    - xine/mediaobject.cpp
-    - xine/mediaobject.h
-    - xine/mixer_plugin.cpp
-    - xine/nullsink.cpp
-    - xine/nullsink.h
-    - xine/plugins.c
-    - xine/sinknode.cpp
-    - xine/sinknode.h
-    - xine/sourcenode.cpp
-    - xine/sourcenode.h
-    - xine/videodataoutput.cpp
-    - xine/videodataoutput.h
-    - xine/videoeffect.cpp
-    - xine/videoeffect.h
-    - xine/videowidget.cpp
-    - xine/videowidget.h
-    - xine/visualization.cpp
-    - xine/visualization.h
-    - xine/volumefader_plugin.cpp
-    - xine/volumefadereffect.cpp
-    - xine/volumefadereffect.h
-    - xine/wirecall.h
-    - xine/xineengine.cpp
-    - xine/xineengine.h
-    - xine/xineengine_p.h
-    - xine/xinestream.cpp
-    - xine/xinestream.h
-    - xine/xinethread.cpp
-    - xine/xinethread.h
-    - xine/kcm/xineoptions.cpp
-    - xine/kcm/xineoptions.h
-
-
+  * GNU General Public License, Version 2
+    - kcm/xine/*
+    - test/audiodevicelisttest.cpp
 
 Files under pics:
 
@@ -673,7 +661,7 @@ Copyright: The Oxygen Icon Theme
 
 Files under platforms:
 
-Copyright: © 2006-2008 Ralf Habacker <ralf.habacker@freenet.de>
+Copyright: © 2006-2009 Ralf Habacker <ralf.habacker@freenet.de>
 
 License for all components unless stated otherwise:
   * GNU Lesser General Public License, version 2
@@ -701,7 +689,7 @@ Files under solid-hardware:
 Copyright: © 2006 Kevin Ottens <ervin@kde.org>
 
 License for all components is:
-  * GNU Lesser General Public License, version 2
+  * GNU Library General Public License, version 2
 
 
 Files under soliduiserver:
@@ -711,7 +699,7 @@ Copyright: © 2005-2007 Kevin Ottens <ervin@kde.org>
 Copyright: © 2007 Alexis Ménard <darktears31@gmail.com>
 
 License for all components is:
-  * GNU Lesser General Public License, version 2
+  * GNU Library General Public License, version 2
 
 
 
@@ -721,11 +709,12 @@ On Debian systems, you can find the complete texts of these licenses at:
   - GPL:      /usr/share/common-licenses/GPL
   - GPLv2:    /usr/share/common-licenses/GPL-2
   - LGPLv2:   /usr/share/common-licenses/LGPL-2
+  - LGPLv2.1:   /usr/share/common-licenses/LGPL-2.1
   - GFDL:     /usr/share/common-licenses/GFDL
   - BSD:      /usr/share/common-licenses/BSD
 
 
 
 The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers
-<debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
-see `/usr/share/common-licenses/GPL'.
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL-2, 
+see `/usr/share/common-licenses/GPL-2'.
