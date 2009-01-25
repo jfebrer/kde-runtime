@@ -8,5 +8,5 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
 
 DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
 
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
