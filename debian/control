@@ -24,6 +24,7 @@ Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80)
 Depends: ${shlibs:Depends}, kdebase-runtime-bin-kde4 (= ${binary:Version}),
  kdebase-runtime-data (>= ${source:Version}),
  kde-icons-oxygen (>= ${source:Version}), phonon-backend
+Suggests: djvulibre-bin
 Description: runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a

@@ -3,8 +3,10 @@ kdebase-runtime (4:4.2.0-2) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Simplify 25_khelp_htdig.diff and make it work again.
+  * Suggest djvulibre-bin in kdebase-runtime, as it provides a DjVu thumbnail
+    plugin which calls `ddjvu`.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Feb 2009 13:31:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Feb 2009 13:20:26 +0100
 
 kdebase-runtime (4:4.2.0-1) experimental; urgency=low
 
