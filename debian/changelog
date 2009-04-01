@@ -1,6 +1,10 @@
-kdebase-runtime (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.2.2-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Bump build-deps.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 06:29:20 +0200
 
