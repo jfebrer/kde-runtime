@@ -102,7 +102,7 @@ Description: Oxygen icon theme for KDE 4
  Oxygen is the standard icon theme for KDE 4.
 
 Package: kdebase-runtime-dbg
-Section: devel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime (= ${binary:Version}), kdepimlibs-dbg
