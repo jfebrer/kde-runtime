@@ -1,6 +1,6 @@
 --- a/khelpcenter/searchhandlers/khc_docbookdig.pl.cmake
 +++ b/khelpcenter/searchhandlers/khc_docbookdig.pl.cmake
-@@ -26,7 +26,7 @@
+@@ -26,7 +26,7 @@ use strict;
  
  use Getopt::Long;
  
@@ -11,7 +11,7 @@
  chomp $kdeprefix;
 --- a/khelpcenter/searchhandlers/khc_htdig.pl.cmake
 +++ b/khelpcenter/searchhandlers/khc_htdig.pl.cmake
-@@ -26,7 +26,7 @@
+@@ -26,7 +26,7 @@ use strict;
  
  use Getopt::Long;
  
@@ -22,7 +22,7 @@
  chomp $kdeprefix;
 --- a/khelpcenter/searchhandlers/khc_htsearch.pl
 +++ b/khelpcenter/searchhandlers/khc_htsearch.pl
-@@ -8,7 +8,7 @@
+@@ -8,7 +8,7 @@ use Getopt::Long;
  use open IO => ':utf8';
  use open ':std';
  

@@ -1,6 +1,6 @@
 --- a/doc/userguide/kde-for-admins.docbook
 +++ b/doc/userguide/kde-for-admins.docbook
-@@ -1765,8 +1765,8 @@
+@@ -1765,8 +1765,8 @@ contents are defined by <filename>kde-se
  whose icon and name are defined by <filename>kde-settings.directory</filename></para>
  </listitem>
  <listitem><para>Info Center has a hidden Information menu whose

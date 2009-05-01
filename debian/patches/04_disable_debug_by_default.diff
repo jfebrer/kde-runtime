@@ -6,7 +6,7 @@ which does the same when printing debug information. Don't print them
 unless the user requested them.
 --- a/kdebugdialog/klistdebugdialog.cpp
 +++ b/kdebugdialog/klistdebugdialog.cpp
-@@ -117,7 +117,7 @@
+@@ -117,7 +117,7 @@ void KListDebugDialog::load()
      QTreeWidgetItem* item = m_areaWidget->topLevelItem(i);
      KConfigGroup group = pConfig->group( item->data(0, Qt::UserRole).toByteArray() ); // Group name = debug area code = cb's name
  
