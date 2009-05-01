@@ -33,7 +33,8 @@ Description: runtime components from the official KDE 4 release
  categories including Internet and web applications, multimedia, entertainment,
  educational, graphics and software development.
  .
- This package contains programs and data needed at runtime by KDE 4 applications.
+ This package contains programs and data needed at runtime by KDE 4
+ applications.
 
 Package: kdebase-runtime-bin-kde4
 Section: kde
