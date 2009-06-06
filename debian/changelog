@@ -1,3 +1,35 @@
+kdebase-runtime (4:4.2.90+svn977354-0r1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+  +++ Changes by George Kiagiadakis:
+
+  * Bump build-dependency on kdelibs5-dev to version 4.2.90.
+  * Bump build-dependency on libsoprano-dev to version 2.2.67.
+  * Add build-dependency on libknotificationitem-1-dev.
+  * Refresh patches.
+  * Disable patch 04_disable_debug_by_default.diff as the behavior
+    has changed upstream. (TODO remove?)
+  * Update installed files.
+  * Move package plasma-scriptengine-javascript from kdebase-workspace
+    to kdebase-runtime as the sources for this component were moved upstream.
+  * Add replaces: kdebase-runtime replaces kdebase-workspace-bin (<< 4.2.90)
+    and kdebase-runtime-dbg replaces kdebase-workspace-dbg (<< 4.2.90)
+    because plasmapkg was moved upstream.
+  * Add replaces: kdebase-runtime replaces kdebase-bin (<< 4.2.90),
+    kdebase-runtime-dbg replaces kdebase-dbg (<< 4.2.90) and kdebase-runtime-data
+    replaces kdebase-data (<< 4.2.90) because kdeditfiletype was moved upstream.
+  * Add replaces: kdebase-runtime-data replaces akonadi-kde (<< 4.2.90) because
+    some nepomuk-related files were moved upstream.
+  * Add myself in uploaders.
+  * Drop package kde-icons-oxygen as it was moved to a separate source package.
+  * Make kdebase-runtime depend on oxygen-icon-theme (>= 4.2.90),
+    instead of kde-icons-oxygen (>= ${source:Version}).
+  * Add replaces: kdebase-runtime-data replaces kde-icons-oxygen (<< 4.2.90)
+    as the oxygen .theme file was moved.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Jun 2009 20:47:22 +0300
+
 kdebase-runtime (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.

@@ -4,7 +4,9 @@ usr/bin/kde-mv
 usr/bin/kde-open
 usr/bin/kde4
 usr/bin/kde4-menu
+usr/bin/keditfiletype
 usr/bin/kfile4
+usr/bin/kglobalaccel
 usr/bin/khotnewstuff4
 usr/bin/kiconfinder
 usr/bin/kioclient
@@ -18,6 +20,7 @@ usr/bin/kuiserver
 usr/bin/kwalletd
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
+usr/bin/plasmapkg
 usr/bin/solid-hardware
 usr/lib/kconf_update_bin/phonon_devicepreference_update
 usr/lib/kconf_update_bin/phonon_deviceuids_update
@@ -31,6 +34,7 @@ usr/lib/kde4/jpegthumbnail.so
 usr/lib/kde4/kcm_cgi.so
 usr/lib/kde4/kcm_componentchooser.so
 usr/lib/kde4/kcm_emoticons.so
+usr/lib/kde4/kcm_filetypes.so
 usr/lib/kde4/kcm_icons.so
 usr/lib/kde4/kcm_kded.so
 usr/lib/kde4/kcm_kdnssd.so
@@ -42,11 +46,12 @@ usr/lib/kde4/kcm_phononxine.so
 usr/lib/kde4/kcm_trash.so
 usr/lib/kde4/kcmspellchecking.so
 usr/lib/kde4/kded_desktopnotifier.so
-usr/lib/kde4/kded_globalaccel.so
 usr/lib/kde4/kded_kpasswdserver.so
 usr/lib/kde4/kded_ktimezoned.so
+usr/lib/kde4/kded_networkwatcher.so
 usr/lib/kde4/kded_phononserver.so
 usr/lib/kde4/kded_remotedirnotify.so
+usr/lib/kde4/kded_solidautoeject.so
 usr/lib/kde4/kded_soliduiserver.so
 usr/lib/kde4/kio_about.so
 usr/lib/kde4/kio_applications.so
@@ -61,6 +66,7 @@ usr/lib/kde4/kio_floppy.so
 usr/lib/kde4/kio_info.so
 usr/lib/kde4/kio_man.so
 usr/lib/kde4/kio_nepomuksearch.so
+usr/lib/kde4/kio_network.so
 usr/lib/kde4/kio_nfs.so
 usr/lib/kde4/kio_remote.so
 usr/lib/kde4/kio_settings.so
@@ -99,9 +105,13 @@ usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
 usr/lib/libkdeinit4_kcmshell4.so
+usr/lib/libkdeinit4_kglobalaccel.so
 usr/lib/libkdeinit4_kuiserver.so
 usr/lib/libkdeinit4_kwalletd.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/libkwalletbackend.so.4
-usr/lib/libkwalletbackend.so.4.2.0
+usr/lib/libkwalletbackend.so.4.3.0
+usr/lib/libmolletnetwork.so
+usr/lib/libmolletnetwork.so.4
+usr/lib/libmolletnetwork.so.4.3.0
 usr/lib/strigi/strigiindex_sopranobackend.so

@@ -2,8 +2,8 @@ ksvgtopng is being renamed ksvgtopng4 to allow kdebase-runtime be
 co-installable witj KDE 3.
 --- a/pics/CMakeLists.txt
 +++ b/pics/CMakeLists.txt
-@@ -4,9 +4,9 @@ add_subdirectory( emoticons )
- add_subdirectory( oxygen )
+@@ -4,9 +4,9 @@
+ #add_subdirectory( oxygen )
  
  set(ksvgtopng_SRCS ksvgtopng.cpp )
 -kde4_add_executable(ksvgtopng NOGUI ${ksvgtopng_SRCS})
@@ -17,7 +17,7 @@ co-installable witj KDE 3.
  # so that fallbacks work even for themes that don't inherit from oxygen
 --- a/pics/ksvgtopng.cpp
 +++ b/pics/ksvgtopng.cpp
-@@ -12,7 +12,7 @@ int main(int argc, char **argv)
+@@ -12,7 +12,7 @@
  {
  	if(argc < 5)
  	{
