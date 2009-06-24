@@ -17,8 +17,8 @@ co-installable witj KDE 3.
  # so that fallbacks work even for themes that don't inherit from oxygen
 --- a/pics/ksvgtopng.cpp
 +++ b/pics/ksvgtopng.cpp
-@@ -12,7 +12,7 @@
- {
+@@ -18,7 +18,7 @@
+ 
  	if(argc < 5)
  	{
 -		cout << "Usage : ksvgtopng width height svgfilename outputfilename" << endl;

@@ -1,10 +1,10 @@
-kdebase-runtime (4:4.2.90+svn977354-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.2.95+svn986464-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
   +++ Changes by George Kiagiadakis:
 
-  * Bump build-dependency on kdelibs5-dev to version 4.2.90.
+  * Bump build-dependency on kdelibs5-dev to version 4.2.95.
   * Bump build-dependency on libsoprano-dev to version 2.2.67.
   * Add build-dependency on libknotificationitem-1-dev.
   * Refresh patches.
@@ -28,7 +28,7 @@ kdebase-runtime (4:4.2.90+svn977354-0r1) UNRELEASED; urgency=low
   * Add replaces: kdebase-runtime-data replaces kde-icons-oxygen (<< 4.2.90)
     as the oxygen .theme file was moved.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Jun 2009 20:47:22 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jun 2009 23:47:53 +0300
 
 kdebase-runtime (4:4.2.4-1) unstable; urgency=low
 
