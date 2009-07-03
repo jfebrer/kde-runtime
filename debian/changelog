@@ -1,3 +1,12 @@
+kdebase-runtime (4:4.2.4-2) unstable; urgency=medium
+
+  * Move a file from kde-icons-oxygen to kdebase-runtime-data where it
+    belongs.
+  * Medium urgency as this is a quite important fix to ease the users upgrades
+    to kde4.3.
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 04 Jul 2009 00:39:41 +0200
+
 kdebase-runtime (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.

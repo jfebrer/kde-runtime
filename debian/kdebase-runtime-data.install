@@ -296,6 +296,7 @@ usr/share/kde4/apps/ksmserver/windowmanagers/compiz-custom.desktop
 usr/share/kde4/apps/ksmserver/windowmanagers/compiz.desktop
 usr/share/kde4/apps/ksmserver/windowmanagers/metacity.desktop
 usr/share/kde4/apps/ksmserver/windowmanagers/openbox.desktop
+usr/share/kde4/apps/kstyle/themes/oxygen.themerc
 usr/share/kde4/apps/libphonon/hardwaredatabase
 usr/share/kde4/apps/nepomuk/ontologies/dces.desktop
 usr/share/kde4/apps/nepomuk/ontologies/dces.rdf
