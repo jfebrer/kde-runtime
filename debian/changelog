@@ -25,6 +25,8 @@ kdebase-runtime (4:4.2.96-0r1) UNRELEASED; urgency=low
   * Drop package kde-icons-oxygen as it was moved to a separate source package.
   * Make kdebase-runtime depend on oxygen-icon-theme (>= 4.2.90),
     instead of kde-icons-oxygen (>= ${source:Version}).
+  * Make kdebase-runtime depend on phonon-backend-xine | phonon-backend, so
+    that the xine backend is preferred.
 
   +++ Changes by Sune Vuorela:
 
