@@ -8,8 +8,7 @@ kdebase-runtime (4:4.2.96-0r1) UNRELEASED; urgency=low
   * Bump build-dependency on libsoprano-dev to version 2.2.67.
   * Add build-dependency on libknotificationitem-1-dev.
   * Refresh patches.
-  * Disable patch 04_disable_debug_by_default.diff as the behavior
-    has changed upstream. (TODO remove?)
+  * Remove patch 04_disable_debug_by_default.diff.
   * Update installed files.
   * Move package plasma-scriptengine-javascript from kdebase-workspace
     to kdebase-runtime as the sources for this component were moved upstream.
