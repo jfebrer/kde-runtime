@@ -1,7 +1,7 @@
 ktrash is being renamed ktrash4 to allow kdebase-runtime be co-installable with KDE 3.
 --- a/kioslave/trash/CMakeLists.txt
 +++ b/kioslave/trash/CMakeLists.txt
-@@ -45,11 +45,11 @@
+@@ -45,11 +45,11 @@ endif(NOT WIN32)
  set(ktrash_SRCS ktrash.cpp )
  
  
