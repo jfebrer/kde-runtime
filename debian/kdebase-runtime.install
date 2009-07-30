@@ -111,7 +111,6 @@ usr/lib/libkdeinit4_kwalletd.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/libkwalletbackend.so.4
 usr/lib/libkwalletbackend.so.4.3.0
-usr/lib/libmolletnetwork.so
 usr/lib/libmolletnetwork.so.4
 usr/lib/libmolletnetwork.so.4.3.0
 usr/lib/strigi/strigiindex_sopranobackend.so
