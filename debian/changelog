@@ -1,10 +1,19 @@
-kdebase-runtime (4:4.3.0-0r2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.3.0-0r3) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+  
   * Bump libsoprano-dev build dependency version to >= 2.3.0.
   * Update installed files.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 18:15:37 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Bump build depends to >= 4.3.0.
+  * Update packaging copyright in debian/copyright.
+  * Update Standards-Version to 3.8.2, no changes required.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Jun 2009 18:01:03 +0300
 
 kdebase-runtime (4:4.2.96-1) experimental; urgency=low
 
