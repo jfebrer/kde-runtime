@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.3.0-0r3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -13,7 +13,7 @@ kdebase-runtime (4:4.3.0-0r3) UNRELEASED; urgency=low
   * Update packaging copyright in debian/copyright.
   * Update Standards-Version to 3.8.2, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 14:09:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:05:51 +0200
 
 kdebase-runtime (4:4.2.96-1) experimental; urgency=low
 
