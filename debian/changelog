@@ -1,3 +1,11 @@
+kdebase-runtime (4:4.3.0-3~pre1) unstable; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Add kcontrol to kdebase-runtime Replaces.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 17:26:06 +0300
+
 kdebase-runtime (4:4.3.0-2) unstable; urgency=medium
 
   +++ Changes by Modestas Vainius:
