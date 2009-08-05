@@ -1,14 +1,14 @@
-kdebase-runtime (4:4.3.0-2~pre2) unstable; urgency=medium
+kdebase-runtime (4:4.3.0-2) unstable; urgency=medium
 
   +++ Changes by Modestas Vainius:
 
   * Merge kdebase-runtime-data-common to kdebase-runtime-data.
   * Merge kdebase-runtime-bin-kde4 to kdebase-runtime.
-  * kdebase-runtime conflicts with kcontrol (Closes: #540009).
+  * kdebase-runtime conflicts with kcontrol. (Closes: #540009).
   * Urgency medium due to RC bugfix.
-  * Build depend on libslp-dev.
+  * Add build depend on libslp-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 10:23:22 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 13:30:30 +0200
 
 kdebase-runtime (4:4.3.0-1) unstable; urgency=low
 
