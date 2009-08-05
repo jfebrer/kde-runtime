@@ -4,6 +4,7 @@ usr/bin/kde-mv
 usr/bin/kde-open
 usr/bin/kde4
 usr/bin/kde4-menu
+usr/bin/kdebugdialog
 usr/bin/keditfiletype
 usr/bin/kfile4
 usr/bin/kglobalaccel
@@ -13,11 +14,14 @@ usr/bin/kioclient
 usr/bin/kmimetypefinder
 usr/bin/knotify4
 usr/bin/kquitapp
+usr/bin/kreadconfig
+usr/bin/kstart
 usr/bin/ksvgtopng4
 usr/bin/ktraderclient
 usr/bin/ktrash4
 usr/bin/kuiserver
 usr/bin/kwalletd
+usr/bin/kwriteconfig
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
 usr/bin/plasmapkg
