@@ -3,3 +3,15 @@
 # belongs to -dev package, but no public headers, so no use
 ./usr/lib/libkwalletbackend.so
 ./usr/lib/libmolletnetwork.so
+
+# Dbus interfaces XMLs
+./usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
+./usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.Query.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.QueryService.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.Strigi.xml
+./usr/share/dbus-1/interfaces/org.kde.network.kioslavenotifier.xml

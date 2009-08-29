@@ -15,6 +15,7 @@ mime:application/x-.* dst:usr/lib
 [kdebase-runtime-data]
 # Files not installed because they conflict with hicolor-icon-theme
 missing dst:usr/share/icons/hicolor/index.theme
+missing dst:usr/share/dbus-\d+/interfaces/.*\.xml$
 # Process common stuff first, then what's left goes here
 dst:etc/
 dst:usr/share/

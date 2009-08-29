@@ -1,16 +1,6 @@
 etc/xdg/menus/kde4-information.menu
 usr/share/applications/kde4/knetattach.desktop
 usr/share/autostart/nepomukserver.desktop
-usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
-usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.Query.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.QueryService.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.Strigi.xml
-usr/share/dbus-1/interfaces/org.kde.network.kioslavenotifier.xml
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/desktop-directories/kde-development-translation.directory
 usr/share/desktop-directories/kde-development-webdevelopment.directory
@@ -1099,8 +1089,6 @@ usr/share/locale/l10n/zm/flag.png
 usr/share/locale/l10n/zw/entry.desktop
 usr/share/locale/l10n/zw/flag.png
 usr/share/man/man1/kdesu.1
-usr/share/man/man8/nepomukserver.8
-usr/share/man/man8/nepomukservicestub.8
 usr/share/mime/packages/network.xml
 usr/share/sounds/KDE-Im-Cant-Connect.ogg
 usr/share/sounds/KDE-Im-Connection-Lost.ogg
