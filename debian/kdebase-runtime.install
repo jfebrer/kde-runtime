@@ -104,6 +104,8 @@ usr/lib/kde4/nepomukontologyloader.so
 usr/lib/kde4/nepomukqueryservice.so
 usr/lib/kde4/nepomukstorage.so
 usr/lib/kde4/nepomukstrigiservice.so
+usr/lib/kde4/plasma_appletscript_simple_javascript.so
+usr/lib/kde4/plasma_runnerscript_javascript.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so

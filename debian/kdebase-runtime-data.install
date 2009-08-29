@@ -500,6 +500,8 @@ usr/share/kde4/services/nepomukstorage.desktop
 usr/share/kde4/services/nepomukstrigiservice.desktop
 usr/share/kde4/services/network.protocol
 usr/share/kde4/services/nfs.protocol
+usr/share/kde4/services/plasma-scriptengine-applet-simple-javascript.desktop
+usr/share/kde4/services/plasma-scriptengine-runner-javascript.desktop
 usr/share/kde4/services/programs.protocol
 usr/share/kde4/services/remote.protocol
 usr/share/kde4/services/renaudiodlg.desktop
@@ -1097,6 +1099,8 @@ usr/share/locale/l10n/zm/flag.png
 usr/share/locale/l10n/zw/entry.desktop
 usr/share/locale/l10n/zw/flag.png
 usr/share/man/man1/kdesu.1
+usr/share/man/man8/nepomukserver.8
+usr/share/man/man8/nepomukservicestub.8
 usr/share/mime/packages/network.xml
 usr/share/sounds/KDE-Im-Cant-Connect.ogg
 usr/share/sounds/KDE-Im-Connection-Lost.ogg

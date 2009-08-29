@@ -1,29 +1,10 @@
-[kde-icons-oxygen]
-dst:/oxygen/
-dst:oxygen.themerc
-
-[kdebase-runtime-bin-kde4]
-# Process exceptions first
-dst:usr/bin/kdebugdialog$
-dst:usr/bin/kreadconfig$
-dst:usr/bin/kstart$
-dst:usr/bin/kwriteconfig$
-
 [khelpcenter4]
 dst:khelpcenter
 dst:Help\.desktop
 
-[kdebase-runtime-data-common]
-# Files not installed because they conflict with hicolor-icon-theme
-missing dst:usr/share/icons/hicolor/index.theme
-
-dst:usr/share/icons
-dst:usr/share/locale
-dst:usr/share/man
-dst:usr/share/desktop-directories/
-
 [kdebase-runtime]
 missing dst:usr/lib/libkwalletbackend.so$
+missing dst:usr/lib/libmolletnetwork.so$
 # If stops, needs checking, something might be wrong
 stop dst:usr/lib/[^/]+\.so$ link:usr/lib/[^/]+\.so\.
 dst:usr/bin
@@ -32,6 +13,8 @@ mime:application/.* dst:usr/bin
 mime:application/x-.* dst:usr/lib
 
 [kdebase-runtime-data]
+# Files not installed because they conflict with hicolor-icon-theme
+missing dst:usr/share/icons/hicolor/index.theme
 # Process common stuff first, then what's left goes here
 dst:etc/
 dst:usr/share/

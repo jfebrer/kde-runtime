@@ -1,10 +1,16 @@
-kdebase-runtime (4:4.3.0-3~pre1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Add kcontrol to kdebase-runtime Replaces.
+  * Bump Standards-Version to 3.8.3, no changes needed.
+  * Bump KDE build dependencies to 4.3.1.
+  * Update debian/not-installed.
+  * Update install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 17:26:06 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 15:00:26 +0300
 
 kdebase-runtime (4:4.3.0-2) unstable; urgency=medium
 

@@ -2,3 +2,4 @@
 ./usr/share/icons/hicolor/index.theme
 # belongs to -dev package, but no public headers, so no use
 ./usr/lib/libkwalletbackend.so
+./usr/lib/libmolletnetwork.so
