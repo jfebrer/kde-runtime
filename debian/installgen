@@ -2,6 +2,9 @@
 dst:khelpcenter
 dst:Help\.desktop
 
+[plasma-scriptengine-javascript]
+from:/plasma/scriptengines/javascript/
+
 [kdebase-runtime]
 missing dst:usr/lib/libkwalletbackend.so$
 missing dst:usr/lib/libmolletnetwork.so$
