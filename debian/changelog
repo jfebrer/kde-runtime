@@ -2,7 +2,7 @@ kdebase-runtime (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@henry.aurel32.net>  Tue, 06 Oct 2009 15:15:35 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Oct 2009 15:15:35 +0200
 
 kdebase-runtime (4:4.3.1-1) unstable; urgency=low
 
