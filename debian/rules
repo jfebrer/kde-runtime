@@ -10,3 +10,6 @@ DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
+binary-install/khelpcenter4::
+	mkdir debian/khelpcenter4/usr/share/services
+	ln -s /usr/share/kde4/services/khelpcenter.desktop debian/khelpcenter4/usr/share/services/
