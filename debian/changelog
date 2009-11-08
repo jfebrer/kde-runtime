@@ -2,16 +2,16 @@ kdebase-runtime (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release
 
-  +++ Changes by Xavier Velo:
+  +++ Changes by Xavier Vello:
 
   * Added khelpcenter.desktop to /usr/share/services to enable khelpcenter4
     support in kde3 apps
 
   +++ Changes by Lukasz Janyst:
 
-  * Updated build dep's version numbers in debian/control
+  * Bump build depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Nov 2009 01:30:19 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 01:30:19 +0100
 
 kdebase-runtime (4:4.3.2-1) unstable; urgency=low
 
