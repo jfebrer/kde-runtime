@@ -1,0 +1,2 @@
+#compability until we want to Break: plasma-widgets-workspace (<< 4:4.3.3), probably around 4:4.4 or so.
+/usr/bin/trash /usr/bin/trash4
