@@ -480,6 +480,7 @@ usr/share/kde4/services/kurisearchfilter.desktop
 usr/share/kde4/services/kwalletd.desktop
 usr/share/kde4/services/language.desktop
 usr/share/kde4/services/localdomainurifilter.desktop
+usr/share/kde4/services/lzma.protocol
 usr/share/kde4/services/man.protocol
 usr/share/kde4/services/nepomukfilewatch.desktop
 usr/share/kde4/services/nepomukmigration1.desktop
@@ -598,6 +599,7 @@ usr/share/kde4/services/tar.protocol
 usr/share/kde4/services/textthumbnail.desktop
 usr/share/kde4/services/thumbnail.protocol
 usr/share/kde4/services/trash.protocol
+usr/share/kde4/services/xz.protocol
 usr/share/kde4/services/zip.protocol
 usr/share/kde4/servicetypes/nepomukservice.desktop
 usr/share/kde4/servicetypes/phononbackend.desktop
