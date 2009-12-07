@@ -1,0 +1,164 @@
+From: Lubos Lunak <l.lunak@suse.cz>
+Subject: dynamic_cast -> qobject_cast
+ Plugins really shouldn't use dynamic_cast, it breaks without RTLD_GLOBAL
+ and especially with plugins that is quite likely to happen with 3rd party
+ apps (e.g. http://bugzilla.novell.com/529640).
+ .
+ The patch was backported from KDE 4.4.
+Forwarded: not-needed
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=550905
+Origin: upstream, svn diff -c 1034807 svn://anonsvn.kde.org/home/kde
+       
+--- a/kstyles/oxygen/oxygen.cpp
++++ b/kstyles/oxygen/oxygen.cpp
+@@ -247,7 +247,7 @@
+     bool visible = false;
+     for (iter = progAnimWidgets.begin(); iter != progAnimWidgets.end(); ++iter)
+     {
+-        pb = dynamic_cast<QProgressBar*>(iter.key());
++        pb = qobject_cast<QProgressBar*>(iter.key());
+ 
+         if ( !pb )
+             continue;
+@@ -508,7 +508,7 @@
+ 
+         case WT_ProgressBar:
+         {
+-//             const Q3ProgressBar *pb = dynamic_cast<const Q3ProgressBar*>(widget);
++//             const Q3ProgressBar *pb = qobject_cast<const Q3ProgressBar*>(widget);
+ //             int steps = pb->totalSteps();
+ 
+             QColor bg = enabled?pal.color(QPalette::Base):pal.color(QPalette::Background); // background
+@@ -1939,12 +1939,12 @@
+                 case ToolButton::Panel:
+                 {
+                     QRect slitRect = r;
+-                    const QToolButton* t=dynamic_cast<const QToolButton*>(widget);
++                    const QToolButton* t=qobject_cast<const QToolButton*>(widget);
+                     if (t && !t->autoRaise())
+                     {
+                         StyleOptions opts = 0;
+ 
+-                        if (const QTabBar *tb =  dynamic_cast<const QTabBar*>(t->parent()))
++                        if (const QTabBar *tb =  qobject_cast<const QTabBar*>(t->parent()))
+                         {
+                             bool horizontal = true;
+                             bool northOrEast = true;
+@@ -2076,7 +2076,7 @@
+         }
+         qreal penThickness = 2.2;
+ 
+-        if (const QToolButton *tool = dynamic_cast<const QToolButton *>(widget)) {
++        if (const QToolButton *tool = qobject_cast<const QToolButton *>(widget)) {
+             if (tool->popupMode()==QToolButton::MenuButtonPopup) {
+                 if(!tool->autoRaise()) {
+                     if ((flags & State_On) || (flags & State_Sunken))
+@@ -3097,7 +3097,7 @@
+                 size.setWidth(size.height());
+             size.setWidth(size.width() + menuAreaWidth);
+ 
+-            const QToolButton* t=dynamic_cast<const QToolButton*>(widget);
++            const QToolButton* t=qobject_cast<const QToolButton*>(widget);
+             if (t && t->autoRaise()==true)
+             {
+                 int width = size.width() +
+--- a/kstyles/highcontrast/highcontrast.cpp
++++ b/kstyles/highcontrast/highcontrast.cpp
+@@ -159,7 +159,7 @@
+ 	{
+ 		widget->installEventFilter (this);
+ 
+-		Q3SpinWidget* spinwidget = dynamic_cast<Q3SpinWidget*>(widget);
++		Q3SpinWidget* spinwidget = qobject_cast<Q3SpinWidget*>(widget);
+ 		if (spinwidget && spinwidget->editWidget())
+ 			spinwidget->editWidget()->installEventFilter (this);
+ 	}
+@@ -667,7 +667,7 @@
+ 		case KPE_SliderGroove: {
+ 			setColorsText (p, cg, flags);
+ 			QRect r2 (r);
+-			const QSlider *slider = dynamic_cast<const QSlider*>(widget);
++			const QSlider *slider = qobject_cast<const QSlider*>(widget);
+ 			if (slider != 0)
+ 			{
+ 				if (slider->orientation() == Qt::Horizontal)
+@@ -941,7 +941,7 @@
+ 		// -------------------------------------------------------------------
+ 		case CE_ProgressBarGroove: {
+ 			setColorsText (p, cg, flags);
+-			const QProgressBar *progressbar = dynamic_cast<const QProgressBar*>(widget);
++			const QProgressBar *progressbar = qobject_cast<const QProgressBar*>(widget);
+ 			if (progressbar) {
+ 				QRect r2 (r);
+ 				r2.setLeft (p->boundingRect (r, Qt::AlignVCenter|Qt::AlignLeft|Qt::TextShowMnemonic, progressbar->progressString()).right()
+@@ -951,7 +951,7 @@
+ 			break;
+ 		}
+ 		case CE_ProgressBarContents: {
+-			const QProgressBar *progressbar = dynamic_cast<const QProgressBar*>(widget);
++			const QProgressBar *progressbar = qobject_cast<const QProgressBar*>(widget);
+ 			if (progressbar)
+ 			{
+ 				QRect r2 (r);
+@@ -1796,7 +1796,7 @@
+ 
+ bool HighContrastStyle::eventFilter (QObject *object, QEvent *event)
+ {
+-	QWidget* widget = dynamic_cast<QWidget*>(object);
++	QWidget* widget = qobject_cast<QWidget*>(object);
+ 	if (widget)
+ 	{
+ 		// Handle hover effects.
+@@ -1820,12 +1820,12 @@
+ 		// Make sure the focus rectangle is shown correctly.
+ 		else if (event->type() == QEvent::FocusIn || event->type() == QEvent::FocusOut)
+ 		{
+-			QWidget* widgetparent = dynamic_cast<QWidget*>(widget->parent());
++			QWidget* widgetparent = qobject_cast<QWidget*>(widget->parent());
+ 			while (widgetparent
+ 							&& ! widgetparent->inherits ("QComboBox")
+ 							&& ! widgetparent->inherits ("QSpinWidget"))
+ 			{
+-				widgetparent = dynamic_cast<QWidget*>(widgetparent->parent());
++				widgetparent = qobject_cast<QWidget*>(widgetparent->parent());
+ 			}
+ 
+ 			if (widgetparent)
+--- a/kstyles/highcolor/highcolor.cpp
++++ b/kstyles/highcolor/highcolor.cpp
+@@ -415,7 +415,7 @@
+ 			// Temporary solution for the proper orientation of gradients.
+ 			bool horizontal = true;
+ 			if (p && p->device()->devType() == QInternal::Widget) {
+-				Q3Header* hdr = dynamic_cast<Q3Header*>(p->device());
++				Q3Header* hdr = qobject_cast<Q3Header*>(p->device());
+ 				if (hdr)
+ 					horizontal = hdr->orientation() == Qt::Horizontal;
+ 			}
+@@ -1948,7 +1948,7 @@
+ 	Q3ToolBar* toolbar;
+ 
+ 	// Handle push button hover effects.
+-	QPushButton* button = dynamic_cast<QPushButton*>(object);
++	QPushButton* button = qobject_cast<QPushButton*>(object);
+ 	if ( button )
+ 	{
+ 		if ( (event->type() == QEvent::Enter) &&
+@@ -1984,7 +1984,7 @@
+ 			bool horiz_grad = pr.width() < pr.height();
+ 
+ 			// Check if the parent is a QToolbar, and use its orientation, else guess.
+-			Q3ToolBar* tb = dynamic_cast<Q3ToolBar*>(parent);
++			Q3ToolBar* tb = qobject_cast<Q3ToolBar*>(parent);
+ 			if (tb) horiz_grad = tb->orientation() == Qt::Vertical;
+ 
+ 			QPainter p( widget );
+@@ -1994,7 +1994,7 @@
+ 			return false;	// Now draw the contents
+ 		}
+ 	} else if ( object->parent() &&
+-			(toolbar = dynamic_cast<Q3ToolBar*>(object->parent())) )
++			(toolbar = qobject_cast<Q3ToolBar*>(object->parent())) )
+ 	{
+ 		// We need to override the paint event to draw a 
+ 		// gradient on a QToolBarExtensionWidget.
