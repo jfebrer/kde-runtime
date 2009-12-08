@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.3.4-0r3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release
 
@@ -31,7 +31,7 @@ kdebase-runtime (4:4.3.4-0r3) UNRELEASED; urgency=low
     with RTLD_GLOBAL. Unbreaks openoffice.org (Closes: #550905) (patch
     00_1034807_4.4_backport_rtldglobal.diff, kdebase-runtime part).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:50 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:05 +0200
 
 kdebase-runtime (4:4.3.2-1) unstable; urgency=low
 
