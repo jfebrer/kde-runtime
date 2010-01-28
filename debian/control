@@ -26,7 +26,7 @@ Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80), kde
  kdebase-bin-kde3, kcontrol, kdebase-kio-plugins
 Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
  oxygen-icon-theme (>= 4:4.2.90), phonon-backend-xine | phonon-backend
-Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd                                   
+Recommends: hal | kfreebsd-gnu | hurd
 Suggests: djvulibre-bin
 Description: runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
