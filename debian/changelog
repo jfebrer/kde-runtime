@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.3.4-3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -11,7 +11,14 @@ kdebase-runtime (4:4.3.4-3) UNRELEASED; urgency=low
   * "javascript" -> "JavaScript" in plasma-scriptengine-javascript
     descriptions. (Closes: #567166)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jan 2010 22:53:15 +0100
+  [ George Kiagiadakis ]
+  * Drop backported patch 00_1034807_4.4_backport_rtldglobal.diff.
+  * Refresh patch 25_khelp_htdig.diff.
+  * Bump kdelibs5-dev build-dependency to >= 4:4.4.0.
+  * Bump libsoprano-dev build-dependency to >= 2.3.70.
+  * Add build-dependencies to libattica-dev, libssh-dev, libexiv2-dev.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sat, 06 Feb 2010 17:03:53 +0200
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
