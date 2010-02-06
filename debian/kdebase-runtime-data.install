@@ -457,7 +457,6 @@ usr/share/kde4/services/jpegthumbnail.desktop
 usr/share/kde4/services/kcm_kdnssd.desktop
 usr/share/kde4/services/kcm_nepomuk.desktop
 usr/share/kde4/services/kcm_phonon.desktop
-usr/share/kde4/services/kcm_phononxine.desktop
 usr/share/kde4/services/kcmcgi.desktop
 usr/share/kde4/services/kcmkded.desktop
 usr/share/kde4/services/kcmnotify.desktop

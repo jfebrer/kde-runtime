@@ -67,6 +67,17 @@ Description: Help Center for KDE 4
  .
  This package is part of the KDE 4 base runtime module.
 
+Package: kde-config-phonon-xine
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdebase-runtime-data (<< 4:4.4.0), kdebase-runtime (<< 4:4.4.0)
+Description: advanced Phonon Xine configuration
+ This package contains a configuration module for tweaking some of the more
+ advanced settings for Phonon's Xine backend.
+ .
+ This package is part of the KDE 4 base runtime module.
+
 Package: plasma-scriptengine-javascript
 Section: kde
 Architecture: any

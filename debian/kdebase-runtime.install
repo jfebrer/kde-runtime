@@ -46,7 +46,6 @@ usr/lib/kde4/kcm_knotify.so
 usr/lib/kde4/kcm_locale.so
 usr/lib/kde4/kcm_nepomuk.so
 usr/lib/kde4/kcm_phonon.so
-usr/lib/kde4/kcm_phononxine.so
 usr/lib/kde4/kcm_trash.so
 usr/lib/kde4/kcmspellchecking.so
 usr/lib/kde4/kded_desktopnotifier.so
