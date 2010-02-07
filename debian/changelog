@@ -19,7 +19,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add build-dependencies to libattica-dev, libssh-dev, libexiv2-dev.
   * Drop libknotificationitem-1-dev build-dependency.
   * Update installed files.
-  * Add dependency to shared-desktop-ontologies in kdebase-runtime.
+  * Add build and runtime dependency to shared-desktop-ontologies.
 
   [ Jonathan Thomas ]
   * Split the KCM for the Phonon Xine backend into a separate package from the
