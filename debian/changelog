@@ -18,6 +18,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Bump libsoprano-dev build-dependency to >= 2.3.70.
   * Add build-dependencies to libattica-dev, libssh-dev, libexiv2-dev.
   * Drop libknotificationitem-1-dev build-dependency.
+  * Update installed files.
 
   [ Jonathan Thomas ]
   * Split the KCM for the Phonon Xine backend into a separate package from the
