@@ -10,6 +10,8 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
     need to depend on kdepimlibs-dbg. (Closes: #466167)
   * "javascript" -> "JavaScript" in plasma-scriptengine-javascript
     descriptions. (Closes: #567166)
+  * Drop kfreebsd-gnu and hurd alternatives for hal recommend, as hal is
+    available on these architectures now.
 
   [ George Kiagiadakis ]
   * Drop backported patch 00_1034807_4.4_backport_rtldglobal.diff.
@@ -26,7 +28,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
     kdebase-runtime binary package to prevent all of KDE from depending on Xine.
     (Closes: #559748)
 
- -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sun, 07 Feb 2010 18:16:28 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Feb 2010 11:09:48 +0100
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
