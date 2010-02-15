@@ -32,7 +32,11 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
     kdebase-runtime binary package to prevent all of KDE from depending on Xine.
     (Closes: #559748)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 02:43:42 +0100
+  [ Ryan Kavanagh ]
+  * Update and apply Martin Olsen's patch to add a manpage for
+    /usr/bin/kioclient (Closes: #493054).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 14:39:41 -0500
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
