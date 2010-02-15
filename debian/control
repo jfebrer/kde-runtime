@@ -29,7 +29,7 @@ Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
  oxygen-icon-theme (>= 4:4.2.90), phonon-backend-xine | phonon-backend,
  shared-desktop-ontologies
 Recommends: hal
-Suggests: djvulibre-bin
+Suggests: djvulibre-bin, icoutils
 Description: runtime components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a

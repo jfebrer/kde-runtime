@@ -14,6 +14,8 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
     descriptions. (Closes: #567166)
   * Drop kfreebsd-gnu and hurd alternatives for hal recommend, as hal is
     available on these architectures now.
+  * Add icoutils suggest to kdebase-runtime, as it contains a thumbnailer for
+    icons in Windows executables which uses wrestool and icotool.
 
   [ George Kiagiadakis ]
   * Drop backported patch 00_1034807_4.4_backport_rtldglobal.diff.
@@ -30,7 +32,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
     kdebase-runtime binary package to prevent all of KDE from depending on Xine.
     (Closes: #559748)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Feb 2010 11:09:48 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 02:43:42 +0100
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
