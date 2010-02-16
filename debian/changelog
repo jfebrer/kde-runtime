@@ -9,7 +9,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
   * kdebase-runtime does not use kdepimlibs, so kdebase-runtime-dbg does not
-    need to depend on kdepimlibs-dbg. (Closes: #466167)
+    need to depend on kdepimlibs-dbg, but just kdelibs5-dbg. (Closes: #466167)
   * "javascript" -> "JavaScript" in plasma-scriptengine-javascript
     descriptions. (Closes: #567166)
   * Drop kfreebsd-gnu and hurd alternatives for hal recommend, as hal is
@@ -36,7 +36,7 @@ kdebase-runtime (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 14:39:41 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2010 02:29:34 +0100
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
