@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.4.0), libphonon-dev (>= 4:4.3.0),
+ kdelibs5-dev (>= 4:4.4.0), libphonon-dev (>= 4:4.3.0), kdelibs5-plugins,
  libclucene-dev, libsmbclient-dev, libsoprano-dev (>= 2.3.70),
  libstreamanalyzer-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3),
  libxcb1-dev, libopenexr-dev, libbz2-dev, libx11-dev, libxcursor-dev,
@@ -26,6 +26,7 @@ Replaces: kdebase-bin (<< 4:4.2.90), kdelibs5 (<< 4:4.1.80), kdelibs-bin (<< 4:4
 Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80), kdebase-runtime-bin-kde4,
  kdebase-bin-kde3, kcontrol, kdebase-kio-plugins
 Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
+ ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
  oxygen-icon-theme (>= 4:4.2.90), phonon-backend-xine | phonon-backend,
  shared-desktop-ontologies
 Recommends: hal
