@@ -27,8 +27,9 @@ kdebase-runtime (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Refresh patch 25_khelp_htdig.diff.
   * Add patch 03_disable_usr_lib_install_rpath.diff to disable
     setting RPATH to /usr/lib for the phonon platform plugin.
-  * Bump kdelibs5-dev build-dependency to >= 4:4.4.0.
-  * Bump libsoprano-dev build-dependency to >= 2.3.70.
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Bump libsoprano-dev build dependency to >= 2.3.70.
+  * Bump libphonon-dev build dependency to >= 4:4.6.0really4.3.80.
   * Add build-dependencies to libattica-dev, libssh-dev, libexiv2-dev.
   * Drop libknotificationitem-1-dev build-dependency.
   * Update installed files.
