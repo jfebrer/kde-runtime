@@ -13,7 +13,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libjpeg62-dev, libqt4-opengl-dev, libpulse-dev, libxine-dev, libslp-dev,
  liblzma-dev, libattica-dev, libssh-dev (>= 0.4.0), libexiv2-dev,
  shared-desktop-ontologies
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-runtime/#_trunk_packages_kdebase-runtime_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase-runtime
@@ -28,7 +28,7 @@ Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80), kde
 Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
  ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
  oxygen-icon-theme (>= 4:4.2.90), phonon-backend-xine | phonon-backend,
- shared-desktop-ontologies
+ shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: hal
 Suggests: djvulibre-bin, icoutils
 Description: runtime components from the official KDE 4 release

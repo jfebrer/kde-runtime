@@ -7,6 +7,9 @@ kdebase-runtime (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Fix Vcs-Browser URL.
   * libkdeinit4_*.so have been moved to private directory (Closes: #553117). 
   * Make kdebase-runtime depend on kdelibs5-plugins.
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Make kdebase-runtime depend on plasma-scriptengine-javascript (addresses
+    aseigo complaints in his blog).
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
