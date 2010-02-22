@@ -27,7 +27,7 @@ Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80), kde
  kdebase-bin-kde3, kcontrol, kdebase-kio-plugins
 Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
  ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
- oxygen-icon-theme (>= 4:4.2.90), phonon-backend-xine | phonon-backend,
+ oxygen-icon-theme (>= 4:4.4), phonon-backend-xine | phonon-backend,
  shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: hal
 Suggests: djvulibre-bin, icoutils

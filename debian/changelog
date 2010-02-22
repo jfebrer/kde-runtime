@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.4.0-0r3) UNRELEASED; urgency=low
+kdebase-runtime (4:4.4.0-0r4) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -10,6 +10,7 @@ kdebase-runtime (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Make kdebase-runtime depend on plasma-scriptengine-javascript (addresses
     aseigo complaints in his blog).
+  * Bump oxygen-icon-theme dependency to 4:4.4.
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
