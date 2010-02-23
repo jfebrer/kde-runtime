@@ -1,5 +1,4 @@
 etc/xdg/menus/kde4-information.menu
-usr/share/applications/kde4/knetattach.desktop
 usr/share/autostart/nepomukserver.desktop
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/desktop-directories/kde-development-translation.directory

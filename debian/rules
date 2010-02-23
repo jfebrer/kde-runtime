@@ -9,8 +9,6 @@ DEB_DH_SHLIBDEPS_ARGS_plasma-scriptengine-javascript := -u-xkdebase-runtime
 
 DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+DEB_DH_MAKESHLIBS_ARGS_kdebase-runtime = -Xusr/lib/attica_kde.so
 
-binary-install/khelpcenter4::
-	mkdir debian/khelpcenter4/usr/share/services
-	ln -s /usr/share/kde4/services/khelpcenter.desktop debian/khelpcenter4/usr/share/services/
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk

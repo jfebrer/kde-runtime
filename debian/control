@@ -22,7 +22,8 @@ Package: kdebase-runtime
 Section: kde
 Architecture: any
 Replaces: kdebase-bin (<< 4:4.2.90), kdelibs5 (<< 4:4.1.80), kdelibs-bin (<< 4:4.1.80),
- kdebase-workspace-bin (<< 4:4.2.90), kdebase-bin-kde3, kdebase-runtime-bin-kde4, kcontrol
+ kdebase-workspace-bin (<< 4:4.2.90), kdebase-bin-kde3, kdebase-runtime-bin-kde4, kcontrol,
+ kdebase-runtime-data (<< 4:4.4.0)
 Conflicts: kdebluetooth (<< 1.0~beta7-1), phonon-backend-xine (<< 4:4.2.80), kdebase-runtime-bin-kde4,
  kdebase-bin-kde3, kcontrol, kdebase-kio-plugins
 Depends: ${shlibs:Depends}, kdebase-runtime-data (>= ${source:Version}),
