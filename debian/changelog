@@ -15,6 +15,7 @@ kdebase-runtime (4:4.4.0-0r4) UNRELEASED; urgency=low
   * Exclude attica_kde.so from kdebase-runtime shlibs.
   * Move knetattach.desktop to kdebase-runtime "near" its executable.
   * Add lintian-overrides for kdebase-runtime and khelpcenter4.
+  * Add ${perl:Depends} and ${misc:Depends} as needed.
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
