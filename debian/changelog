@@ -16,6 +16,8 @@ kdebase-runtime (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
   * Move knetattach.desktop to kdebase-runtime "near" its executable.
   * Add lintian-overrides for kdebase-runtime and khelpcenter4.
   * Add ${perl:Depends} and ${misc:Depends} as needed.
+  * Add cmake to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
