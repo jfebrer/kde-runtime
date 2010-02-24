@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.4.0-0r4) UNRELEASED; urgency=low
+kdebase-runtime (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -50,7 +50,7 @@ kdebase-runtime (4:4.4.0-0r4) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2010 02:29:34 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:15 +0200
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
 
