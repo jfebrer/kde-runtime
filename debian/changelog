@@ -18,6 +18,7 @@ kdebase-runtime (4:4.4.1~svn1095593-0r1) UNRELEASED; urgency=low
   * Add ${perl:Depends} and ${misc:Depends} as needed.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
+  * Bump pkg-kde-tools build dependency to 0.6.4.
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
