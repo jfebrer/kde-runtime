@@ -19,6 +19,7 @@ kdebase-runtime (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
   * Bump pkg-kde-tools build dependency to 0.6.4.
+  * Make kdebase-runtime recommend virtuoso-minimal.
 
   [ Pino Toscano ]
   * Drop pmount recommend, no more used now. (Closes: #557424)
