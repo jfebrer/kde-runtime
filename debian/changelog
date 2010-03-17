@@ -54,6 +54,9 @@ kdebase-runtime (4:4.4.1-0rc2) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
+  [ Ferdinand Thommes ]
+  * updated copyright
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:48:09 +0200
 
 kdebase-runtime (4:4.3.4-2) unstable; urgency=low
