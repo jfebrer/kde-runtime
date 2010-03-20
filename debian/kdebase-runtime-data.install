@@ -49,7 +49,6 @@ usr/share/doc/kde4/HTML/en/kcontrol/bookmarks/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/cache/common
 usr/share/doc/kde4/HTML/en/kcontrol/cache/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/cache/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/common
 usr/share/doc/kde4/HTML/en/kcontrol/componentchooser/common
 usr/share/doc/kde4/HTML/en/kcontrol/componentchooser/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/componentchooser/index.docbook
@@ -85,8 +84,6 @@ usr/share/doc/kde4/HTML/en/kcontrol/icons/install-theme.png
 usr/share/doc/kde4/HTML/en/kcontrol/icons/main.png
 usr/share/doc/kde4/HTML/en/kcontrol/icons/size.png
 usr/share/doc/kde4/HTML/en/kcontrol/icons/use-of-icons.png
-usr/share/doc/kde4/HTML/en/kcontrol/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcontrol/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/kcmcgi/common
 usr/share/doc/kde4/HTML/en/kcontrol/kcmcgi/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/kcmcgi/index.docbook
@@ -139,7 +136,6 @@ usr/share/doc/kde4/HTML/en/kcontrol/phonon/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/proxy/common
 usr/share/doc/kde4/HTML/en/kcontrol/proxy/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/proxy/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/screenshot.png
 usr/share/doc/kde4/HTML/en/kcontrol/smb/common
 usr/share/doc/kde4/HTML/en/kcontrol/smb/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/smb/index.docbook
