@@ -17,7 +17,7 @@ kdebase-runtime (4:4.4.2-0rc1) UNRELEASED; urgency=low
   * Add lintian-overrides for kdebase-runtime and khelpcenter4.
   * Add ${perl:Depends} and ${misc:Depends} as needed.
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Bump pkg-kde-tools build dependency to 0.6.4.
   * Make kdebase-runtime recommend virtuoso-minimal.
 
