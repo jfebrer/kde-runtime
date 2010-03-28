@@ -1,6 +1,8 @@
 kdebase-runtime (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - DrKonqi no longer reports kscreenlocker crashes to the wrong component at
+      bugs.kde.org. (Closes: #575718) 
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
