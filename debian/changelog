@@ -1,3 +1,10 @@
+kdebase-runtime (4:4.4.2-2) UNRELEASED; urgency=low
+
+  * Improve grammar in the description of the plasma-scriptentine-javascript
+    package (Closes: #576711).
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 07 Apr 2010 02:22:19 +0300
+
 kdebase-runtime (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
