@@ -1,2 +1,2 @@
-khelpcenter4: extra-license-file usr/share/doc/kde4/HTML/en/khelpcenter/userguide/credits-and-license.docbook
+khelpcenter4: extra-license-file usr/share/doc/kde/HTML/en/khelpcenter/userguide/credits-and-license.docbook
 khelpcenter4: desktop-entry-lacks-main-category /usr/share/applications/kde4/Help.desktop
