@@ -4,6 +4,7 @@ Author: Thibaut Gridel <tgridel@free.fr>
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=583019
 Forwarded: not-needed
 Last-Update: 2010-05-29
+Fixed-For: 4.5.0
 
 --- a/attica/kdeplugin/kdeplatformdependent.h
 +++ b/attica/kdeplugin/kdeplatformdependent.h
