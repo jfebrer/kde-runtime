@@ -3,3 +3,4 @@
 03_disable_usr_lib_install_rpath.diff
 25_khelp_htdig.diff
 04_attica_0.1.4_compat.diff
+05_dont_show_netattach_outside_kde.diff
