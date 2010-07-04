@@ -1,10 +1,16 @@
-kdebase-runtime (4:4.4.4-2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.4.5-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Sune Vuorela ]
   * KNetattach is in kde4 libexec dir, so the desktop file should not be
     available outside kde, else it can't be found. (Closes: #582844)
   * Finally move to my debian.org address.
 
- -- Sune Vuorela <sune@debian.org>  Wed, 16 Jun 2010 13:50:45 +0200
+  [ Modestas Vainius ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:50 +0300
 
 kdebase-runtime (4:4.4.4-1) unstable; urgency=low
 
