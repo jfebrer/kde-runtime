@@ -6,6 +6,7 @@ kdebase-runtime (4:4.4.5-1) UNRELEASED; urgency=low
   * KNetattach is in kde4 libexec dir, so the desktop file should not be
     available outside kde, else it can't be found. (Closes: #582844)
   * Finally move to my debian.org address.
+  * Remove the 04_attica_0.1.4_compat.diff. applied upstreams.
 
   [ Modestas Vainius ]
   * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
