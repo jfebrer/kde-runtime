@@ -33,7 +33,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: hal, virtuoso-minimal
 Suggests: djvulibre-bin, icoutils
-Description: runtime components from the official KDE 4 release
+Description: runtime components from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -41,7 +41,7 @@ Description: runtime components from the official KDE 4 release
  categories including Internet and web applications, multimedia, entertainment,
  educational, graphics and software development.
  .
- This package contains programs and data needed at runtime by KDE 4
+ This package contains programs and data needed at runtime by KDE applications
  applications.
 
 Package: kdebase-runtime-data
@@ -53,11 +53,11 @@ Replaces: kdebase-data (<< 4:4.2.90), kdebase-bin (<< 4:4.0.0), drkonqi, kdelibs
  kdebase-data (<< 4:4.0.0), kdebase-runtime-data-common
 Conflicts: drkonqi, phonon-backend-xine (<< 4:4.2.80), kdebase-runtime-data-common,
  kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:4.0.0)
-Description: shared data files for the KDE 4 base runtime module
+Description: shared data files for the KDE base runtime module
  This package contains the architecture-independent shared data files needed to
- run KDE 4 applications.
+ run KDE applications.
  .
- This package is part of the KDE 4 base runtime module.
+ This package is part of the KDE base runtime module.
 
 Package: khelpcenter4
 Section: kde
@@ -66,12 +66,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: htdig
 Replaces: kdebase-runtime-data (<< 4:4.0.80-2), kdebase-runtime (<< 4:4.0.80-2)
 Conflicts: khelpcenter
-Description: Help Center for KDE 4
- The KDE Help Center displays documentation on how to use the KDE 4 desktop and
- applications, as well as UNIX man and info pages.
+Description: help center
+ The KDE Help Center displays documentation on how to use the KDE plasma workspaces
+ and  applications, as well as UNIX man and info pages.
  It can search through documentation using the 'htdig' package.
  .
- This package is part of the KDE 4 base runtime module.
+ This package is part of the KDE base runtime module.
 
 Package: kde-config-phonon-xine
 Section: kde
@@ -82,7 +82,7 @@ Description: advanced Phonon Xine configuration
  This package contains a configuration module for tweaking some of the more
  advanced settings for Phonon's Xine backend.
  .
- This package is part of the KDE 4 base runtime module.
+ This package is part of the KDE base runtime module.
 
 Package: plasma-scriptengine-javascript
 Section: kde
@@ -94,7 +94,7 @@ Description: the JavaScript script engine for Plasma
  install it if you want to use Plasma widgets and data engines written in
  JavaScript.
  .
- This package is part of the KDE 4 base runtime module.
+ This package is part of the KDE base runtime module.
 
 Package: kdebase-runtime-dbg
 Section: debug
@@ -102,7 +102,7 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
 Replaces: kdelibs5-dbg (<< 4:4.1.80), kdebase-dbg (<< 4:4.2.90), kdebase-workspace-dbg (<< 4:4.2.90)
-Description: debugging symbols for KDE 4 base runtime module
+Description: debugging symbols for KDE base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
  issues.
