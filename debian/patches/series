@@ -3,4 +3,3 @@
 03_disable_usr_lib_install_rpath.diff
 25_khelp_htdig.diff
 05_dont_show_netattach_outside_kde.diff
-nepomuk_softer_indexing.diff
