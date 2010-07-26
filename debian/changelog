@@ -49,13 +49,13 @@ kdebase-runtime (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
     - DrKonqi no longer reports kscreenlocker crashes to the wrong component at
-      bugs.kde.org. (Closes: #575718) 
+      bugs.kde.org. (Closes: #575718)
     - Soprano no longer crashes on nested analysis results. (Closes: #571721)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
-  * libkdeinit4_*.so have been moved to private directory (Closes: #553117). 
+  * libkdeinit4_*.so have been moved to private directory (Closes: #553117).
   * Make kdebase-runtime depend on kdelibs5-plugins.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Make kdebase-runtime depend on plasma-scriptengine-javascript (addresses
@@ -192,12 +192,12 @@ kdebase-runtime (4:4.3.0-1) unstable; urgency=low
   * New upstream release.
 
   +++ Changes by Fathi Boudra:
-  
+
   * Bump libsoprano-dev build dependency version to >= 2.3.0.
   * Update installed files.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Bump build depends to >= 4.3.0.
   * Update packaging copyright in debian/copyright.
   * Update Standards-Version to 3.8.2, no changes required.
@@ -274,7 +274,7 @@ kdebase-runtime (4:4.2.2-1) unstable; urgency=low
 
 kdebase-runtime (4:4.2.1-2) unstable; urgency=low
 
-  * Upload to unstable. 
+  * Upload to unstable.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 12 Mar 2009 20:01:15 +0100
 
@@ -342,7 +342,7 @@ kdebase-runtime (4:4.2.0-1) experimental; urgency=low
   * Update versioned depend on phonon to 4.2.0.
 
   +++ Changes by Sune Vuorela:
-  
+
   * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 20:08:42 +0100
@@ -351,7 +351,7 @@ kdebase-runtime (4:4.1.4-1) experimental; urgency=low
 
   * New upstream release.
   * Bump Build-Depends.
-  
+
   +++ Changes by Modestas Vainius:
 
   * Bump build dependency on kdepimlibs5-dev and kdelibs5-dev to 4.1.4-1.
@@ -503,7 +503,7 @@ kdebase-runtime (4:4.0.80-2) experimental; urgency=low
     - Add some replaces for khelpcenter4: kdebase-runtime-data due to
       Help.desktop and org.kde.khelpcenter.kcmhelpcenter.xml, kdebase-runtime
       due to libkdeinit4_khelpcenter.so. Update respective install files.
- 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 22:22:42 +0200
 
 kdebase-runtime (4:4.0.80-1) experimental; urgency=low
@@ -574,7 +574,7 @@ kdebase-runtime (4:4.0.66+svn791114-1) experimental; urgency=low
 
 kdebase-runtime (4:4.0.2-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
   +++ Changes by Armin Berres:
 
@@ -588,7 +588,7 @@ kdebase-runtime (4:4.0.2-1) unstable; urgency=low
 
 kdebase-runtime (4:4.0.1-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Bump to build-depends >= 4:4.0.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 13:45:37 +0100
@@ -596,7 +596,7 @@ kdebase-runtime (4:4.0.1-1) unstable; urgency=low
 kdebase-runtime (4:4.0.0-3) unstable; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Do not ship khelpcenter for now, KDE 4 does not contain any help anyway,
     and it is updating KDE 3's khelpcenter. (Closes: #462227)
   * Move Conflict on kdebluetooth from the source fields to the
@@ -703,7 +703,7 @@ kdebase-runtime (4:3.97.0-1) experimental; urgency=low
   * Update Standards-Version to 3.7.3.
   * khelpenter still needs htdig, add Depends on it.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
-    happier. 
+    happier.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 17:31:14 +0100
 
