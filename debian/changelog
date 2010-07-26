@@ -731,12 +731,6 @@ kdebase-runtime (4:3.96.0-1) experimental; urgency=low
   * Move the rest of drkonqi into kdebase-runtime-data and remove the package.
   * Move kinfocenter into a separate package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 22:33:53 +0100
-
-kdebase-runtime (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
-
   +++ Changes by Fathi Boudra:
 
   * Remove 01_knotify4_desktop patch. Merged upstream.
@@ -748,7 +742,7 @@ kdebase-runtime (4:3.95.2-1) experimental; urgency=low
   * Add 02_ksvgtopng4: append 4 to ksvgtopng.
   * Add 03_ktrash4: append 4 to ktrash.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Nov 2007 00:13:11 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 22:33:53 +0100
 
 kdebase-runtime (4:3.95.0-1) experimental; urgency=low
 
