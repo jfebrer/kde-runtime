@@ -53,6 +53,7 @@ usr/lib/kde4/kcm_nepomuk.so
 usr/lib/kde4/kcm_phonon.so
 usr/lib/kde4/kcm_trash.so
 usr/lib/kde4/kcmspellchecking.so
+usr/lib/kde4/kded_activitymanager.so
 usr/lib/kde4/kded_desktopnotifier.so
 usr/lib/kde4/kded_device_automounter.so
 usr/lib/kde4/kded_kpasswdserver.so
@@ -87,13 +88,14 @@ usr/lib/kde4/kio_thumbnail.so
 usr/lib/kde4/kio_timeline.so
 usr/lib/kde4/kio_trash.so
 usr/lib/kde4/kshorturifilter.so
-usr/lib/kde4/kstyle_oxygen_config.so
 usr/lib/kde4/kuriikwsfilter.so
 usr/lib/kde4/kurisearchfilter.so
 usr/lib/kde4/libexec/drkonqi
+usr/lib/kde4/libexec/kcmremotewidgetshelper
 usr/lib/kde4/libexec/kdeeject
 usr/lib/kde4/libexec/kdesu
 usr/lib/kde4/libexec/kdesud
+usr/lib/kde4/libexec/kdontchangethehostname
 usr/lib/kde4/libexec/khc_docbookdig.pl
 usr/lib/kde4/libexec/khc_htdig.pl
 usr/lib/kde4/libexec/khc_htsearch.pl
@@ -106,6 +108,7 @@ usr/lib/kde4/libkmanpart.so
 usr/lib/kde4/librenaudioplugin.so
 usr/lib/kde4/librenimageplugin.so
 usr/lib/kde4/localdomainurifilter.so
+usr/lib/kde4/nepomukactivitiesservice.so
 usr/lib/kde4/nepomukfilewatch.so
 usr/lib/kde4/nepomukmigration1.so
 usr/lib/kde4/nepomukontologyloader.so
@@ -114,7 +117,6 @@ usr/lib/kde4/nepomukremovablestorageservice.so
 usr/lib/kde4/nepomukstorage.so
 usr/lib/kde4/nepomukstrigiservice.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
-usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/svgthumbnail.so
 usr/lib/kde4/textthumbnail.so
 usr/lib/kde4/windowsexethumbnail.so
@@ -125,9 +127,9 @@ usr/lib/libkdeinit4_kuiserver.so
 usr/lib/libkdeinit4_kwalletd.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/libkwalletbackend.so.4
-usr/lib/libkwalletbackend.so.4.4.0
+usr/lib/libkwalletbackend.so.4.5.0
 usr/lib/libmolletnetwork.so.4
-usr/lib/libmolletnetwork.so.4.4.0
+usr/lib/libmolletnetwork.so.4.5.0
 usr/lib/strigi/strigiindex_nepomukbackend.so
 usr/share/applications/kde4/knetattach.desktop
 usr/share/man/man8/nepomukserver.8
