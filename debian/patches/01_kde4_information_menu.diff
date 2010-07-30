@@ -1,16 +1,3 @@
---- a/doc/userguide/kde-for-admins.docbook
-+++ b/doc/userguide/kde-for-admins.docbook
-@@ -1765,8 +1765,8 @@ contents are defined by <filename>kde-se
- whose icon and name are defined by <filename>kde-settings.directory</filename></para>
- </listitem>
- <listitem><para>Info Center has a hidden Information menu whose
--contents are defined by <filename>kde-information.menu</filename> and
--whose icon and  name are  defined by <filename>kde-information.directory</filename>.</para>
-+contents are defined by <filename>kde4-information.menu</filename> and
-+whose icon and  name are  defined by <filename>kde4-information.directory</filename>.</para>
- </listitem>
- 
- <listitem><para>Screensavers contains a hidden System/Screensavers menu,
 --- a/kcontrol/menus/CMakeLists.txt
 +++ b/kcontrol/menus/CMakeLists.txt
 @@ -5,7 +5,7 @@

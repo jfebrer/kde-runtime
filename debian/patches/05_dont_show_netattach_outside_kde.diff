@@ -5,7 +5,7 @@ Not yet forwarded.
 Author: Sune Vuorela
 --- a/knetattach/knetattach.desktop
 +++ b/knetattach/knetattach.desktop
-@@ -176,4 +176,5 @@ Type=Application
+@@ -178,4 +178,5 @@
  Terminal=false
  X-KDE-StartupNotify=true
  Categories=Qt;KDE;Network;RemoteAccess;

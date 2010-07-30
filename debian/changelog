@@ -7,6 +7,7 @@ kdebase-runtime (4:4.5.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
+  * Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
 
