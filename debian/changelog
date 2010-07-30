@@ -15,6 +15,9 @@ kdebase-runtime (4:4.5.0-0r1) UNRELEASED; urgency=low
     - kdebase-runtime replaces kdelibs5-plugins << 4:4.5.0 and
       kdelibs5 << 4:4.4.0 due to moved kcmremotewidgetshelper
       and kdontchangethehostname executables.
+  * Bump build depedencies versions: kdelibs5-dev to version
+    4:4.5 and libsoprano-dev to version 2.4.63.
+  * Add build dependency on docbook-xml.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
 
