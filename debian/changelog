@@ -9,6 +9,12 @@ kdebase-runtime (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Change my email address in uploaders.
   * Refresh patches.
   * Update installed files.
+  * Add replaces:
+    - kdebase-runtime-data replaces kdelibs5-data << 4:4.5.0
+      due to moved kcmremotewidgets data files.
+    - kdebase-runtime replaces kdelibs5-plugins << 4:4.5.0 and
+      kdelibs5 << 4:4.4.0 due to moved kcmremotewidgetshelper
+      and kdontchangethehostname executables.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
 
