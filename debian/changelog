@@ -19,6 +19,11 @@ kdebase-runtime (4:4.5.0-0r1) UNRELEASED; urgency=low
       due to the moved executables mentioned above.
   * Bump build depedencies versions: kdelibs5-dev to version
     4:4.5 and libsoprano-dev to version 2.4.63.
+  * Remove unused build dependencies:
+    - libclucene-dev
+    - libxcb1-dev
+    - libqt4-opengl-dev
+    - libpulse-dev
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
 
