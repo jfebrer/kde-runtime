@@ -52,7 +52,7 @@ Replaces: kdebase-data (<< 4:4.2.90), kdebase-bin (<< 4:4.0.0), drkonqi, kdelibs
  kdebase-workspace-data (<< 4:4.1.85+svn897913), akonadi-kde (<< 4:4.2.90), kde-icons-oxygen (<= 4:4.2.4-1),
  kdebase-data (<< 4:4.0.0), kdebase-runtime-data-common, plasma-widget-networkmanagement (<= 0.1~svn1141976-1)
 Conflicts: drkonqi, phonon-backend-xine (<< 4:4.2.80), kdebase-runtime-data-common,
- kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:4.0.0), plasma-widget-networkmanagement (<= 0.1~svn1141976-1)
+ kdebase-bin (<< 4:4.0.0), kdebase-data (<< 4:4.0.0)
 Description: shared data files for the KDE base runtime module
  This package contains the architecture-independent shared data files needed to
  run KDE applications.
