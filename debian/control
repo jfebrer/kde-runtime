@@ -67,8 +67,8 @@ Recommends: htdig
 Replaces: kdebase-runtime-data (<< 4:4.0.80-2), kdebase-runtime (<< 4:4.0.80-2)
 Conflicts: khelpcenter
 Description: help center
- The KDE Help Center displays documentation on how to use the KDE plasma workspaces
- and  applications, as well as UNIX man and info pages.
+ The KDE Help Center displays documentation on how to use the KDE plasma
+ workspaces and applications, as well as UNIX man and info pages.
  It can search through documentation using the 'htdig' package.
  .
  This package is part of the KDE base runtime module.

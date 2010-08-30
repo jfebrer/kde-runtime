@@ -24,6 +24,7 @@ kdebase-runtime (4:4.5.1-0r1) UNRELEASED; urgency=low
     - libxcb1-dev
     - libqt4-opengl-dev
     - libpulse-dev
+  * Re-wrap khelpcenter4's extended description to fix lintian warning.
 
   [ José Manuel Santamaría Lema ]
   * Add replaces:
