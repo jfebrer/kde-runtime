@@ -196,6 +196,9 @@ usr/share/doc/kde/HTML/en/kioslave/tar/index.docbook
 usr/share/doc/kde/HTML/en/kioslave/thumbnail/common
 usr/share/doc/kde/HTML/en/kioslave/thumbnail/index.cache.bz2
 usr/share/doc/kde/HTML/en/kioslave/thumbnail/index.docbook
+usr/share/doc/kde/HTML/en/kioslave/xz/common
+usr/share/doc/kde/HTML/en/kioslave/xz/index.cache.bz2
+usr/share/doc/kde/HTML/en/kioslave/xz/index.docbook
 usr/share/doc/kde/HTML/en/knetattach/common
 usr/share/doc/kde/HTML/en/knetattach/index.cache.bz2
 usr/share/doc/kde/HTML/en/knetattach/index.docbook

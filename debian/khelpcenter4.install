@@ -15,11 +15,11 @@ usr/share/doc/kde/HTML/en/khelpcenter/kdelogo2.png
 usr/share/doc/kde/HTML/en/khelpcenter/khelpcenter.png
 usr/share/doc/kde/HTML/en/khelpcenter/lines.png
 usr/share/doc/kde/HTML/en/khelpcenter/lines2.png
-usr/share/doc/kde/HTML/en/khelpcenter/onlinehelp/common
-usr/share/doc/kde/HTML/en/khelpcenter/onlinehelp/index.cache.bz2
-usr/share/doc/kde/HTML/en/khelpcenter/onlinehelp/index.docbook
 usr/share/doc/kde/HTML/en/khelpcenter/pointers.png
 usr/share/doc/kde/HTML/en/khelpcenter/shadow1.png
+usr/share/doc/kde/HTML/en/onlinehelp/common
+usr/share/doc/kde/HTML/en/onlinehelp/index.cache.bz2
+usr/share/doc/kde/HTML/en/onlinehelp/index.docbook
 usr/share/kde4/apps/khelpcenter/glossary.html.in
 usr/share/kde4/apps/khelpcenter/glossary.xslt
 usr/share/kde4/apps/khelpcenter/index.html.in
