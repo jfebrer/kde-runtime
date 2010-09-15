@@ -30,7 +30,7 @@ kdebase-runtime (4:4.5.1-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add replaces:
     - kdebase-runtime-data replaces plasma-widget-networkmanagement <=
-      0.1~svn1141976-1 because they both install
+      0.1~svn1175124-1 because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
