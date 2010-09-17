@@ -41,8 +41,7 @@ Description: runtime components from the official KDE release
  categories including Internet and web applications, multimedia, entertainment,
  educational, graphics and software development.
  .
- This package contains programs and data needed at runtime by KDE applications
- applications.
+ This package contains programs and data needed at runtime by KDE applications.
 
 Package: kdebase-runtime-data
 Section: kde
