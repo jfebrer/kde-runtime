@@ -181,6 +181,9 @@ usr/share/doc/kde/HTML/en/kioslave/info/index.docbook
 usr/share/doc/kde/HTML/en/kioslave/man/common
 usr/share/doc/kde/HTML/en/kioslave/man/index.cache.bz2
 usr/share/doc/kde/HTML/en/kioslave/man/index.docbook
+usr/share/doc/kde/HTML/en/kioslave/nepomuksearch/common
+usr/share/doc/kde/HTML/en/kioslave/nepomuksearch/index.cache.bz2
+usr/share/doc/kde/HTML/en/kioslave/nepomuksearch/index.docbook
 usr/share/doc/kde/HTML/en/kioslave/nfs/common
 usr/share/doc/kde/HTML/en/kioslave/nfs/index.cache.bz2
 usr/share/doc/kde/HTML/en/kioslave/nfs/index.docbook

@@ -5,6 +5,9 @@ usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
 usr/share/doc/kde/HTML/en/khelpcenter/background.png
 usr/share/doc/kde/HTML/en/khelpcenter/bgtable.png
 usr/share/doc/kde/HTML/en/khelpcenter/common
+usr/share/doc/kde/HTML/en/khelpcenter/documentationnotfound/common
+usr/share/doc/kde/HTML/en/khelpcenter/documentationnotfound/index.cache.bz2
+usr/share/doc/kde/HTML/en/khelpcenter/documentationnotfound/index.docbook
 usr/share/doc/kde/HTML/en/khelpcenter/glossary/common
 usr/share/doc/kde/HTML/en/khelpcenter/glossary/index.cache.bz2
 usr/share/doc/kde/HTML/en/khelpcenter/glossary/index.docbook

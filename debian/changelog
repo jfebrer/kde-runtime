@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.5.1-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.5.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -33,7 +33,7 @@ kdebase-runtime (4:4.5.1-0r1) UNRELEASED; urgency=low
       0.1~svn1175124-1 because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jul 2010 14:51:46 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
 kdebase-runtime (4:4.4.5-1) unstable; urgency=low
 
