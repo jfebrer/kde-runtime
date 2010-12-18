@@ -60,7 +60,7 @@ Description: shared data files for the KDE base runtime module
 
 Package: kdebase-runtime-dev
 Section: kde
-Architecture: all
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  kdebase-runtime (= ${binary:Version})
 Description: development files for the KDE base runtime module
