@@ -1,5 +1,9 @@
 etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf
 etc/xdg/menus/kde4-information.menu
+usr/lib/kde4/imports/org/kde/plasma/core/qmldir
+usr/lib/kde4/imports/org/kde/plasma/graphicslayouts/qmldir
+usr/lib/kde4/imports/org/kde/plasma/graphicswidgets/qmldir
+usr/share/applications/kde4/nepomukbackup.desktop
 usr/share/autostart/nepomukserver.desktop
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/dbus-1/services/org.kde.kuiserver.service
@@ -309,6 +313,7 @@ usr/share/kde4/apps/desktoptheme/default/widgets/extender-dragger.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/frame.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/glowbar.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/identiconshapes.svgz
+usr/share/kde4/apps/desktoptheme/default/widgets/identicontheme.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/line.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/lineedit.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/monitor.svgz
@@ -373,7 +378,9 @@ usr/share/kde4/apps/desktoptheme/oxygen/widgets/translucentbackground.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/widgets/viewitem.svgz
 usr/share/kde4/apps/drkonqi/debuggers/external/gdbrc
 usr/share/kde4/apps/drkonqi/debuggers/external/kdbgrc
+usr/share/kde4/apps/drkonqi/debuggers/internal/dbxrc
 usr/share/kde4/apps/drkonqi/debuggers/internal/gdbrc
+usr/share/kde4/apps/drkonqi/debuggers/internal/kdbgwinrc
 usr/share/kde4/apps/drkonqi/mappings
 usr/share/kde4/apps/drkonqi/pics/crash.png
 usr/share/kde4/apps/hardwarenotifications/hardwarenotifications.notifyrc
@@ -442,7 +449,9 @@ usr/share/kde4/services/htmlthumbnail.desktop
 usr/share/kde4/services/icons.desktop
 usr/share/kde4/services/imagethumbnail.desktop
 usr/share/kde4/services/info.protocol
+usr/share/kde4/services/jpegrotatedthumbnail.desktop
 usr/share/kde4/services/jpegthumbnail.desktop
+usr/share/kde4/services/kactivitymanagerd.desktop
 usr/share/kde4/services/kcm_attica.desktop
 usr/share/kde4/services/kcm_kdnssd.desktop
 usr/share/kde4/services/kcm_nepomuk.desktop
@@ -457,6 +466,7 @@ usr/share/kde4/services/kded/device_automounter.desktop
 usr/share/kde4/services/kded/kpasswdserver.desktop
 usr/share/kde4/services/kded/ktimezoned.desktop
 usr/share/kde4/services/kded/nepomuksearchmodule.desktop
+usr/share/kde4/services/kded/networkstatus.desktop
 usr/share/kde4/services/kded/networkwatcher.desktop
 usr/share/kde4/services/kded/phononserver.desktop
 usr/share/kde4/services/kded/remotedirnotify.desktop
@@ -476,8 +486,8 @@ usr/share/kde4/services/lzma.protocol
 usr/share/kde4/services/man.protocol
 usr/share/kde4/services/nepomuk.protocol
 usr/share/kde4/services/nepomukactivitiesservice.desktop
+usr/share/kde4/services/nepomukbackupsync.desktop
 usr/share/kde4/services/nepomukfilewatch.desktop
-usr/share/kde4/services/nepomukmigration1.desktop
 usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukqueryservice.desktop
 usr/share/kde4/services/nepomukremovablestorageservice.desktop
@@ -486,6 +496,10 @@ usr/share/kde4/services/nepomukstorage.desktop
 usr/share/kde4/services/nepomukstrigiservice.desktop
 usr/share/kde4/services/network.protocol
 usr/share/kde4/services/nfs.protocol
+usr/share/kde4/services/plasma-containment-newspaper.desktop
+usr/share/kde4/services/plasma-kpart.desktop
+usr/share/kde4/services/plasma-packagestructure-javascript-addon.desktop
+usr/share/kde4/services/plasma-scriptengine-applet-declarative.desktop
 usr/share/kde4/services/programs.protocol
 usr/share/kde4/services/remote.protocol
 usr/share/kde4/services/renaudiodlg.desktop
@@ -498,7 +512,9 @@ usr/share/kde4/services/searchproviders/amazon_mp3.desktop
 usr/share/kde4/services/searchproviders/amg.desktop
 usr/share/kde4/services/searchproviders/austronaut.desktop
 usr/share/kde4/services/searchproviders/backports.desktop
+usr/share/kde4/services/searchproviders/baidu.desktop
 usr/share/kde4/services/searchproviders/beolingus.desktop
+usr/share/kde4/services/searchproviders/bing.desktop
 usr/share/kde4/services/searchproviders/blip.desktop
 usr/share/kde4/services/searchproviders/bugft.desktop
 usr/share/kde4/services/searchproviders/bugno.desktop
@@ -627,8 +643,10 @@ usr/share/kde4/services/windowsexethumbnail.desktop
 usr/share/kde4/services/windowsimagethumbnail.desktop
 usr/share/kde4/services/xz.protocol
 usr/share/kde4/services/zip.protocol
+usr/share/kde4/servicetypes/knotifynotifymethod.desktop
 usr/share/kde4/servicetypes/nepomukservice.desktop
 usr/share/kde4/servicetypes/phononbackend.desktop
+usr/share/kde4/servicetypes/plasma-javascriptaddon.desktop
 usr/share/kde4/servicetypes/searchprovider.desktop
 usr/share/kde4/servicetypes/thumbcreator.desktop
 usr/share/locale/currency/adf.desktop
@@ -836,7 +854,6 @@ usr/share/locale/currency/zar.desktop
 usr/share/locale/currency/zmk.desktop
 usr/share/locale/currency/zwd.desktop
 usr/share/locale/currency/zwl.desktop
-usr/share/locale/en_US/entry.desktop
 usr/share/locale/l10n/C/entry.desktop
 usr/share/locale/l10n/C/flag.png
 usr/share/locale/l10n/ad/entry.desktop
@@ -889,6 +906,8 @@ usr/share/locale/l10n/bi/entry.desktop
 usr/share/locale/l10n/bi/flag.png
 usr/share/locale/l10n/bj/entry.desktop
 usr/share/locale/l10n/bj/flag.png
+usr/share/locale/l10n/bl/entry.desktop
+usr/share/locale/l10n/bl/flag.png
 usr/share/locale/l10n/bm/entry.desktop
 usr/share/locale/l10n/bm/flag.png
 usr/share/locale/l10n/bn/entry.desktop
@@ -999,6 +1018,8 @@ usr/share/locale/l10n/ge/entry.desktop
 usr/share/locale/l10n/ge/flag.png
 usr/share/locale/l10n/gf/entry.desktop
 usr/share/locale/l10n/gf/flag.png
+usr/share/locale/l10n/gg/entry.desktop
+usr/share/locale/l10n/gg/flag.png
 usr/share/locale/l10n/gh/entry.desktop
 usr/share/locale/l10n/gh/flag.png
 usr/share/locale/l10n/gi/entry.desktop
@@ -1039,6 +1060,8 @@ usr/share/locale/l10n/ie/entry.desktop
 usr/share/locale/l10n/ie/flag.png
 usr/share/locale/l10n/il/entry.desktop
 usr/share/locale/l10n/il/flag.png
+usr/share/locale/l10n/im/entry.desktop
+usr/share/locale/l10n/im/flag.png
 usr/share/locale/l10n/in/entry.desktop
 usr/share/locale/l10n/in/flag.png
 usr/share/locale/l10n/iq/entry.desktop
@@ -1049,6 +1072,8 @@ usr/share/locale/l10n/is/entry.desktop
 usr/share/locale/l10n/is/flag.png
 usr/share/locale/l10n/it/entry.desktop
 usr/share/locale/l10n/it/flag.png
+usr/share/locale/l10n/je/entry.desktop
+usr/share/locale/l10n/je/flag.png
 usr/share/locale/l10n/jm/entry.desktop
 usr/share/locale/l10n/jm/flag.png
 usr/share/locale/l10n/jo/entry.desktop
@@ -1107,6 +1132,8 @@ usr/share/locale/l10n/md/entry.desktop
 usr/share/locale/l10n/md/flag.png
 usr/share/locale/l10n/me/entry.desktop
 usr/share/locale/l10n/me/flag.png
+usr/share/locale/l10n/mf/entry.desktop
+usr/share/locale/l10n/mf/flag.png
 usr/share/locale/l10n/mg/entry.desktop
 usr/share/locale/l10n/mg/flag.png
 usr/share/locale/l10n/mh/entry.desktop
@@ -1122,6 +1149,8 @@ usr/share/locale/l10n/mn/entry.desktop
 usr/share/locale/l10n/mn/flag.png
 usr/share/locale/l10n/mo/entry.desktop
 usr/share/locale/l10n/mo/flag.png
+usr/share/locale/l10n/mp/entry.desktop
+usr/share/locale/l10n/mp/flag.png
 usr/share/locale/l10n/mq/entry.desktop
 usr/share/locale/l10n/mq/flag.png
 usr/share/locale/l10n/mr/entry.desktop
@@ -1327,6 +1356,10 @@ usr/share/locale/l10n/zw/entry.desktop
 usr/share/locale/l10n/zw/flag.png
 usr/share/man/man1/kdesu.1
 usr/share/mime/packages/network.xml
+usr/share/ontology/kde/kuvo.ontology
+usr/share/ontology/kde/kuvo.trig
+usr/share/ontology/kde/nrio.ontology
+usr/share/ontology/kde/nrio.trig
 usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy
 usr/share/sounds/KDE-Im-Cant-Connect.ogg
 usr/share/sounds/KDE-Im-Connection-Lost.ogg

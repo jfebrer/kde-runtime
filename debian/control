@@ -58,6 +58,17 @@ Description: shared data files for the KDE base runtime module
  .
  This package is part of the KDE base runtime module.
 
+Package: kdebase-runtime-dev
+Section: kde
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ kdebase-runtime (= ${binary:Version})
+Description: development files for the KDE base runtime module
+ This package contains development files for building software that uses
+ libraries from the KDE base runtime module.
+ .
+ This package is part of the KDE base runtime module.
+
 Package: khelpcenter4
 Section: kde
 Architecture: any
