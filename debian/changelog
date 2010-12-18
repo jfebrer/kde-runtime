@@ -33,7 +33,6 @@ kdebase-runtime (4:4.5.86-0r1) UNRELEASED; urgency=low
       0.1~svn1175124-1 because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
   * Update installed files.
-  * Add kdebase-runtime-dev package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
