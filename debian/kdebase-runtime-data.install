@@ -278,6 +278,7 @@ usr/share/kde4/apps/desktoptheme/default/icons/audio.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/battery.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/device.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/klipper.svgz
+usr/share/kde4/apps/desktoptheme/default/icons/kpackagekit.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/nepomuk.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
 usr/share/kde4/apps/desktoptheme/default/icons/notification.svgz
@@ -292,6 +293,7 @@ usr/share/kde4/apps/desktoptheme/default/opaque/widgets/panel-background.svgz
 usr/share/kde4/apps/desktoptheme/default/opaque/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/default/translucent/dialogs/background.svgz
 usr/share/kde4/apps/desktoptheme/default/translucent/dialogs/krunner.svgz
+usr/share/kde4/apps/desktoptheme/default/translucent/widgets/extender-background.svgz
 usr/share/kde4/apps/desktoptheme/default/translucent/widgets/panel-background.svgz
 usr/share/kde4/apps/desktoptheme/default/translucent/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/action-overlays.svgz
