@@ -2,6 +2,7 @@
 ./usr/share/icons/hicolor/index.theme
 
 # would belong to -dev package, no use
+./usr/include/knotify_export.h
 ./usr/include/knotifyconfig.h
 ./usr/include/knotifyplugin.h
 ./usr/include/nepomuk/nepomuksync_export.h
