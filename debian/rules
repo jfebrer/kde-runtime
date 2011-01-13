@@ -12,3 +12,6 @@ DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
 DEB_DH_MAKESHLIBS_ARGS_kdebase-runtime = -Xusr/lib/attica_kde.so
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+
+install/kde-config-phonon-xine::
+	dh_xine
