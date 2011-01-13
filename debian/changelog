@@ -35,6 +35,7 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Call dh_xine in rules, kde-config-phonon-xine now depends on
     ${xine-x:Depends} (Closes: #575120)
+  * Bump build dependency on libphonon-dev to 4:4.6.0really4.4.3
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
