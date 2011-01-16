@@ -26,7 +26,6 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
     - libclucene-dev
     - libxcb1-dev
     - libqt4-opengl-dev
-    - libpulse-dev
   * Re-wrap khelpcenter4's extended description to fix lintian warning.
   * Cleanup unused lintian overrides.
 
@@ -39,6 +38,14 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Call dh_xine in rules, kde-config-phonon-xine now depends on
     ${xine-x:Depends} (Closes: #575120)
   * Bump build dependency on libphonon-dev to 4:4.6.0really4.4.3
+  
+  [ Pino Toscano ]
+  * Add build dependencies:
+    - libntrack-qt4-dev
+    - libpulse-dev
+    - libcanberra-dev
+    - libnm-util-dev
+    - network-manager-dev
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
