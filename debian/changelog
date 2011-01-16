@@ -12,7 +12,7 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Change my email address in uploaders.
   * Refresh patches.
   * Update installed files.
-  * Add replaces:
+  * Add Breaks/Replaces:
     - kdebase-runtime-data replaces kdelibs5-data << 4:4.5.0
       due to moved kcmremotewidgets data files.
     - kdebase-runtime replaces kdelibs5-plugins << 4:4.5.0 and
@@ -30,7 +30,9 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Cleanup unused lintian overrides.
 
   [ José Manuel Santamaría Lema ]
-  * Add replaces:
+  * Bump S-V to 3.9.1:
+    - update Breaks/Replaces/Conflicts to conform to new policy.
+  * Add Breaks/Replaces:
     - kdebase-runtime-data replaces plasma-widget-networkmanagement <=
       0.1~svn1175124-1 because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
