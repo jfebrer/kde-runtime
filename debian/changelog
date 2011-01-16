@@ -36,6 +36,8 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
     - kdebase-runtime-data replaces plasma-widget-networkmanagement <=
       0.1~svn1175124-1 because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
+    - kdebase-runtime-data replaces kdebase-workspace-bin (<< 4:4.5.95)
+      because of /usr/share/kde4/services/kded/networkstatus.desktop
   * Update installed files.
   * Call dh_xine in rules, kde-config-phonon-xine now depends on
     ${xine-x:Depends} (Closes: #575120)
