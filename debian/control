@@ -27,11 +27,11 @@ Architecture: any
 Replaces: kdebase-bin (<< 4:4.2.90), kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.80),
  kdebase-workspace-bin (<< 4:4.2.90), kdebase-bin-kde3, kdebase-runtime-bin-kde4, kcontrol,
  kdebase-runtime-data (<< 4:4.4.0), kdelibs5-plugins (<< 4:4.5.0), kdebluetooth (<< 1.0~beta7-1),
- kdebase-kio-plugins
+ kdebase-kio-plugins, plasma-netbook (<< 4:4.5.95)
 Breaks: kdebase-bin (<< 4:4.2.90), kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.80),
  kdebase-workspace-bin (<< 4:4.2.90), kdebase-bin-kde3, kdebase-runtime-bin-kde4, kcontrol,
  kdebase-runtime-data (<< 4:4.4.0), kdelibs5-plugins (<< 4:4.5.0), kdebluetooth (<< 1.0~beta7-1),
- kdebase-kio-plugins, phonon-backend-xine (<< 4:4.2.80)
+ kdebase-kio-plugins, plasma-netbook (<< 4:4.5.95), phonon-backend-xine (<< 4:4.2.80)
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdebase-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
  oxygen-icon-theme (>= 4:4.4), phonon-backend-xine | phonon-backend,
