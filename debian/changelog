@@ -1,6 +1,9 @@
 kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes webdav ioslave wrong deletion and renaming of folders
+      (Closes: #593833)
+    - plasmapkg doesn't translate package types anymore (Closes: #573806)
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
