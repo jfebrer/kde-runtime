@@ -51,6 +51,8 @@ kdebase-runtime (4:4.5.95-0r1) UNRELEASED; urgency=low
     - libcanberra-dev
     - libnm-util-dev
     - network-manager-dev
+  * Use wildcard architectures:
+    - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
