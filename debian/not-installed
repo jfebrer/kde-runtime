@@ -9,9 +9,6 @@
 ./usr/include/nepomuk/resourceidentifier.h
 ./usr/include/nepomuk/resourcemerger.h
 ./usr/include/nepomuk/simpleresource.h
-./usr/include/plasmakpart.h
-./usr/include/plasmakpartcorona.h
-./usr/include/plasmakpartview.h
 ./usr/lib/libkwalletbackend.so
 ./usr/lib/libmolletnetwork.so
 ./usr/lib/libnepomuksync.so
