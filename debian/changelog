@@ -21,7 +21,7 @@ kdebase-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
     - kdebase-runtime-dbg replaces kdelibs5-dbg << 4:4.5.0
       due to the moved executables mentioned above.
   * Bump build depedencies versions: kdelibs5-dev to version
-    4:4.6.0 and libsoprano-dev to version 2.4.63.
+    4:4.6 and libsoprano-dev to version 2.4.63.
   * Remove unused build dependencies:
     - libclucene-dev
     - libxcb1-dev
