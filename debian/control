@@ -36,7 +36,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdebase-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
  oxygen-icon-theme (>= 4:4.4), phonon-backend-xine | phonon-backend,
  shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
-Recommends: hal, virtuoso-minimal
+Recommends: virtuoso-minimal
 Suggests: djvulibre-bin, icoutils
 Description: runtime components from the official KDE release
  KDE is produced by an international technology team that creates free and open
