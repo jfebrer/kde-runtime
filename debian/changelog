@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
+kdebase-runtime (4:4.6.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes webdav ioslave wrong deletion and renaming of folders
