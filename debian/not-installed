@@ -5,10 +5,6 @@
 ./usr/include/knotify_export.h
 ./usr/include/knotifyconfig.h
 ./usr/include/knotifyplugin.h
-./usr/include/nepomuk/nepomuksync_export.h
-./usr/include/nepomuk/resourceidentifier.h
-./usr/include/nepomuk/resourcemerger.h
-./usr/include/nepomuk/simpleresource.h
 ./usr/lib/libkwalletbackend.so
 ./usr/lib/libmolletnetwork.so
 ./usr/lib/libnepomuksync.so
