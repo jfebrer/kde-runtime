@@ -45,6 +45,7 @@ kdebase-runtime (4:4.6.1-0r0) UNRELEASED; urgency=low
     ${xine-x:Depends} (Closes: #575120)
   * Bump build dependency on libphonon-dev to 4:4.6.0really4.4.3
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.1
+  * Remove stating articles from short descriptions.
   * Add myself to Uploaders.
   
   [ Pino Toscano ]
