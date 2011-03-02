@@ -59,6 +59,7 @@ kdebase-runtime (4:4.6.1-0r1) UNRELEASED; urgency=low
     - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
   * Drop the hal recommend from kdebase-runtime, as now libsolid has the right
     depends/recommends.
+  * Add ${misc:Depends} for kdebase-runtime-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 

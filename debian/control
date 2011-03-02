@@ -110,7 +110,7 @@ Package: kdebase-runtime-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
+Depends: ${misc:Depends}, kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
 Replaces: kdelibs5-dbg (<< 4:4.5.0), kdebase-dbg (<< 4:4.2.90), kdebase-workspace-dbg (<< 4:4.2.90)
 Breaks: kdelibs5-dbg (<< 4:4.5.0), kdebase-dbg (<< 4:4.2.90), kdebase-workspace-dbg (<< 4:4.2.90)
 Description: debugging symbols for KDE base runtime module
