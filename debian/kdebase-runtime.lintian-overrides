@@ -1,4 +1,6 @@
 kdebase-runtime: package-name-doesnt-match-sonames
 kdebase-runtime: setgid-binary usr/lib/kde4/libexec/kdesud 2755 root/nogroup
-kdebase-runtime: desktop-command-not-in-package /usr/share/applications/kde4/knetattach.desktop knetattach
+kdebase-runtime: desktop-command-not-in-package usr/share/applications/kde4/knetattach.desktop knetattach
 kdebase-runtime: shlib-without-versioned-soname usr/lib/attica_kde.so attica_kde.so
+kdebase-runtime: shlib-without-versioned-soname usr/lib/libknotifyplugin.so libknotifyplugin.so
+kdebase-runtime: shlib-without-versioned-soname usr/lib/libnepomukcommon.so libnepomukcommon.so
