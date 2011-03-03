@@ -60,6 +60,8 @@ kdebase-runtime (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Drop the hal recommend from kdebase-runtime, as now libsolid has the right
     depends/recommends.
   * Add ${misc:Depends} for kdebase-runtime-dbg.
+  * Tighten the libsoprano-dev, libexiv2-dev, shared-desktop-ontologies, and
+    libpulse-dev build-dendencies to the versions required upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 11:33:34 +0200
 
