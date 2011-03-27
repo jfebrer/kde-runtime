@@ -1,5 +1,5 @@
-01_kde4_information_menu.diff
-02_ksvgtopng4.diff
-03_disable_usr_lib_install_rpath.diff
-25_khelp_htdig.diff
-05_dont_show_netattach_outside_kde.diff
+kde4_information_menu.diff
+ksvgtopng4.diff
+disable_usr_lib_install_rpath.diff
+khelp_htdig.diff
+dont_show_netattach_outside_kde.diff
