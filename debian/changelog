@@ -14,6 +14,7 @@ kdebase-runtime (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Disable testsuite.
   * Remove a link to common-licenses/BSD from debian/copyright.
   * No longer do custom phonon setup.
+  * kdebase-runtime: move Depends, Recommends, Suggests above Replaces.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
