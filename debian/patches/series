@@ -1,5 +1,4 @@
 kde4_information_menu.diff
-ksvgtopng4.diff
 disable_usr_lib_install_rpath.diff
 khelp_htdig.diff
 dont_show_netattach_outside_kde.diff

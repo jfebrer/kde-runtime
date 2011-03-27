@@ -18,7 +18,7 @@ usr/bin/knotify4
 usr/bin/kquitapp
 usr/bin/kreadconfig
 usr/bin/kstart
-usr/bin/ksvgtopng4
+usr/bin/ksvgtopng
 usr/bin/ktraderclient
 usr/bin/ktrash
 usr/bin/kuiserver

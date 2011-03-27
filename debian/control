@@ -33,6 +33,7 @@ Breaks: kdebase-bin (<< 4:4.2.90), kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.
  kdebase-workspace-bin (<< 4:4.2.90), kdebase-bin-kde3, kdebase-runtime-bin-kde4, kcontrol,
  kdebase-runtime-data (<< 4:4.4.0), kdelibs5-plugins (<< 4:4.5.0), kdebluetooth (<< 1.0~beta7-1),
  kdebase-kio-plugins, plasma-netbook (<< 4:4.5.95), phonon-backend-xine (<< 4:4.2.80)
+Conflicts: kdelibs4-dev
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdebase-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
  oxygen-icon-theme (>= 4:4.4), phonon-backend-xine | phonon-backend,
@@ -113,6 +114,7 @@ Priority: extra
 Depends: ${misc:Depends}, kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
 Replaces: kdelibs5-dbg (<< 4:4.5.0), kdebase-dbg (<< 4:4.2.90), kdebase-workspace-dbg (<< 4:4.2.90)
 Breaks: kdelibs5-dbg (<< 4:4.5.0), kdebase-dbg (<< 4:4.2.90), kdebase-workspace-dbg (<< 4:4.2.90)
+COnflicts: kdelibs-dbg
 Description: debugging symbols for KDE base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
