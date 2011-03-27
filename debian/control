@@ -27,7 +27,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdebase-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kdebase-runtime},
- oxygen-icon-theme (>= 4:4.4),
+ oxygen-icon-theme (>= 4:4.6),
  shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: virtuoso-minimal
 Suggests: djvulibre-bin, icoutils
