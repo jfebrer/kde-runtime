@@ -4,6 +4,8 @@ dh = --with=xine
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
+.PHONY: override_dh_auto_test
+
 override_dh_makeshlibs:
 	$(overriden_command) -Xusr/lib/attica_kde.so
 
