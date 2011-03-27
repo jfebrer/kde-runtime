@@ -85,7 +85,7 @@ Description: help center
 Package: kde-config-phonon-xine
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}, ${xine-console:Depends}
 Replaces: kdebase-runtime-data (<< 4:4.4.0), kdebase-runtime (<< 4:4.4.0)
 Breaks: kdebase-runtime-data (<< 4:4.4.0), kdebase-runtime (<< 4:4.4.0)
 Description: advanced Phonon Xine configuration
