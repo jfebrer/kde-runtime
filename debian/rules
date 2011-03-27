@@ -1,17 +1,23 @@
 #!/usr/bin/make -f
 
-# don't use the debugging symbols from kdebase-runtime-kde4. othwerwise we have a conflict with kdebase-dbg from KDE 3
-DEB_DBG_PACKAGE_kdebase-runtime := kdebase-runtime-dbg
+dh = --with=xine
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_makeshlibs:
+	$(overriden_command) -Xusr/lib/attica_kde.so
 
 # exclude dependency on phonon metapackage. KDE4 does its own phonon setup
-DEB_DH_SHLIBDEPS_ARGS_ALL := -u-xphonon
-DEB_DH_SHLIBDEPS_ARGS_plasma-scriptengine-javascript := -u-xkdebase-runtime
+override_dh_shlibdeps:
+	$(overriden_command) -pplasma-scriptengine-javascript -- -xkdebase-runtime -xphonon
+	$(overriden_command) --remaining-packages -- -xphonon
 
-DEB_FIXPERMS_EXCLUDE := usr/lib/kde4/libexec/kdesud
+override_dh_fixperms:
+	$(overriden_command) -Xusr/lib/kde4/libexec/kdesud
 
-DEB_DH_MAKESHLIBS_ARGS_kdebase-runtime = -Xusr/lib/attica_kde.so
+override_dh_strip:
+	$(overriden_command) --dbg-package=kdebase-runtime-dbg
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+override_dh_xine:
+	$(overriden_command) -pkde-config-phonon-xine
 
-install/kde-config-phonon-xine::
-	dh_xine
