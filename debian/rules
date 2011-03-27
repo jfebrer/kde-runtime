@@ -9,10 +9,9 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 override_dh_makeshlibs:
 	$(overriden_command) -Xusr/lib/attica_kde.so
 
-# exclude dependency on phonon metapackage. KDE4 does its own phonon setup
 override_dh_shlibdeps:
-	$(overriden_command) -pplasma-scriptengine-javascript -- -xkdebase-runtime -xphonon
-	$(overriden_command) --remaining-packages -- -xphonon
+	$(overriden_command) -pplasma-scriptengine-javascript -- -xkdebase-runtime
+	$(overriden_command) --remaining-packages
 
 override_dh_fixperms:
 	$(overriden_command) -Xusr/lib/kde4/libexec/kdesud
