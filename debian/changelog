@@ -18,6 +18,8 @@ kdebase-runtime (4:4.6.1-0r4) UNRELEASED; urgency=low
   * Make kdebase-runtime depend on oxygen-icon-theme 4.6.
   * kdebase-runtime-data breaks plasma-widget-networkmanagement earlier than
     0.1+git20110318.941cde9-2.
+  * Add kdebase-workspace-dbg (<< 4:4.6) to kdebase-runtime-dbg
+    Replaces/Breaks.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
