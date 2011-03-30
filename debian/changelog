@@ -16,6 +16,8 @@ kdebase-runtime (4:4.6.1-0r3) UNRELEASED; urgency=low
   * No longer do custom phonon setup.
   * kdebase-runtime: move Depends, Recommends, Suggests above Replaces.
   * Make kdebase-runtime depend on oxygen-icon-theme 4.6.
+  * kdebase-runtime-data breaks plasma-widget-networkmanagement earlier than
+    0.1+git20110318.941cde9-2.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
