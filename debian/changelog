@@ -19,7 +19,9 @@ kdebase-runtime (4:4.6.1-0r5) UNRELEASED; urgency=low
   * kdebase-runtime-data breaks plasma-widget-networkmanagement earlier than
     0.1+git20110318.941cde9-2.
   * Add kdebase-workspace-dbg (<< 4:4.6) to kdebase-runtime-dbg
-    Replaces/Breaks.
+    Replaces/Breaks due to moved kded_networkstatus.
+  * Add kdebase-workspace-bin (<< 4:4.6) to kdebase-runtime Replaces/Breaks
+    due to moved kded_networkstatus.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
