@@ -7,18 +7,18 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 .PHONY: override_dh_auto_test
 
 override_dh_makeshlibs:
-	$(overriden_command) -Xusr/lib/attica_kde.so
+	$(overridden_command) -Xusr/lib/attica_kde.so
 
 override_dh_shlibdeps:
-	$(overriden_command) -pplasma-scriptengine-javascript -- -xkdebase-runtime
-	$(overriden_command) --remaining-packages
+	$(overridden_command) -pplasma-scriptengine-javascript -- -xkdebase-runtime
+	$(overridden_command) --remaining-packages
 
 override_dh_fixperms:
-	$(overriden_command) -Xusr/lib/kde4/libexec/kdesud
+	$(overridden_command) -Xusr/lib/kde4/libexec/kdesud
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdebase-runtime-dbg
+	$(overridden_command) --dbg-package=kdebase-runtime-dbg
 
 override_dh_xine:
-	$(overriden_command) -pkde-config-phonon-xine
+	$(overridden_command) -pkde-config-phonon-xine
 
