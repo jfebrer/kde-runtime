@@ -23,6 +23,7 @@ kdebase-runtime (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Add kdebase-workspace-bin (<< 4:4.6) to kdebase-runtime Replaces/Breaks
     due to moved kded_networkstatus.
   * Bump debhelper build dependency to 7.2.7~.
+  * Clean up Replaces/Breaks which predate squeeze and can be cleaned up.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
