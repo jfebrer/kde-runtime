@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.6.1-0r7) UNRELEASED; urgency=low
+kdebase-runtime (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes webdav ioslave wrong deletion and renaming of folders
@@ -59,7 +59,7 @@ kdebase-runtime (4:4.6.1-0r7) UNRELEASED; urgency=low
   * Call dh_xine in rules, kde-config-phonon-xine now depends on
     ${xine-x:Depends} (Closes: #575120)
   * Bump build dependency on libphonon-dev to 4:4.6.0really4.4.3
-  * Bump build dependency on kde-sc-dev-latest to 4:4.6.1
+  * Bump build dependency on kde-sc-dev-latest to 4:4.6.2
   * Remove stating articles from short descriptions.
   * Update lintian overrides.
   * Add myself to Uploaders.
