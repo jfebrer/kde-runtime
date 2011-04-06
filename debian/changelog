@@ -4,6 +4,7 @@ kdebase-runtime (4:4.6.2-0r1) UNRELEASED; urgency=low
     - fixes webdav ioslave wrong deletion and renaming of folders
       (Closes: #593833)
     - plasmapkg doesn't translate package types anymore (Closes: #573806)
+    - there is no more Nepomuk indexing icon (Closes: #583085)
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
