@@ -51,8 +51,8 @@ kdebase-runtime (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Bump S-V to 3.9.1:
     - update Breaks/Replaces/Conflicts to conform to new policy.
   * Add Breaks/Replaces:
-    - kdebase-runtime-data replaces plasma-widget-networkmanagement <=
-      0.1~svn1175124-1 because they both install
+    - kdebase-runtime-data replaces plasma-widget-networkmanagement <<
+      0.1+git20110422.810bc16-1+ because they both install
       /usr/share/kde4/apps/desktoptheme/default/icons/network.svgz
     - kdebase-runtime-data replaces kdebase-workspace-bin (<< 4:4.5.95)
       because of /usr/share/kde4/services/kded/networkstatus.desktop
