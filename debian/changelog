@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.6.2-0r2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - fixes webdav ioslave wrong deletion and renaming of folders
@@ -81,7 +81,7 @@ kdebase-runtime (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Tighten the libsoprano-dev, libexiv2-dev, shared-desktop-ontologies, and
     libpulse-dev build-dendencies to the versions required upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 17:16:52 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:39 +0300
 
 kdebase-runtime (4:4.4.5-1) unstable; urgency=low
 
