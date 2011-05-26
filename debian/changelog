@@ -28,7 +28,7 @@ kdebase-runtime (4:4.6.2-1) experimental; urgency=low
   * kdebase-runtime: move Depends, Recommends, Suggests above Replaces.
   * Make kdebase-runtime depend on oxygen-icon-theme 4.6.
   * kdebase-runtime-data breaks plasma-widget-networkmanagement earlier than
-    0.1+git20110318.941cde9-2.
+    0.1+git20110318.941cde9-1+.
   * Add kdebase-workspace-dbg (<< 4:4.6) to kdebase-runtime-dbg
     Replaces/Breaks due to moved kded_networkstatus.
   * Add kdebase-workspace-bin (<< 4:4.6) to kdebase-runtime Replaces/Breaks
