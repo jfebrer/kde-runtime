@@ -106,7 +106,7 @@ Priority: extra
 Depends: ${misc:Depends}, kdebase-runtime (= ${binary:Version}), kdelibs5-dbg
 Replaces: kdelibs5-dbg (<< 4:4.5), kdebase-workspace-dbg (<< 4:4.6)
 Breaks: kdelibs5-dbg (<< 4:4.5), kdebase-workspace-dbg (<< 4:4.6)
-COnflicts: kdelibs-dbg
+Conflicts: kdelibs-dbg
 Description: debugging symbols for KDE base runtime module
  This package contains the debugging symbols associated with kdebase-runtime.
  They will automatically be used by gdb for debugging kdebase-runtime related
