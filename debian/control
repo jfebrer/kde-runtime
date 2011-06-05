@@ -30,7 +30,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  oxygen-icon-theme (>= 4:4.6),
  shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: virtuoso-minimal
-Suggests: djvulibre-bin, icoutils
+Suggests: djvulibre-bin, icoutils, finger
 Replaces: kdebase-runtime-bin-kde4,
  kdelibs5-plugins (<< 4:4.5), kdebase-workspace-bin (<< 4:4.6),
  kdebluetooth (<< 1.0~beta7-1), plasma-netbook (<< 4:4.5.95)

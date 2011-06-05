@@ -4,6 +4,9 @@ kdebase-runtime (4:4.6.3-2) UNRELEASED; urgency=low
   * Fix typo in debian/control: s/COnflicts/Conflicts/. Thanks to Jonathan
     Thomas.
 
+  [ Pino Toscano ]
+  * Add finger as suggestion of kdebase-runtime (for the finger kioslave).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 01:13:21 +0300
 
 kdebase-runtime (4:4.6.3-1) unstable; urgency=low
