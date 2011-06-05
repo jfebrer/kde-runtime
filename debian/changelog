@@ -6,8 +6,6 @@ kdebase-runtime (4:4.6.3-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add finger as suggestion of kdebase-runtime (for the finger kioslave).
-  * Make kdebase-runtime provide notification-daemon, as it contains the
-    knotify4 deamon which behaves also like that.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 01:13:21 +0300
 

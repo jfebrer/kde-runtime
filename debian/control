@@ -38,7 +38,6 @@ Breaks: kdebase-runtime-bin-kde4,
  kdelibs5-plugins (<< 4:4.5), kdebase-workspace-bin (<< 4:4.6),
  kdebluetooth (<< 1.0~beta7-1), plasma-netbook (<< 4:4.5.95)
 Conflicts: kdelibs4-dev
-Provides: notification-daemon
 Description: runtime components from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
