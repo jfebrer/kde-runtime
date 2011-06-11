@@ -1,4 +1,6 @@
-kdebase-runtime (4:4.6.3-2) UNRELEASED; urgency=low
+kdebase-runtime (4:4.6.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Fix typo in debian/control: s/COnflicts/Conflicts/. Thanks to Jonathan
