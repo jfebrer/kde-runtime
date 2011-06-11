@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.6.4-0r0) UNRELEASED; urgency=low
+kdebase-runtime (4:4.6.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kdebase-runtime (4:4.6.4-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 01:13:21 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 00:17:31 +0200
 
 kdebase-runtime (4:4.6.3-1) unstable; urgency=low
 
