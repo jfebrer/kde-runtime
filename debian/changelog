@@ -8,6 +8,7 @@ kdebase-runtime (4:4.6.4-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add finger as suggestion of kdebase-runtime (for the finger kioslave).
+  * Change libjpeg62-dev build-dependency to libjpeg-dev.
 
   [ José Manuel Santamaría Lema ]
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.4.
