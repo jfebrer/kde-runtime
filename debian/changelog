@@ -4,6 +4,7 @@ kdebase-runtime (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.5.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2011 10:50:13 +0200
 
