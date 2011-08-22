@@ -5,6 +5,8 @@ kdebase-runtime (4:4.7.0-0r0) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove patch dont_show_netattach_outside_kde.diff, it has been merged
     upstream.
+  * Bump build dependencies:
+    - shared-desktop-ontologies to >= 0.7.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 
