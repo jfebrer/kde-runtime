@@ -9,6 +9,12 @@ kdebase-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
     - shared-desktop-ontologies to >= 0.7.
     - kdelibs5-dev to >= 4:4.7.
 
+  [ Daniele E. Domenichelli ]
+  * Update dependencies:
+    - Add libqtwebkit-dev.
+    - Add libqzeitgeist-dev.
+    - Bump libsoprano-dev to 2.6.50.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 
 kdebase-runtime (4:4.6.5-1) unstable; urgency=low
