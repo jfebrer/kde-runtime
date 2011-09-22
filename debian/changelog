@@ -14,6 +14,7 @@ kdebase-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
     - Add libqtwebkit-dev.
     - Add libqzeitgeist-dev.
     - Bump libsoprano-dev to 2.6.50.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 

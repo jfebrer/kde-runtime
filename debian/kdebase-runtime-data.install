@@ -3,7 +3,10 @@ etc/xdg/menus/kde4-information.menu
 usr/lib/kde4/imports/org/kde/plasma/core/qmldir
 usr/lib/kde4/imports/org/kde/plasma/graphicslayouts/qmldir
 usr/lib/kde4/imports/org/kde/plasma/graphicswidgets/qmldir
+usr/lib/kde4/imports/org/kde/qtextracomponents/qmldir
+usr/share/applications/kde4/nepomukcontroller.desktop
 usr/share/applications/kde4/nepomukbackup.desktop
+usr/share/autostart/nepomukcontroller.desktop
 usr/share/autostart/nepomukserver.desktop
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/dbus-1/services/org.kde.kuiserver.service
@@ -269,6 +272,9 @@ usr/share/icons/hicolor/64x64/apps/knetattach.png
 usr/share/icons/hicolor/scalable/apps/knetattach.svgz
 usr/share/kde4/apps/cmake/modules/FindCLucene.cmake
 usr/share/kde4/apps/cmake/modules/FindSLP.cmake
+usr/share/kde4/apps/desktoptheme/appdashboard/metadata.desktop
+usr/share/kde4/apps/desktoptheme/appdashboard/widgets/background.svgz
+usr/share/kde4/apps/desktoptheme/appdashboard/widgets/newspaper-background.svgz
 usr/share/kde4/apps/desktoptheme/default/colors
 usr/share/kde4/apps/desktoptheme/default/dialogs/background.svgz
 usr/share/kde4/apps/desktoptheme/default/dialogs/kickoff.svgz
@@ -297,6 +303,7 @@ usr/share/kde4/apps/desktoptheme/default/translucent/widgets/extender-background
 usr/share/kde4/apps/desktoptheme/default/translucent/widgets/panel-background.svgz
 usr/share/kde4/apps/desktoptheme/default/translucent/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/action-overlays.svgz
+usr/share/kde4/apps/desktoptheme/default/widgets/actionbutton.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/analog_meter.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/arrows.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/background.svgz
@@ -316,8 +323,10 @@ usr/share/kde4/apps/desktoptheme/default/widgets/frame.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/glowbar.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/identiconshapes.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/identicontheme.svgz
+usr/share/kde4/apps/desktoptheme/default/widgets/labeltexture.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/line.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/lineedit.svgz
+usr/share/kde4/apps/desktoptheme/default/widgets/media-delegate.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/monitor.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/pager.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/panel-background.svgz
@@ -345,6 +354,7 @@ usr/share/kde4/apps/desktoptheme/oxygen/opaque/widgets/extender-background.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/opaque/widgets/panel-background.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/opaque/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/widgets/action-overlays.svgz
+usr/share/kde4/apps/desktoptheme/oxygen/widgets/actionbutton.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/widgets/analog_meter.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/widgets/arrows.svgz
 usr/share/kde4/apps/desktoptheme/oxygen/widgets/background.svgz
@@ -414,6 +424,7 @@ usr/share/kde4/apps/ksmserver/windowmanagers/metacity.desktop
 usr/share/kde4/apps/ksmserver/windowmanagers/openbox.desktop
 usr/share/kde4/apps/kwalletd/kwalletd.notifyrc
 usr/share/kde4/apps/libphonon/hardwaredatabase
+usr/share/kde4/apps/nepomukfilewatch/nepomukfilewatch.notifyrc
 usr/share/kde4/apps/nepomukstorage/nepomukstorage.notifyrc
 usr/share/kde4/apps/nepomukstrigiservice/nepomukstrigiservice.notifyrc
 usr/share/kde4/apps/phonon/phonon.notifyrc
@@ -421,6 +432,7 @@ usr/share/kde4/apps/remoteview/network.desktop
 usr/share/kde4/apps/remoteview/smb-network.desktop
 usr/share/kde4/config/emoticons.knsrc
 usr/share/kde4/config/icons.knsrc
+usr/share/kde4/config.kcfg/jpegcreatorsettings.kcfg
 usr/share/kde4/config/khotnewstuff.knsrc
 usr/share/kde4/config/khotnewstuff_upload.knsrc
 usr/share/kde4/config/kshorturifilterrc
@@ -451,7 +463,6 @@ usr/share/kde4/services/htmlthumbnail.desktop
 usr/share/kde4/services/icons.desktop
 usr/share/kde4/services/imagethumbnail.desktop
 usr/share/kde4/services/info.protocol
-usr/share/kde4/services/jpegrotatedthumbnail.desktop
 usr/share/kde4/services/jpegthumbnail.desktop
 usr/share/kde4/services/kactivitymanagerd.desktop
 usr/share/kde4/services/kcm_attica.desktop
@@ -1358,6 +1369,8 @@ usr/share/locale/l10n/zw/entry.desktop
 usr/share/locale/l10n/zw/flag.png
 usr/share/man/man1/kdesu.1
 usr/share/mime/packages/network.xml
+usr/share/ontology/kde/kext.ontology
+usr/share/ontology/kde/kext.trig
 usr/share/ontology/kde/kuvo.ontology
 usr/share/ontology/kde/kuvo.trig
 usr/share/ontology/kde/nrio.ontology

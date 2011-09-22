@@ -25,8 +25,11 @@ usr/bin/kuiserver
 usr/bin/kwalletd
 usr/bin/kwriteconfig
 usr/bin/nepomukbackup
+usr/bin/nepomukcontroller
+usr/bin/nepomukindexer
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
+usr/bin/plasma-remote-helper
 usr/bin/plasmapkg
 usr/bin/solid-hardware
 usr/lib/attica_kde.so
@@ -42,7 +45,7 @@ usr/lib/kde4/imagethumbnail.so
 usr/lib/kde4/imports/org/kde/plasma/core/libcorebindingsplugin.so
 usr/lib/kde4/imports/org/kde/plasma/graphicslayouts/libgraphicslayoutsbindingsplugin.so
 usr/lib/kde4/imports/org/kde/plasma/graphicswidgets/libgraphicswidgetsbindingsplugin.so
-usr/lib/kde4/jpegrotatedthumbnail.so
+usr/lib/kde4/imports/org/kde/qtextracomponents/libqtextracomponentsplugin.so
 usr/lib/kde4/jpegthumbnail.so
 usr/lib/kde4/kcm_attica.so
 usr/lib/kde4/kcm_cgi.so
@@ -116,7 +119,6 @@ usr/lib/kde4/localdomainurifilter.so
 usr/lib/kde4/nepomukbackupsync.so
 usr/lib/kde4/nepomukfilewatch.so
 usr/lib/kde4/nepomukqueryservice.so
-usr/lib/kde4/nepomukremovablestorageservice.so
 usr/lib/kde4/nepomukstorage.so
 usr/lib/kde4/nepomukstrigiservice.so
 usr/lib/kde4/plasma-kpart.so
@@ -135,12 +137,13 @@ usr/lib/libkdeinit4_kwalletd.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/libknotifyplugin.so
 usr/lib/libkwalletbackend.so.4
-usr/lib/libkwalletbackend.so.4.6.0
+usr/lib/libkwalletbackend.so.4.7.0
 usr/lib/libmolletnetwork.so.4
-usr/lib/libmolletnetwork.so.4.6.0
+usr/lib/libmolletnetwork.so.4.7.0
 usr/lib/libnepomukcommon.so
+usr/lib/libnepomukdatamanagement.so
 usr/lib/libnepomuksync.so.4
-usr/lib/libnepomuksync.so.4.6.0
+usr/lib/libnepomuksync.so.4.7.0
 usr/share/applications/kde4/knetattach.desktop
 usr/share/man/man8/nepomukserver.8
 usr/share/man/man8/nepomukservicestub.8
