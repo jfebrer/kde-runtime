@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
+kdebase-runtime (4:4.7.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -10,6 +10,7 @@ kdebase-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
     - kdelibs5-dev to >= 4:4.7.
 
   [ Daniele E. Domenichelli ]
+  * Bump build dependency on kde-sc-dev-latest to 4:4.7.1.
   * Update dependencies:
     - Add libqtwebkit-dev.
     - Add libqzeitgeist-dev.
