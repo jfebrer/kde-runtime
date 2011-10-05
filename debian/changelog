@@ -1,4 +1,4 @@
-kdebase-runtime (4:4.7.2-0r1) UNRELEASED; urgency=low
+kde-runtime (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -16,6 +16,10 @@ kdebase-runtime (4:4.7.2-0r1) UNRELEASED; urgency=low
     - Add libqzeitgeist-dev.
     - Bump libsoprano-dev to 2.6.50.
   * Update installed files.
+
+  [ José Manuel Santamaría Lema ]
+  * Rename source package from kdebase-runtime to kde-runtime in order
+    to match upstream naming.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 
