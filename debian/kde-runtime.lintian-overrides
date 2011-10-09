@@ -4,3 +4,4 @@ kde-runtime: desktop-command-not-in-package usr/share/applications/kde4/knetatta
 kde-runtime: shlib-without-versioned-soname usr/lib/attica_kde.so attica_kde.so
 kde-runtime: shlib-without-versioned-soname usr/lib/libknotifyplugin.so libknotifyplugin.so
 kde-runtime: shlib-without-versioned-soname usr/lib/libnepomukcommon.so libnepomukcommon.so
+kde-runtime: shlib-without-versioned-soname usr/lib/libnepomukdatamanagement.so libnepomukdatamanagement.so
