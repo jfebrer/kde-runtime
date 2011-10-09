@@ -26,6 +26,8 @@ kde-runtime (4:4.7.2-0r2) UNRELEASED; urgency=low
   * Add the following dummy packages (which depend on kde-runtime-*):
     - kdebase-runtime
     - kdebase-runtime-dbg
+  * Update Vcs-* fields.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 

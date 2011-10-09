@@ -20,8 +20,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  libqtwebkit-dev, libqzeitgeist-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-runtime.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase-runtime.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-runtime.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-runtime.git
 
 Package: kde-runtime
 Section: kde
@@ -130,8 +130,8 @@ Breaks: kdelibs5-dbg (<< 4:4.5), kdebase-workspace-dbg (<< 4:4.6),
  kdebase-runtime-dbg (<< 4:4.7.2)
 Conflicts: kdelibs-dbg
 Description: debugging symbols for KDE base runtime module
- This package contains the debugging symbols associated with kdebase-runtime.
- They will automatically be used by gdb for debugging kdebase-runtime related
+ This package contains the debugging symbols associated with kde-runtime.
+ They will automatically be used by gdb for debugging kde-runtime related
  issues.
 
 Package: kdebase-runtime-dbg
