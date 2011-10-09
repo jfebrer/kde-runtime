@@ -12,6 +12,7 @@ override_dh_makeshlibs:
 override_dh_shlibdeps:
 	$(overridden_command) -pplasma-scriptengine-javascript -- \
 		-xkdebase-runtime -xkde-runtime
+	$(overridden_command) -pkde-runtime -- -xkdebase-runtime
 	$(overridden_command) --remaining-packages
 
 override_dh_fixperms:
