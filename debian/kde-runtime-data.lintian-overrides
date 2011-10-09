@@ -1,0 +1,2 @@
+kde-runtime-data: desktop-command-not-in-package usr/share/applications/kde4/nepomukbackup.desktop nepomukbackup
+kde-runtime-data: unknown-locale-code currency

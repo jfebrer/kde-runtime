@@ -20,6 +20,12 @@ kde-runtime (4:4.7.2-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Rename source package from kdebase-runtime to kde-runtime in order
     to match upstream naming.
+  * Rename the following binary packages:
+    - kdebase-runtime -> kde-runtime
+    - kdebase-runtime-data -> kde-runtime-data
+  * Add the following dummy packages (which depend on kde-runtime-*):
+    - kdebase-runtime
+    - kdebase-runtime-dbg
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
 
