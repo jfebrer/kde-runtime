@@ -136,7 +136,7 @@ Description: debugging symbols for KDE base runtime module
 
 Package: kdebase-runtime-dbg
 Section: debug
-Architecture: any
+Architecture: all
 Priority: extra
 Depends: ${misc:Depends}, kde-runtime-dbg
 Description: transitional package for kde-runtime-dbg
