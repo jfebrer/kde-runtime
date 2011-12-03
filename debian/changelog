@@ -8,6 +8,8 @@ kde-runtime (4:4.7.2-0r3) UNRELEASED; urgency=low
   * Bump build dependencies:
     - shared-desktop-ontologies to >= 0.7.
     - kdelibs5-dev to >= 4:4.7.
+  * Upstream re-included nepomukcontroller, we can close the ITP
+    (Closes: #611309).
 
   [ Daniele E. Domenichelli ]
   * Bump build dependency on kde-sc-dev-latest to 4:4.7.2.
