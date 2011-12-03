@@ -1,4 +1,4 @@
-kde-runtime (4:4.7.2-0r3) UNRELEASED; urgency=low
+kde-runtime (4:4.7.2-0r3) experimental; urgency=low
 
   * New upstream release.
 
@@ -31,7 +31,7 @@ kde-runtime (4:4.7.2-0r3) UNRELEASED; urgency=low
   * Update Vcs-* fields.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Aug 2011 19:53:35 -0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:46:18 -0300
 
 kdebase-runtime (4:4.6.5-1) unstable; urgency=low
 
