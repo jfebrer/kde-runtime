@@ -29,7 +29,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kde-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kde-runtime},
  oxygen-icon-theme (>= 4:4.6),
- shared-desktop-ontologies, plasma-scriptengine-javascript (= ${binary:Version})
+ shared-desktop-ontologies (>= 0.8), plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: virtuoso-minimal
 Suggests: djvulibre-bin, icoutils, finger
 Replaces: kdebase-runtime-bin-kde4,

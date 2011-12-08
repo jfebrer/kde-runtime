@@ -5,6 +5,9 @@ kde-runtime (4:4.7.4-0r0) UNRELEASED; urgency=low
   [Eshat Cakar]
   * Add myself to uploaders.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump shared-desktop-ontologies kde-runtime dependency to 0.8.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 16:59:44 +0100
 
 kde-runtime (4:4.7.2-1) experimental; urgency=low
