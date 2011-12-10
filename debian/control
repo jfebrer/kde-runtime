@@ -52,7 +52,7 @@ Description: runtime components from the official KDE release
  This package contains programs and data needed at runtime by KDE applications.
 
 Package: kdebase-runtime
-Section: kde
+Section: oldlibs
 Architecture: all
 Depends: ${misc:Depends}, kde-runtime
 Description: Transitional package for the KDE runtime components
@@ -135,7 +135,7 @@ Description: debugging symbols for KDE base runtime module
  issues.
 
 Package: kdebase-runtime-dbg
-Section: debug
+Section: oldlibs
 Architecture: all
 Priority: extra
 Depends: ${misc:Depends}, kde-runtime-dbg

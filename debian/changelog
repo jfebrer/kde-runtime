@@ -8,6 +8,8 @@ kde-runtime (4:4.7.4-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies kde-runtime dependency to 0.8.
+  * kdebase-runtime and kdebase-runtime-dbg dummy packages are now in section
+    "oldlibs."
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 16:59:44 +0100
 
