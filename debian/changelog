@@ -1,4 +1,4 @@
-kde-runtime (4:4.7.4-0r2) UNRELEASED; urgency=low
+kde-runtime (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -11,7 +11,7 @@ kde-runtime (4:4.7.4-0r2) UNRELEASED; urgency=low
   * kdebase-runtime and kdebase-runtime-dbg dummy packages are now in section
     "oldlibs."
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 16:59:44 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:40:20 +0100
 
 kde-runtime (4:4.7.2-1) experimental; urgency=low
 
