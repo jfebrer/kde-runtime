@@ -12,11 +12,13 @@
 ./usr/include/nepomuk/resourcewatcher.h
 ./usr/include/nepomuk/simpleresource.h
 ./usr/include/nepomuk/simpleresourcegraph.h
+./usr/include/nepomuk/storeresourcesjob.h
 ./usr/lib/libkwalletbackend.so
 ./usr/lib/libmolletnetwork.so
 ./usr/lib/libnepomuksync.so
 
 # Dbus interfaces XMLs
+./usr/share/dbus-1/interfaces/org.kde.nepomuk.FileIndexer.xml
 ./usr/share/dbus-1/interfaces/org.kde.KTimeZoned.xml
 ./usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupSync.xml
@@ -29,7 +31,6 @@
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml
-./usr/share/dbus-1/interfaces/org.kde.nepomuk.Strigi.xml
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.services.nepomukbackupsync.backupmanager.xml
 ./usr/share/dbus-1/interfaces/org.kde.nepomuk.services.nepomukbackupsync.syncmanager.xml
 ./usr/share/dbus-1/interfaces/org.kde.network.kioslavenotifier.xml
