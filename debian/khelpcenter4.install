@@ -16,8 +16,8 @@ usr/share/doc/kde/HTML/en/khelpcenter/index.cache.bz2
 usr/share/doc/kde/HTML/en/khelpcenter/index.docbook
 usr/share/doc/kde/HTML/en/khelpcenter/kdelogo2.png
 usr/share/doc/kde/HTML/en/khelpcenter/khelpcenter.png
-usr/share/doc/kde/HTML/en/khelpcenter/lines.png
 usr/share/doc/kde/HTML/en/khelpcenter/lines2.png
+usr/share/doc/kde/HTML/en/khelpcenter/lines.png
 usr/share/doc/kde/HTML/en/khelpcenter/pointers.png
 usr/share/doc/kde/HTML/en/khelpcenter/shadow1.png
 usr/share/doc/kde/HTML/en/onlinehelp/common
@@ -28,6 +28,10 @@ usr/share/kde4/apps/khelpcenter/glossary.xslt
 usr/share/kde4/apps/khelpcenter/index.html.in
 usr/share/kde4/apps/khelpcenter/khelpcenterui.rc
 usr/share/kde4/apps/khelpcenter/plugins/Applications/.directory
+usr/share/kde4/apps/khelpcenter/plugins/info.desktop
+usr/share/kde4/apps/khelpcenter/plugins/kcontrolmodules.desktop
+usr/share/kde4/apps/khelpcenter/plugins/kicmodules.desktop
+usr/share/kde4/apps/khelpcenter/plugins/kioslaves.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/.directory
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man1.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man2.desktop
@@ -37,14 +41,10 @@ usr/share/kde4/apps/khelpcenter/plugins/Manpages/man5.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man6.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man7.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man8.desktop
-usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/.directory
-usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/scrollkeeper.desktop
-usr/share/kde4/apps/khelpcenter/plugins/info.desktop
-usr/share/kde4/apps/khelpcenter/plugins/kcontrolmodules.desktop
-usr/share/kde4/apps/khelpcenter/plugins/kicmodules.desktop
-usr/share/kde4/apps/khelpcenter/plugins/kioslaves.desktop
 usr/share/kde4/apps/khelpcenter/plugins/onlinehelp.desktop
 usr/share/kde4/apps/khelpcenter/plugins/plasma.desktop
+usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/.directory
+usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/scrollkeeper.desktop
 usr/share/kde4/apps/khelpcenter/searchhandlers/docbook.desktop
 usr/share/kde4/apps/khelpcenter/searchhandlers/htdig.desktop
 usr/share/kde4/apps/khelpcenter/searchhandlers/htdig/htdig_long.html
