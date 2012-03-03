@@ -3,6 +3,7 @@ kde-runtime (4:4.7.4-2) UNRELEASED; urgency=low
   [ Felix Geyer ]
   * Drop /usr/bin/trash4 symlink since it's not needed anymore and was broken
     anyway.
+  * Don't build the phonon xine kcm since the xine backend has been removed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Mar 2012 13:42:41 +0100
 

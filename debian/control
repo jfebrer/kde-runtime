@@ -12,7 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  libstreamanalyzer-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3),
  libopenexr-dev, libbz2-dev, libx11-dev, libxcursor-dev,
  libasound2-dev (>= 1.0.14a) [linux-any],
- libjpeg-dev, libxine-dev, libslp-dev,
+ libjpeg-dev, libslp-dev,
  liblzma-dev, libattica-dev (>= 0.1.4), libssh-dev (>= 0.4.0), libexiv2-dev (>= 0.12),
  shared-desktop-ontologies (>= 0.7),
  libntrack-qt4-dev [linux-any], libpulse-dev (>= 0.9.16), libcanberra-dev,
@@ -95,16 +95,6 @@ Description: help center
  The KDE Help Center displays documentation on how to use the KDE plasma
  workspaces and applications, as well as UNIX man and info pages.
  It can search through documentation using the 'htdig' package.
- .
- This package is part of the KDE base runtime module.
-
-Package: kde-config-phonon-xine
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}, ${xine-console:Depends}
-Description: advanced Phonon Xine configuration
- This package contains a configuration module for tweaking some of the more
- advanced settings for Phonon's Xine backend.
  .
  This package is part of the KDE base runtime module.
 
