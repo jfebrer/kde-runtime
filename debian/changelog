@@ -1,11 +1,14 @@
-kde-runtime (4:4.7.4-2) UNRELEASED; urgency=low
+kde-runtime (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
 
   [ Felix Geyer ]
   * Drop /usr/bin/trash4 symlink since it's not needed anymore and was broken
     anyway. (Closes: #573441)
   * Don't build the phonon xine kcm since the xine backend has been removed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Mar 2012 13:42:41 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 17:34:57 +0100
 
 kde-runtime (4:4.7.4-1) experimental; urgency=low
 
