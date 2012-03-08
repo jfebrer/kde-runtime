@@ -143,7 +143,8 @@ usr/lib/libkwalletbackend.so.4.8.0
 usr/lib/libmolletnetwork.so.4
 usr/lib/libmolletnetwork.so.4.8.0
 usr/lib/libnepomukcommon.so
-usr/lib/libnepomukdatamanagement.so
+usr/lib/libnepomukdatamanagement.so.4
+usr/lib/libnepomukdatamanagement.so.4.8.0
 usr/lib/libnepomuksync.so.4
 usr/lib/libnepomuksync.so.4.8.0
 usr/share/applications/kde4/knetattach.desktop

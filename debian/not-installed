@@ -15,6 +15,7 @@
 ./usr/include/nepomuk/storeresourcesjob.h
 ./usr/lib/libkwalletbackend.so
 ./usr/lib/libmolletnetwork.so
+./usr/lib/libnepomukdatamanagement.so
 ./usr/lib/libnepomuksync.so
 
 # Dbus interfaces XMLs

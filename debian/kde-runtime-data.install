@@ -460,6 +460,7 @@ usr/share/kde4/apps/kcmlocale/pics/background.png
 usr/share/kde4/apps/kcm_phonon/listview-background.png
 usr/share/kde4/apps/kconf_update/devicepreference.upd
 usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd
+usr/share/kde4/apps/kconf_update/nepomukstrigiservice-migrate.upd
 usr/share/kde4/apps/kde/kde.notifyrc
 usr/share/kde4/apps/kglobalaccel/kglobalaccel.notifyrc
 usr/share/kde4/apps/kio_bookmarks/kio_bookmarks.css
