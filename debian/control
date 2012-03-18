@@ -18,7 +18,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.1),
  libntrack-qt4-dev [linux-any], libpulse-dev (>= 0.9.16), libcanberra-dev,
  libnm-util-dev (>= 0.7)  [linux-any], network-manager-dev (>= 0.7.0) [linux-any],
  libqtwebkit-dev, libqzeitgeist-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-runtime.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-runtime.git
