@@ -24,7 +24,6 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-runtime.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-runtime.git
 
 Package: kde-runtime
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kde-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kde-runtime},
@@ -67,7 +66,6 @@ Description: Transitional package for the KDE runtime components
  and can safely be removed after installation.
 
 Package: kde-runtime-data
-Section: kde
 Architecture: all
 Depends: ${perl:Depends}, ${misc:Depends}
 Replaces: kdebase-bin-kde3, kcontrol, kdebase-kio-plugins, kdebase-runtime-data-common,
@@ -85,7 +83,6 @@ Description: shared data files for the KDE base runtime module
  This package is part of the KDE base runtime module.
 
 Package: khelpcenter4
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: htdig
@@ -99,7 +96,6 @@ Description: help center
  This package is part of the KDE base runtime module.
 
 Package: plasma-scriptengine-javascript
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: JavaScript script engine for Plasma
