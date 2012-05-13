@@ -23,7 +23,6 @@ usr/bin/ktrash
 usr/bin/kuiserver
 usr/bin/kwalletd
 usr/bin/kwriteconfig
-usr/bin/nepomuk-simpleresource-rcgen
 usr/bin/nepomukbackup
 usr/bin/nepomukcontroller
 usr/bin/nepomukindexer
