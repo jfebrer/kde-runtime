@@ -52,6 +52,7 @@ Description: runtime components from the official KDE release
 
 Package: kdebase-runtime
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: ${misc:Depends}, kde-runtime
 Description: Transitional package for the KDE runtime components
