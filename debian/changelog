@@ -1,6 +1,7 @@
-kde-runtime (4:4.8.3-0r1) UNRELEASED; urgency=low
+kde-runtime (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ Eshat Cakar ]
   * Add libqca2-dev to build dependecies.
@@ -10,7 +11,7 @@ kde-runtime (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.3.
   * Bump Standards-Version to 3.9.3, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 20:54:47 +0100
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 19:53:12 +0300
 
 kde-runtime (4:4.7.4-2) unstable; urgency=low
 
