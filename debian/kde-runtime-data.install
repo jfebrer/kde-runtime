@@ -133,6 +133,11 @@ usr/share/doc/kde/HTML/en/kcontrol/icons/install-theme.png
 usr/share/doc/kde/HTML/en/kcontrol/icons/main.png
 usr/share/doc/kde/HTML/en/kcontrol/icons/size.png
 usr/share/doc/kde/HTML/en/kcontrol/icons/use-of-icons.png
+usr/share/doc/kde/HTML/en/kcontrol/kcm_ssl/common
+usr/share/doc/kde/HTML/en/kcontrol/kcm_ssl/details.png
+usr/share/doc/kde/HTML/en/kcontrol/kcm_ssl/index.cache.bz2
+usr/share/doc/kde/HTML/en/kcontrol/kcm_ssl/index.docbook
+usr/share/doc/kde/HTML/en/kcontrol/kcm_ssl/module.png
 usr/share/doc/kde/HTML/en/kcontrol/kcmcgi/common
 usr/share/doc/kde/HTML/en/kcontrol/kcmcgi/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/kcmcgi/index.docbook
