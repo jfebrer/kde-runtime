@@ -1,6 +1,7 @@
-kde-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
+kde-runtime (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ Modestas Vainius ]
   * Switch transitional kdebase-runtime to Priority: extra.
@@ -10,7 +11,7 @@ kde-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.4.
   * Update installed files.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 20:29:17 +0300
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:23:03 +0300
 
 kde-runtime (4:4.8.3-1) experimental; urgency=low
 
