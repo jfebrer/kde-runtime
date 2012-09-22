@@ -1,4 +1,6 @@
-kde-runtime (4:4.8.4-2) UNRELEASED; urgency=low
+kde-runtime (4:4.8.5-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Backport upstream commit 9145b51c1cc4e9ecd273e8eb41de1bbcdd607e35 to not
