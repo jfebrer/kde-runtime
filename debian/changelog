@@ -7,6 +7,14 @@ kde-runtime (4:4.9.3-0r0) UNRELEASED; urgency=low
     - upstream_Remove-image-x-wmf-and-image-x-xfig-from-image-thumb.patch
     - upstream_Remove-a-FIXME-debug-message.patch
 
+  [ Daniele E. Domenichelli ]
+  * Update build dependencies:
+    + Bump kde-sc-dev-latest to >= 4:4.9.
+    + Bump kdelibs5-dev to >= 4:4.9.
+    + Add nepomuk-core-dev >= 4:4.9.
+    + Add kdepimlibs5-dev >= 4:4.9.
+    + Add libkactivities-dev >= 4:4.9.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
 
 kde-runtime (4:4.8.4-2) unstable; urgency=low
