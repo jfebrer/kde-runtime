@@ -39,6 +39,7 @@ usr/share/kde4/apps/khelpcenter/plugins/Manpages/man7.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man8.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/.directory
 usr/share/kde4/apps/khelpcenter/plugins/Scrollkeeper/scrollkeeper.desktop
+usr/share/kde4/apps/khelpcenter/plugins/fundamentals.desktop
 usr/share/kde4/apps/khelpcenter/plugins/info.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kcontrolmodules.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kicmodules.desktop
