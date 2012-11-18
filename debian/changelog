@@ -15,6 +15,7 @@ kde-runtime (4:4.9.3-0r0) UNRELEASED; urgency=low
     + Add kdepimlibs5-dev >= 4:4.9.
     + Add libkactivities-dev >= 4:4.9.
   * Update installed files.
+  * Remove no longer used lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
 
