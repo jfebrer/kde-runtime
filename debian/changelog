@@ -1,10 +1,30 @@
 kde-runtime (4:4.8.5-0r0) UNRELEASED; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * New upstream release:
-    - removes a spammy "FIXME" debug message. (Closes: #677625)
+  * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Jul 2012 12:04:09 +0200
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * Remove obsolete patches:
+    - upstream_Remove-image-x-wmf-and-image-x-xfig-from-image-thumb.patch
+    - upstream_Remove-a-FIXME-debug-message.patch
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
+
+kde-runtime (4:4.8.4-2) unstable; urgency=low
+
+  * The package rebuild will use xz compression (Closes: #688758).
+
+  [ Pino Toscano ]
+  * Backport upstream commit 9145b51c1cc4e9ecd273e8eb41de1bbcdd607e35 to not
+    claim thumbnail support for the image/x-wmf and image/x-xfig mimetypes;
+    patch upstream_Remove-image-x-wmf-and-image-x-xfig-from-image-thumb.patch.
+  * Backport upstream commit d9234cca36319cb6895d4a7d36030a95923d1373 (from
+    the nepomuk-core repository) to remove a spammy "FIXME" debug message;
+    patch upstream_Remove-a-FIXME-debug-message.patch. (Closes: #677625)
+
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * Add myself to Uploaders.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
 
 kde-runtime (4:4.8.4-1) unstable; urgency=low
 
