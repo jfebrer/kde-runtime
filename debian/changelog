@@ -1,4 +1,4 @@
-kde-runtime (4:4.9.3-0r0) UNRELEASED; urgency=low
+kde-runtime (4:4.9.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kde-runtime (4:4.9.3-0r0) UNRELEASED; urgency=low
 
   [ Daniele E. Domenichelli ]
   * Update build dependencies:
-    + Bump kde-sc-dev-latest to >= 4:4.9.
+    + Bump kde-sc-dev-latest to >= 4:4.9.5.
     + Bump kdelibs5-dev to >= 4:4.9.
     + Add nepomuk-core-dev >= 4:4.9.
     + Add kdepimlibs5-dev >= 4:4.9.
