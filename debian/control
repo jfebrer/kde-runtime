@@ -12,7 +12,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: kde-sc-dev-latest (>= 4:4.9.5),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.9), kdepimlibs5-dev (>= 4:4.9), libkactivities-dev (>= 4:4.9),
- nepomuk-core-dev (>= 4:4.9), kdelibs5-plugins,
+ nepomuk-core-dev (>= 4:4.9), nepomuk-core-runtime, kdelibs5-plugins,
  libphonon-dev (>= 4:4.6.0really4.4.3),
  libsmbclient-dev, libsoprano-dev (>= 2.6.50),
  libstreamanalyzer-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3),
@@ -33,6 +33,7 @@ Package: kde-runtime
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kde-runtime-data (>= ${source:Version}), ${sameVersionDep:kdelibs5-plugins:kde-runtime},
+ ${sameVersionDep:nepomuk-core-runtime:kde-runtime},
  oxygen-icon-theme (>= 4:4.6),
  shared-desktop-ontologies (>= 0.8), plasma-scriptengine-javascript (= ${binary:Version})
 Recommends: virtuoso-minimal

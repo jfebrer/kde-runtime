@@ -17,6 +17,10 @@ kde-runtime (4:4.9.5-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Remove no longer used lintian overrides.
 
+  [ José Manuel Santamaría Lema ]
+  * Add in kde-runtime a depend against nempomuk-core-runtime using
+    dh_sameversiondep.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
 
 kde-runtime (4:4.8.4-2) unstable; urgency=low
