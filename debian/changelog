@@ -1,3 +1,9 @@
+kde-runtime (4:4.9.99-0r1) UNRELEASED; urgency=low
+
+  * New upstream from KDE/4.10 branch revision 5e8fd24.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Jan 2013 16:46:47 +0100
+
 kde-runtime (4:4.9.5-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
