@@ -1,11 +1,5 @@
 kde-runtime (4:4.9.99-0r1) UNRELEASED; urgency=low
 
-  * New upstream from KDE/4.10 branch revision 5e8fd24.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Jan 2013 16:46:47 +0100
-
-kde-runtime (4:4.9.5-0r1) UNRELEASED; urgency=low
-
   * New upstream release.
 
   [ Lisandro Damián Nicanor Pérez meyer ]
@@ -27,7 +21,7 @@ kde-runtime (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Add in kde-runtime a depend against nempomuk-core-runtime using
     dh_sameversiondep.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Jan 2013 16:46:47 +0100
 
 kde-runtime (4:4.8.4-2) unstable; urgency=low
 
