@@ -8,18 +8,20 @@ kde-runtime (4:4.10.0-0r0) UNRELEASED; urgency=low
     - upstream_Remove-a-FIXME-debug-message.patch
 
   [ Daniele E. Domenichelli ]
-  * Update build dependencies:
-    + Bump kde-sc-dev-latest to >= 4:4.9.5.
-    + Bump kdelibs5-dev to >= 4:4.9.
-    + Add nepomuk-core-dev >= 4:4.9.
-    + Add kdepimlibs5-dev >= 4:4.9.
-    + Add libkactivities-dev >= 4:4.9.
   * Update installed files.
   * Remove no longer used lintian overrides.
 
   [ José Manuel Santamaría Lema ]
   * Add in kde-runtime a depend against nempomuk-core-runtime using
     dh_sameversiondep.
+
+  [ Josep Febrer ]
+  * Update build dependencies:
+    + Bump kde-sc-dev-latest to >= 4:4.10.0.
+    + Bump kdelibs5-dev to >= 4:4.10.
+    + Bump nepomuk-core-dev >= 4:4.10.
+    + Bump kdepimlibs5-dev >= 4:4.10.
+    + Bump libkactivities-dev >= 4:4.10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:33:47 -0300
 
